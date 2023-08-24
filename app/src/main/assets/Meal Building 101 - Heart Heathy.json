@@ -1,0 +1,858 @@
+{
+    "items": [
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/MyFitnessPal_Recipes_TurkeyChili.png",
+            "name": "Heart Healthy One Pot Turkey Chili",
+            "nutritional_contents": {
+                "sugar": 78.0999984741211,
+                "fiber": 62.79999923706055,
+                "saturated_fat": 14.699999809265137,
+                "protein": 287.6000061035156,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2586.0
+                },
+                "carbohydrates": 215.3000030517578,
+                "sodium": 4448.60009765625,
+                "calcium": 119.80000305175781,
+                "monounsaturated_fat": 30.5,
+                "vitamin_c": 432.3999938964844,
+                "cholesterol": 490.0,
+                "fat": 65.5,
+                "iron": 160.39999389648438,
+                "polyunsaturated_fat": 7.300000190734863,
+                "potassium": 5672.10009765625,
+                "vitamin_a": 3719.10009765625
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "32f6cf22-9fbc-4cfb-80c0-358f0765c2a0",
+                    "name": "Meal Building 101 - Heart Heathy",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "142a2822-c659-4326-930f-f9a4243a1745",
+            "ingredients": [
+                {
+                    "name": "3 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 large sweet onions, peeled and quartered",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "sweet onions",
+                        "preparation_notes": "peeled and quartered"
+                    }
+                },
+                {
+                    "name": "4 cloves garlic",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic"
+                    }
+                },
+                {
+                    "name": "2  carrots, peeled and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0
+                        },
+                        "food": "carrots",
+                        "preparation_notes": "peeled and chopped"
+                    }
+                },
+                {
+                    "name": "2 ribs celery, rough chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ribs"
+                        },
+                        "food": "celery",
+                        "preparation_notes": "rough chopped"
+                    }
+                },
+                {
+                    "name": "1  jalapeno, halved and seeded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "jalapeno",
+                        "preparation_notes": "halved and seeded"
+                    }
+                },
+                {
+                    "name": "1  red bell pepper, seeded and rough chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "seeded and rough chopped"
+                    }
+                },
+                {
+                    "name": "2 pounds 99% lean ground turkey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "pounds"
+                        },
+                        "food": "99% lean ground turkey"
+                    }
+                },
+                {
+                    "name": "3 tbsp chili powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "chili powder"
+                    }
+                },
+                {
+                    "name": "1 tbsp ground cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "ground cumin"
+                    }
+                },
+                {
+                    "name": "1 28 oz can diced fire roasted tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "28 oz can"
+                        },
+                        "food": "diced fire roasted tomatoes"
+                    }
+                },
+                {
+                    "name": "1 can low-sodium black beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "low-sodium black beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "2 cups low-sodium broth (chicken, veggie or bone broth)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "low-sodium broth (chicken, veggie or bone broth)"
+                    }
+                },
+                {
+                    "name": "1  chopped scallions and jalapenos, for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "chopped scallions and jalapenos",
+                        "preparation_notes": "for topping"
+                    }
+                },
+                {
+                    "name": "1/16  Greek yogurt, for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0
+                        },
+                        "food": "Greek yogurt",
+                        "preparation_notes": "for topping"
+                    }
+                }
+            ],
+            "directions": "Heat 2 tbsp of oil over high heat in a large, heavy pot and add the turkey meat. Season with a good pinch of salt and cook until the meat is brown. Remove the meat and set aside.\\n\\nIn a food processor, add all of your vegetables and pulse them until they are finely chopped. You can also chop the veggies by hand. \\n\\nAdd another tablespoon of oil into the pan and add the veggies, a good pinch of salt and the spices. Saute until fragrant and the veggies start to brown. \\n\\nAdd the turkey back into the pan and add the canned tomatoes, black beans and stock.\\n\\nCover (leave the lid slightly off to allow some of the chili to reduce a bit more) and simmer for 1-1.5 hours. \\n\\nServe with chopped scallions, jalapenos and a dollop of plain Greek yogurt. ",
+            "recipe_food_id": "243135461412093"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/MyFitnessPal_Recipes_Salad.png",
+            "name": "Heart Healthy Hearty Grilled Chicken Salad with Shallot Vinaigrette",
+            "nutritional_contents": {
+                "sugar": 18.0,
+                "fiber": 16.5,
+                "saturated_fat": 28.0,
+                "protein": 117.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1939.0
+                },
+                "carbohydrates": 67.9000015258789,
+                "sodium": 4513.60009765625,
+                "calcium": 76.69999694824219,
+                "monounsaturated_fat": 83.19999694824219,
+                "vitamin_c": 632.2999877929688,
+                "cholesterol": 255.0,
+                "fat": 134.60000610351562,
+                "iron": 35.400001525878906,
+                "polyunsaturated_fat": 12.600000381469727,
+                "potassium": 1351.800048828125,
+                "vitamin_a": 131.39999389648438
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "32f6cf22-9fbc-4cfb-80c0-358f0765c2a0",
+                    "name": "Meal Building 101 - Heart Heathy",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "7d569429-e4f8-4cdc-9da1-ca695b26b211",
+            "ingredients": [
+                {
+                    "name": "2  grilled boneless skinless chicken breast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": ""
+                        },
+                        "food": "grilled boneless skinless chicken breast",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 cups kale, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "kale",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 large cucumber, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "cucumber",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 cup roasted red bell peppers, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "roasted red bell peppers",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 cup whole baby tomatoes, halved",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "whole baby tomatoes",
+                        "preparation_notes": "halved "
+                    }
+                },
+                {
+                    "name": "1/2 cup garbanzo beans",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "garbanzo beans"
+                    }
+                },
+                {
+                    "name": "4 oz feta cheese, crumbled",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "oz"
+                        },
+                        "food": "feta cheese",
+                        "preparation_notes": "crumbled "
+                    }
+                },
+                {
+                    "name": "1/2 cup olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1  shallot, finely diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "shallot",
+                        "preparation_notes": "finely diced"
+                    }
+                },
+                {
+                    "name": "1 clove garlic, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "grated"
+                    }
+                },
+                {
+                    "name": "2 tsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 tbsp lemon juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "lemon juice"
+                    }
+                },
+                {
+                    "name": "2 tbsp champagne vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "champagne vinegar"
+                    }
+                },
+                {
+                    "name": "1 tsp salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                }
+            ],
+            "directions": "For the dressing: In a small bowl, whisk together the olive oil, shallot, garlic, dijon mustard, lemon juice, champagne vinegar, salt, and black pepper. \\n\\nIn a large bowl, toss the salad ingredients together and drizzle the dressing on top. Serve immediately. ",
+            "recipe_food_id": "278878162390781"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2021/03/MFP-Fajita-Roast-Chicken-Featured.jpg",
+            "name": "Heart Healthy Roasted Chicken & Veggie Bowl",
+            "nutritional_contents": {
+                "sugar": 36.20000076293945,
+                "fiber": 22.799999237060547,
+                "saturated_fat": 7.0,
+                "protein": 186.6999969482422,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1994.0
+                },
+                "carbohydrates": 168.60000610351562,
+                "sodium": 4289.89990234375,
+                "calcium": 27.0,
+                "monounsaturated_fat": 32.5,
+                "vitamin_c": 229.5,
+                "cholesterol": 390.0,
+                "fat": 58.29999923706055,
+                "iron": 59.400001525878906,
+                "polyunsaturated_fat": 10.5,
+                "potassium": 2241.5,
+                "vitamin_a": 24.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "32f6cf22-9fbc-4cfb-80c0-358f0765c2a0",
+                    "name": "Meal Building 101 - Heart Heathy",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "2629de67-bdd0-4934-8259-50a7cb7301d0",
+            "ingredients": [
+                {
+                    "name": "4 pieces boneless, skinless chicken breast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "pieces"
+                        },
+                        "food": "boneless, skinless chicken breast",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 cup quinoa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "quinoa"
+                    }
+                },
+                {
+                    "name": "4 cups mixed vegetables (i.e brussels sprouts, cauliflower, carrots, parsnips, and sweet potatoes)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "mixed vegetables (i.e brussels sprouts, cauliflower, carrots, parsnips, and sweet potatoes)"
+                    }
+                },
+                {
+                    "name": "1 tsp garlic salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "garlic salt"
+                    }
+                },
+                {
+                    "name": "1 tsp paprika",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "paprika"
+                    }
+                },
+                {
+                    "name": "1 tsp onion powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "onion powder"
+                    }
+                },
+                {
+                    "name": "1/2 tsp ground black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "ground black pepper"
+                    }
+                },
+                {
+                    "name": "1/16  olive oil/ avocado oil",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0
+                        },
+                        "food": "olive oil/ avocado oil"
+                    }
+                },
+                {
+                    "name": "2 tbsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "2 tbsp coconut aminos or GF soy sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "coconut aminos or GF soy sauce"
+                    }
+                },
+                {
+                    "name": "1 tbsp maple syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "maple syrup"
+                    }
+                },
+                {
+                    "name": "1  lemon or lime",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "lemon or lime"
+                    }
+                },
+                {
+                    "name": "1/2 tsp salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                },
+                {
+                    "name": "2 cloves garlic",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, mix together the marinade ingredients and set aside.\\n\\nAdd the chicken to the marinade and let it soak for at least an hour (overnight is best). \\n\\nWhen you are ready to cook, preheat the oven to 400° F. \\n\\nTransfer the marinated chicken to a large foil-lined baking sheet. \\n\\nChop the vegetables and spread evenly on the same baking sheet (or a separate one depending on size). Lightly coat the vegetables with olive oil or avocado oil and season with garlic salt, paprika, onion powder, and black pepper. \\n\\nBake for 20-25 min until the chicken is fully cooked (165° F) and vegetables are tender.\\n\\nMeanwhile, rinse the quinoa and transfer to a medium pot with 2 cups of water and salt (to taste). Bring the mixture to a rolling boil then lower heat and simmer, covered, for 15 minutes. Remove from heat and let stand, still covered, for 5 minutes. Then uncover and gently fluff with a fork. \\n\\nOnce the chicken and vegetables are cooked, add to your plate with quinoa and serve. Enjoy! ",
+            "recipe_food_id": "243833368219565"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/CollardGreenTunaWrap.png",
+            "name": "Collard Green Tuna Wrap",
+            "nutritional_contents": {
+                "sugar": 2.299999952316284,
+                "fiber": 3.5,
+                "saturated_fat": 5.699999809265137,
+                "protein": 25.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 509.0
+                },
+                "carbohydrates": 9.800000190734863,
+                "sodium": 1132.5999755859375,
+                "calcium": 7.0,
+                "monounsaturated_fat": 29.600000381469727,
+                "vitamin_c": 61.900001525878906,
+                "cholesterol": 50.0,
+                "fat": 41.29999923706055,
+                "iron": 11.800000190734863,
+                "polyunsaturated_fat": 4.400000095367432,
+                "potassium": 261.0,
+                "vitamin_a": 24.200000762939453
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "c6d674e7-e948-452a-bb16-14191ec92174",
+                    "name": "Meal Building 101 - Gluten Free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "d51f8955-0519-4746-9375-233b28abcf6d",
+                    "name": "Meal Building 101 - Dairy Free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "fc528f30-8446-45d2-a9d2-6295a5628562",
+                    "name": "Meal Building 101 - Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "349f90a8-212f-4173-8ef1-ebe9038a72e9",
+                    "name": "Meal Building 101",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "32f6cf22-9fbc-4cfb-80c0-358f0765c2a0",
+                    "name": "Meal Building 101 - Heart Heathy",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "08b10573-cc3e-4c2a-a749-0bc0bea69f90",
+            "ingredients": [
+                {
+                    "name": "4 large collard green leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "large"
+                        },
+                        "food": "collard green leaves",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 can line caught tuna",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "line caught tuna"
+                    }
+                },
+                {
+                    "name": "1 whole lemon, juiced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "lemon",
+                        "preparation_notes": "juiced"
+                    }
+                },
+                {
+                    "name": "1 tsp lemon zest",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "lemon zest"
+                    }
+                },
+                {
+                    "name": "2 tsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 ribs of celery, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ribs"
+                        },
+                        "food": "of celery",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "3 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 tbsp capers or cornichons, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "capers or cornichons",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 tbsp parsley, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "parsley",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 pinch  salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch "
+                        },
+                        "food": "salt and pepper",
+                        "preparation_notes": "to taste"
+                    }
+                },
+                {
+                    "name": "1 pinch chopped fresh dill, red onion, serrano peppers, bell peppers, or cucumbers, optional",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "chopped fresh dill, red onion, serrano peppers, bell peppers, or cucumbers",
+                        "preparation_notes": "optional"
+                    }
+                }
+            ],
+            "directions": "Trim the stems and spines of each collard green leaf.\\n\\nOptional: Add the leaves to boiling water and blanche for 15-20 seconds. Immediately transfer the leaves to an ice bath to stop the cooking process. Pat the leaves dry and set aside.\\n\\nIn a small bowl, mash together the tuna, lemon juice, lemon zest, dijon mustard, celery, olive oil, capers / cornichons, parsley, salt, and pepper with a fork until thoroughly combined. \\n\\nSpoon each half of the tuna salad onto the center of both collard green leaves.\\n\\nOptional: top with additional mix-ins.\\n\\nGripping the edge of the leaf closest to you, fold over the mixture and tuck the leaf beneath the mixture. Roll forward once, then tuck in the sides, then continue to roll until the wrap is complete. Repeat for both leaves.\\n\\nSlice both wraps and enjoy immediately, or wrap tightly in parchment paper and then plastic wrap to refrigerate for up to 24 hours.",
+            "recipe_food_id": "208640536301357"
+        }
+    ]
+}

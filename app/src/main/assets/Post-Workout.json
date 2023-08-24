@@ -1,0 +1,1620 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/11/Mushrooms-Brussels-Sprouts-Tofu-Farro-Bowls.jpg",
+            "name": "Mushrooms, Brussels Sprouts and Tofu Farro Bowls",
+            "nutritional_contents": {
+                "sugar": 20.522300720214844,
+                "fiber": 40.57429885864258,
+                "saturated_fat": 7.184780120849609,
+                "protein": 76.19419860839844,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1501.0999755859375
+                },
+                "carbohydrates": 176.593994140625,
+                "sodium": 2784.110107421875,
+                "calcium": 90.89330291748047,
+                "monounsaturated_fat": 26.66699981689453,
+                "vitamin_c": 640.0880126953125,
+                "cholesterol": 0.0,
+                "fat": 67.23729705810547,
+                "iron": 70.5790023803711,
+                "polyunsaturated_fat": 26.189599990844727,
+                "potassium": 3286.25,
+                "vitamin_a": 67.00789642333984,
+                "trans_fat": 0.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "44773ba1-2b53-4b40-8c16-a326da71f081",
+            "ingredients": [
+                {
+                    "name": "2 tablespoon canola oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "canola oil"
+                    }
+                },
+                {
+                    "name": "2 tablespoon white miso",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "white miso"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon kosher salt, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "kosher salt",
+                        "preparation_notes": "divided"
+                    }
+                },
+                {
+                    "name": "1 clove garlic, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "grated"
+                    }
+                },
+                {
+                    "name": "1 pound Brussels sprouts, trimmed and halved",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound",
+                            "weight": {
+                                "value": 454.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "Brussels sprouts",
+                        "preparation_notes": "trimmed and halved"
+                    }
+                },
+                {
+                    "name": "4 ounce shiitake mushrooms, stems removed and caps thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "ounce",
+                            "weight": {
+                                "value": 113.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "shiitake mushrooms",
+                        "preparation_notes": "stems removed and caps thinly sliced"
+                    }
+                },
+                {
+                    "name": "1 tablespoon toasted sesame oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "toasted sesame oil"
+                    }
+                },
+                {
+                    "name": "2 cup precooked farro",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 241.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "precooked farro"
+                    }
+                },
+                {
+                    "name": "1 14-ounce package extra-firm tofu",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "14-ounce package",
+                            "weight": {
+                                "value": 397.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "extra-firm tofu"
+                    }
+                },
+                {
+                    "name": "4 teaspoon Sriracha",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "Sriracha"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio workout.\\n\\nDrain tofu and cut into 1/2-inch thick slices. Drain slices between layers of paper towels as the oven preheats.\\n\\nPreheat oven to 425°F (220ºC). Line a large rimmed baking sheet with parchment paper.\\n\\nIn a small bowl, whisk together canola oil, miso, 1/4 teaspoon salt and garlic. In a medium bowl, combine Brussels sprouts and 1 tablespoon miso mixture, tossing well to coat. Arrange on 1/3 of prepared baking sheet. In the same medium-sized bowl, combine mushrooms and 1 1/2 teaspoons miso mixture, tossing well to coat. Add mushrooms to the baking sheet, keeping separate from the brussels sprouts.\\n\\nCut tofu into bite-sized cubes. Add to the medium bowl, and combine tofu with the remaining miso mixture, tossing gently to coat. Add tofu to the remaining 1/3 of the baking sheet. Bake for 20 minutes.\\n\\nRemove mushrooms from pan. Gently stir Brussels sprouts and tofu and bake for 5 more minutes.\\n\\nMeanwhile, heat sesame oil in a large nonstick skillet over medium-high heat. Add farro; sauté 2 minutes or until heated through and slightly crispy.\\n\\nSpoon a scant 1/2 cup farro into each of four bowls. Top each serving with 2/3 cup Brussels sprouts, 1/2 cup tofu and 3 tablespoons mushrooms. Drizzle 1 teaspoon Sriracha over each bowl.",
+            "recipe_food_id": "98294151718701"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/04/Red-Lentil-Pasta-With-Creamy-Primavera-Veggies.jpg",
+            "name": "Red Lentil Pasta With Veggies",
+            "nutritional_contents": {
+                "sugar": 33.85530090332031,
+                "fiber": 30.46179962158203,
+                "saturated_fat": 17.995800018310547,
+                "protein": 86.21420288085938,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1664.719970703125
+                },
+                "carbohydrates": 219.05999755859375,
+                "sodium": 2961.7099609375,
+                "calcium": 34.73139953613281,
+                "monounsaturated_fat": 10.093899726867676,
+                "vitamin_c": 80.11170196533203,
+                "cholesterol": 80.0,
+                "fat": 43.15629959106445,
+                "iron": 125.35199737548828,
+                "polyunsaturated_fat": 1.6053099632263184,
+                "potassium": 2442.97998046875,
+                "vitamin_a": 56.194400787353516,
+                "trans_fat": 0.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "03cd7482-bf13-4a4b-b6e8-404f95beb833",
+            "ingredients": [
+                {
+                    "name": "8 ounce Explore Cuisine red lentil penne",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "ounce",
+                            "weight": {
+                                "value": 227.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "Explore Cuisine red lentil penne"
+                    }
+                },
+                {
+                    "name": "1 tablespoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 large shallot, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "shallot",
+                        "preparation_notes": "thinly sliced"
+                    }
+                },
+                {
+                    "name": "1 cup shiitake mushrooms, sliced, stems discarded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 70.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "shiitake mushrooms",
+                        "preparation_notes": "sliced, stems discarded"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 cup dry white wine, or low-sodium vegetable broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "dry white wine",
+                        "preparation_notes": "or low-sodium vegetable broth"
+                    }
+                },
+                {
+                    "name": "1 cup frozen artichoke hearts, defrosted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 113.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "frozen artichoke hearts",
+                        "preparation_notes": "defrosted"
+                    }
+                },
+                {
+                    "name": "1/2 cup frozen peas, or edamame",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 80.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "frozen peas",
+                        "preparation_notes": "or edamame"
+                    }
+                },
+                {
+                    "name": "4 ounce soft herb and garlic goat cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "ounce",
+                            "weight": {
+                                "value": 113.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "soft herb and garlic goat cheese"
+                    }
+                },
+                {
+                    "name": "1 cup basil leaves, fresh, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 14.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "basil leaves",
+                        "preparation_notes": "fresh, chopped"
+                    }
+                },
+                {
+                    "name": "8 ounce asparagus, trimmed and cut into 2-inch (5cm) pieces",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "ounce",
+                            "weight": {
+                                "value": 227.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "asparagus",
+                        "preparation_notes": "trimmed and cut into 2-inch (5cm) pieces"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout.\\n\\nCook the pasta according to package instructions. Add the asparagus to the pot in the last 2 minutes of cooking. Drain, reserving 1 cup of the cooking water, set aside.\\n\\nMeanwhile, in a medium sauté pan, heat the oil over medium-high heat. Add the shallots, mushrooms and salt and sauté until the vegetables are beginning to brown, 4 minutes. Add the wine and simmer, scraping the browned bits on the bottom of the pan, until nearly evaporated, 2 minutes. Add the artichoke hearts and peas and cook until heated through, 1 minute.\\n\\nCombine the pasta and asparagus with the mushroom mixture, cheese and basil. Add enough reserved pasta water to make a creamy sauce and serve immediately.",
+            "recipe_food_id": "129200735168045"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/post-workout/yogurt-post.jpg",
+            "name": "Fruit, Yogurt, and Hard Boiled Egg",
+            "nutritional_contents": {
+                "sugar": 11.055399894714355,
+                "fiber": 2.2760000228881836,
+                "saturated_fat": 4.3337202072143555,
+                "protein": 17.827600479125977,
+                "energy": {
+                    "unit": "calories",
+                    "value": 223.67999267578125
+                },
+                "carbohydrates": 15.582599639892578,
+                "sodium": 119.23999786376953,
+                "calcium": 44.939998626708984,
+                "monounsaturated_fat": 1.8637800216674805,
+                "vitamin_c": 7.177999973297119,
+                "cholesterol": 201.0,
+                "fat": 10.499199867248535,
+                "iron": 1.082200050354004,
+                "polyunsaturated_fat": 1.063539981842041,
+                "potassium": 280.9800109863281,
+                "vitamin_a": 82.56999969482422,
+                "trans_fat": 0.01899999938905239
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "70a26283-25eb-4201-9dc7-3a8a1607326d",
+            "ingredients": [
+                {
+                    "name": "1/2 cup plain Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "plain Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1/2 cup fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "fruit"
+                    }
+                },
+                {
+                    "name": "1  hard boiled egg",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "hard boiled egg"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack within an hour after a 30-45 minute cardio or strength workout.",
+            "recipe_food_id": "23379280118909"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2015/09/Mediterranean-Chicken-Pita.jpg",
+            "name": "Chicken Pita ",
+            "nutritional_contents": {
+                "sugar": 21.764699935913086,
+                "fiber": 13.155200004577637,
+                "saturated_fat": 6.42834997177124,
+                "protein": 140.6009979248047,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1909.47998046875
+                },
+                "carbohydrates": 238.5749969482422,
+                "sodium": 3180.090087890625,
+                "calcium": 54.510799407958984,
+                "monounsaturated_fat": 20.353500366210938,
+                "vitamin_c": 100.125,
+                "cholesterol": 245.0,
+                "fat": 37.80950164794922,
+                "iron": 84.89820098876953,
+                "polyunsaturated_fat": 4.817669868469238,
+                "potassium": 2729.43994140625,
+                "vitamin_a": 47.08000183105469,
+                "trans_fat": 0.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "5a6f2842-b52f-4b80-be61-7497fba6f9ac",
+            "ingredients": [
+                {
+                    "name": "1/8 cup olive oil, plus more for brushing",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 30.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "olive oil",
+                        "preparation_notes": "plus more for brushing"
+                    }
+                },
+                {
+                    "name": "1/2 medium lemon, juiced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium",
+                            "weight": {
+                                "value": 42.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "lemon",
+                        "preparation_notes": "juiced"
+                    }
+                },
+                {
+                    "name": "1 clove garlic",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic"
+                    }
+                },
+                {
+                    "name": "3/4 teaspoon dried oregano",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "teaspoon"
+                        },
+                        "food": "dried oregano"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon dried thyme",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "dried thyme"
+                    }
+                },
+                {
+                    "name": "1/8 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/8 teaspoon ground black pepper, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground black pepper",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1/4 large cucumber",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "large",
+                            "weight": {
+                                "value": 75.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "cucumber"
+                    }
+                },
+                {
+                    "name": "1 teaspoon garlic powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "garlic powder"
+                    }
+                },
+                {
+                    "name": "3/4 large cucumber, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "large",
+                            "weight": {
+                                "value": 225.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "cucumber",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 pound boneless, skinless chicken breasts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound",
+                            "weight": {
+                                "value": 455.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "boneless, skinless chicken breasts"
+                    }
+                },
+                {
+                    "name": "2  Roma tomatoes, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "weight": {
+                                "value": 240.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "Roma tomatoes",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1/2 medium red onion, minced, if desired",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium",
+                            "weight": {
+                                "value": 55.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "minced, if desired"
+                    }
+                },
+                {
+                    "name": "1/2 cup plain Greek yogurt, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 120.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "plain Greek yogurt",
+                        "preparation_notes": "divided"
+                    }
+                },
+                {
+                    "name": "6  Greek pita flat breads",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0
+                        },
+                        "food": "Greek pita flat breads"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 60 minute+ cardio or strength workout.\\n\\nIn a bowl, combine olive oil, lemon juice, garlic, oregano, thyme, salt and pepper. Add the chicken breasts, and toss until well-combined. Allow the chicken to marinade for at least 1 hour before grilling.\\n\\nMeanwhile, prepare the yogurt sauce. Add the Greek yogurt, cucumber and garlic powder to a food processor, and blend until smooth. Refrigerate until ready to serve. (If you don’t have a food processor, thinly slice the cucumber. Add Greek yogurt and garlic powder. Stir until well-combined.)\\n\\nGrill the chicken over a stovetop using a grill pan for 12–15 minutes, or until it reaches an internal temperature of 165°F (74°C). Occasionally brush chicken breast with oil to prevent it from getting too dry. If you don’t have a grill pan, grill chicken over a traditional barbecue grill.\\n\\nAllow chicken breasts to cool before slicing into large pieces. In the meantime, lightly toast the pita bread.\\n\\nAssemble the pita wrap. For each wrap use 1/2 chicken breast, 1 pita, 3 tablespoons yogurt sauce, 1/2 tomato, and 2–3 slices of cucumber. Sprinkle with red onion, if desired.",
+            "recipe_food_id": "23647744705581"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/11/Quick-and-Easy-Green-Chicken-Enchiladas.jpg",
+            "name": "Green Chicken Enchiladas",
+            "nutritional_contents": {
+                "sugar": 20.312000274658203,
+                "fiber": 35.34669876098633,
+                "saturated_fat": 25.03019905090332,
+                "protein": 96.40869903564453,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1574.3499755859375
+                },
+                "carbohydrates": 152.1510009765625,
+                "sodium": 2250.0,
+                "calcium": 107.3479995727539,
+                "monounsaturated_fat": 4.7428998947143555,
+                "vitamin_c": 86.58830261230469,
+                "cholesterol": 263.75,
+                "fat": 67.6449966430664,
+                "iron": 39.82630157470703,
+                "polyunsaturated_fat": 2.6496999263763428,
+                "potassium": 1423.5799560546875,
+                "vitamin_a": 107.4280014038086,
+                "trans_fat": 0.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "1819c3ee-5fd7-47c4-94c9-1f18462b6755",
+            "ingredients": [
+                {
+                    "name": "1 cup reduced-sodium canned great northern beans, drained and rinsed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 60.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "reduced-sodium canned great northern beans",
+                        "preparation_notes": "drained and rinsed"
+                    }
+                },
+                {
+                    "name": "1 1/2 cup skinless rotisserie chicken breast, shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 170.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "skinless rotisserie chicken breast",
+                        "preparation_notes": "shredded"
+                    }
+                },
+                {
+                    "name": "1 cup tomatillo salsa, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 225.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "tomatillo salsa",
+                        "preparation_notes": "divided"
+                    }
+                },
+                {
+                    "name": "1/2 cup reduced-fat sour cream",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 240.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "reduced-fat sour cream"
+                    }
+                },
+                {
+                    "name": "8 6-inch corn tortillas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "6-inch"
+                        },
+                        "food": "corn tortillas"
+                    }
+                },
+                {
+                    "name": "3/4 cup Monterey Jack cheese, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 85.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "Monterey Jack cheese",
+                        "preparation_notes": "grated"
+                    }
+                },
+                {
+                    "name": "1/2 cup tomatoes, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 100.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "tomatoes",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1/4 cup green onions, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 40.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "green onions",
+                        "preparation_notes": "thinly sliced"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout. To refuel after a longer workout, add 1/2 cup brown rice.\\n\\nPreheat broiler to high.\\n\\nHeat a large skillet over medium heat. Add beans, chicken and 1/4 cup salsa to pan; cook 4 minutes or until thoroughly heated. Remove from heat and stir in sour cream.\\n\\nSpoon 1/4 cup mixture down the middle of each tortilla; roll up. Arrange tortillas, seam side down, in a broiler-proof 11-by-7-inch baking dish coated with cooking spray. Spoon remaining 3/4 cup salsa down the middle of enchiladas, and sprinkle evenly with cheese. Broil 3 minutes or until cheese melts and begins to brown.\\n\\nRemove from oven. Top with onions and tomatoes.\n\n",
+            "recipe_food_id": "94297666839613"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/03/Raspberry-Smoothie-Bowls-With-Pears-and-Pistachios.jpg",
+            "name": "Raspberry Smoothie Bowls",
+            "nutritional_contents": {
+                "sugar": 49.29389953613281,
+                "fiber": 27.91200065612793,
+                "saturated_fat": 1.574910044670105,
+                "protein": 56.20399856567383,
+                "energy": {
+                    "unit": "calories",
+                    "value": 676.6199951171875
+                },
+                "carbohydrates": 93.73490142822266,
+                "sodium": 150.60000610351562,
+                "calcium": 53.40399932861328,
+                "monounsaturated_fat": 2.6292800903320312,
+                "vitamin_c": 90.01840209960938,
+                "cholesterol": 12.5,
+                "fat": 11.065699577331543,
+                "iron": 22.145000457763672,
+                "polyunsaturated_fat": 6.754570007324219,
+                "potassium": 1044.5699462890625,
+                "vitamin_a": 3.979599952697754,
+                "trans_fat": 0.0
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "8b1296e3-be74-4ccd-be20-a34d89783c0c",
+            "ingredients": [
+                {
+                    "name": "2 1/2 cup plain 0% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2 1/2",
+                            "value": 2.5,
+                            "unit": "cup"
+                        },
+                        "food": "plain 0% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1 medium frozen banana",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "frozen banana"
+                    }
+                },
+                {
+                    "name": "1 cup frozen raspberries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 123.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "frozen raspberries"
+                    }
+                },
+                {
+                    "name": "2 tablespoon chia seeds",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon",
+                            "weight": {
+                                "value": 28.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "chia seeds"
+                    }
+                },
+                {
+                    "name": "1 cup sliced pears",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 140.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "sliced pears"
+                    }
+                },
+                {
+                    "name": "1/4 cup fresh blueberries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 36.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "fresh blueberries"
+                    }
+                },
+                {
+                    "name": "2 tablespoon shelled pistachios, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "shelled pistachios",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout\\n\\nIn a blender, place the yogurt, banana, raspberries and chia seeds and secure the lid. Blend until smooth, using a tamper if you have one. Divide between two low bowls and arrange the pear slices, blueberries and pistachios on top. Serve immediately.",
+            "recipe_food_id": "128648827635373"
+        },
+        {
+            "image_url": "",
+            "name": "Tuna Sandwich with Fruit",
+            "nutritional_contents": {
+                "sugar": 27.159799575805664,
+                "fiber": 12.368000030517578,
+                "saturated_fat": 0.0509600006043911,
+                "protein": 21.97319984436035,
+                "energy": {
+                    "unit": "calories",
+                    "value": 377.7650146484375
+                },
+                "carbohydrates": 67.38420104980469,
+                "sodium": 464.00799560546875,
+                "calcium": 11.545000076293945,
+                "monounsaturated_fat": 0.012740000151097775,
+                "vitamin_c": 8.371999740600586,
+                "cholesterol": 0.0,
+                "fat": 3.8094000816345215,
+                "iron": 9.218400001525879,
+                "polyunsaturated_fat": 0.09282000362873077,
+                "potassium": 424.739990234375,
+                "vitamin_a": 5.710000038146973,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "5caf1ba3-812b-420f-bb20-da5b72d977fd",
+            "ingredients": [
+                {
+                    "name": "1/2 can canned tuna, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "can"
+                        },
+                        "food": "canned tuna",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1 tablespoon Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "Greek yogurt"
+                    }
+                },
+                {
+                    "name": "2 slice whole wheat bread",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "slice"
+                        },
+                        "food": "whole wheat bread"
+                    }
+                },
+                {
+                    "name": "1 medium fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout.\\n\\nDrain the juices out of the canned tuna. Put half of the tuna in a bowl (reserve the other half for another day) with the Greek yogurt. Sprinkle with salt and mix well.\\n\\nToast the bread. Add the tuna to the bread to make a sandwich.\\n\\nServe sandwich with a side of fruit for carbohydrate replenishment.\\n\\nOPTIONAL: Add lettuce, tomato, or other veggies to the sandwich.",
+            "recipe_food_id": "19668277209021"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/09/Quinoa-Spinach-Scramble-752x472.jpg",
+            "name": "Quinoa and Spinach Scramble",
+            "nutritional_contents": {
+                "sugar": 0.9755799770355225,
+                "fiber": 8.715999603271484,
+                "saturated_fat": 3.7598400115966797,
+                "protein": 35.00389862060547,
+                "energy": {
+                    "unit": "calories",
+                    "value": 518.7880249023438
+                },
+                "carbohydrates": 65.19920349121094,
+                "sodium": 473.3299865722656,
+                "calcium": 197.39199829101562,
+                "monounsaturated_fat": 3.9228100776672363,
+                "vitamin_c": 129.02699279785156,
+                "cholesterol": 194.60000610351562,
+                "fat": 13.260199546813965,
+                "iron": 17.993099212646484,
+                "polyunsaturated_fat": 4.000820159912109,
+                "potassium": 1279.22998046875,
+                "vitamin_a": 348.9580078125,
+                "trans_fat": 0.10660000145435333
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "8142dfc0-8778-4ee1-aa8e-ff86ae0677f5",
+            "ingredients": [
+                {
+                    "name": "1/2 cup quinoa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "quinoa"
+                    }
+                },
+                {
+                    "name": "1 large egg",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "egg"
+                    }
+                },
+                {
+                    "name": "3 large  egg whites ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "large "
+                        },
+                        "food": "egg whites "
+                    }
+                },
+                {
+                    "name": "2 tablespoons  Parmesan cheese , shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons "
+                        },
+                        "food": "Parmesan cheese ",
+                        "preparation_notes": "shredded "
+                    }
+                },
+                {
+                    "name": "1 teaspoon  dried thyme ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon "
+                        },
+                        "food": "dried thyme ",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 large  red bell pepper , chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "large "
+                        },
+                        "food": "red bell pepper ",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "2 cups  fresh spinach , chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups "
+                        },
+                        "food": "fresh spinach ",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 stalk green onion",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "stalk"
+                        },
+                        "food": "green onion"
+                    }
+                }
+            ],
+            "directions": "In a small pot, bring 3/4 cups water to a boil over high heat. Add the quinoa and return to the boil, then cover and reduce to low. Cook for 15 minutes, then uncover and fluff, all the water should be absorbed. Let cool, uncovered.\\n\\nIn a medium bowl, whisk the egg and egg whites until mixed, then stir in Parmesan cheese and thyme. Stir in the cooled quinoa. Reserve.\\n\\nCoat a large saute pan with a spritz of olive oil then set over medium-high heat; add the bell pepper, spinach and green onion. Stir for 2 minutes, until the peppers soften. Add the quinoa mixture and stir, reduce the heat to medium. Scrape the pan as you scramble the mixture. Cook until the eggs are done and the mixture looks dry, about 3 minutes.\\n\\nUse: Meal within an hour after a 30-60 minute cardio or strength workout.",
+            "recipe_food_id": "22159544002085"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/post-workout/cottage-cheese.jpg",
+            "name": "Cottage Cheese with Honey and Fruit",
+            "nutritional_contents": {
+                "sugar": 21.865800857543945,
+                "fiber": 3.3340001106262207,
+                "saturated_fat": 2.024899959564209,
+                "protein": 27.13319969177246,
+                "energy": {
+                    "unit": "calories",
+                    "value": 254.39999389648438
+                },
+                "carbohydrates": 28.516799926757812,
+                "sodium": 721.9400024414062,
+                "calcium": 46.97999954223633,
+                "monounsaturated_fat": 0.07137999683618546,
+                "vitamin_c": 97.64299774169922,
+                "cholesterol": 20.0,
+                "fat": 4.498000144958496,
+                "iron": 0.7099999785423279,
+                "polyunsaturated_fat": 0.2572999894618988,
+                "potassium": 557.6199951171875,
+                "vitamin_a": 1.659999966621399,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "e6968413-e97f-4078-8b4c-a35896744384",
+            "ingredients": [
+                {
+                    "name": "1 cup low-fat cottage cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "low-fat cottage cheese"
+                    }
+                },
+                {
+                    "name": "1 teaspoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1 cup sliced fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "sliced fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Small meal within an hour after a 30-60 minute cardio or strength workout.",
+            "recipe_food_id": "93610564166701"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2016/08/IMG_2309-752x472.jpg",
+            "name": "Chicken and Avocado Burrito",
+            "nutritional_contents": {
+                "sugar": 12.794899940490723,
+                "fiber": 24.56220054626465,
+                "saturated_fat": 9.43373966217041,
+                "protein": 77.87979888916016,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1104.949951171875
+                },
+                "carbohydrates": 110.13999938964844,
+                "sodium": 1969.43994140625,
+                "calcium": 34.07170104980469,
+                "monounsaturated_fat": 15.000399589538574,
+                "vitamin_c": 43.8125,
+                "cholesterol": 191.66600036621094,
+                "fat": 39.87860107421875,
+                "iron": 35.442298889160156,
+                "polyunsaturated_fat": 7.2011799812316895,
+                "potassium": 1565.0799560546875,
+                "vitamin_a": 34.884498596191406,
+                "trans_fat": 0.0
+            },
+            "servings": 3,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "582d1dd6-19fc-4f30-ba29-8a6ca91dfb8c",
+            "ingredients": [
+                {
+                    "name": "1/4 cup corn, fresh or frozen, cooked or thawed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "corn",
+                        "preparation_notes": "fresh or frozen, cooked or thawed"
+                    }
+                },
+                {
+                    "name": "1/4 cup no salt added black beans, drained and rinsed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "no salt added black beans",
+                        "preparation_notes": "drained and rinsed"
+                    }
+                },
+                {
+                    "name": "2 tablespoon finely chopped cilantro, divided / plus more for optional garnish",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "finely chopped cilantro",
+                        "preparation_notes": "divided / plus more for optional garnish"
+                    }
+                },
+                {
+                    "name": "1/2 cup shredded reduced-sodium Cheddar cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "shredded reduced-sodium Cheddar cheese"
+                    }
+                },
+                {
+                    "name": "1 small avocado, diced and divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "small"
+                        },
+                        "food": "avocado",
+                        "preparation_notes": "diced and divided"
+                    }
+                },
+                {
+                    "name": "1 teaspoon lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "lime juice"
+                    }
+                },
+                {
+                    "name": "3 medium 8-inch whole-wheat flour tortillas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "medium 8-inch"
+                        },
+                        "food": "whole-wheat flour tortillas"
+                    }
+                },
+                {
+                    "name": "1/4 cup low-sodium tomatillo salsa, divided (plus more for optional garnish)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "low-sodium tomatillo salsa",
+                        "preparation_notes": "divided (plus more for optional garnish)"
+                    }
+                },
+                {
+                    "name": "8 ounce precooked chicken breasts, or leftover",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "ounce"
+                        },
+                        "food": "precooked chicken breasts",
+                        "preparation_notes": "or leftover"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout. Add 3/4 cup rice per serving for recovery from a longer training session. \\n\\nHeat the chicken strips according to package directions. Once warm, chop chicken into bite-size pieces.\\n\\nIn a small bowl, combine chicken, corn, black beans, 1 tablespoon cilantro, cheese, 1/2 avocado and 2 tablespoons salsa. Mix well to combine. Add salt and pepper, to taste. In a blender or food processor, combine lime juice, and the remaining avocado, salsa and cilantro. Blend until creamy. Taste for seasoning, adding more lime juice or salt as needed.\\n\\nSpread 1/3 chicken filling into the center of a flour tortilla. Fold in the sides, and bring up the bottom of the tortilla, tucking in the ends. Keep rolling, pressing and creasing the end of the tortilla as you finish rolling it up. Top with avocado cream, and, if desired, more salsa, cilantro and tomatoes.",
+            "recipe_food_id": "23097963734061"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/high-protein-plan/jerky.jpg",
+            "name": "Jerky with Fruit",
+            "nutritional_contents": {
+                "sugar": 23.909799575805664,
+                "fiber": 4.368000030517578,
+                "saturated_fat": 0.0509600006043911,
+                "protein": 11.473199844360352,
+                "energy": {
+                    "unit": "calories",
+                    "value": 154.63999938964844
+                },
+                "carbohydrates": 31.134199142456055,
+                "sodium": 271.82000732421875,
+                "calcium": 10.920000076293945,
+                "monounsaturated_fat": 0.012740000151097775,
+                "vitamin_c": 8.371999740600586,
+                "cholesterol": 10.0,
+                "fat": 0.3093999922275543,
+                "iron": 2.218400001525879,
+                "polyunsaturated_fat": 0.09282000362873077,
+                "potassium": 194.74000549316406,
+                "vitamin_a": 5.460000038146973,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "f54b4786-1a42-449e-bdfb-1a2e45f64349",
+            "ingredients": [
+                {
+                    "name": "1 ounce turkey jerky",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "ounce"
+                        },
+                        "food": "turkey jerky"
+                    }
+                },
+                {
+                    "name": "1 medium fruit, or berries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "fruit",
+                        "preparation_notes": "or berries"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack within an hour after a 30-45 minute cardio or strength workout.",
+            "recipe_food_id": "58554944832573"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2017/11/turkey.jpg",
+            "name": "Turkey-Stuffed Bell Peppers with Sweet Potato",
+            "nutritional_contents": {
+                "sugar": 48.07279968261719,
+                "fiber": 23.34440040588379,
+                "saturated_fat": 22.876300811767578,
+                "protein": 113.29100036621094,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1541.3900146484375
+                },
+                "carbohydrates": 130.15899658203125,
+                "sodium": 1009.780029296875,
+                "calcium": 534.2000122070312,
+                "monounsaturated_fat": 14.146400451660156,
+                "vitamin_c": 474.7040100097656,
+                "cholesterol": 425.3399963378906,
+                "fat": 61.064300537109375,
+                "iron": 51.71080017089844,
+                "polyunsaturated_fat": 11.505000114440918,
+                "potassium": 4276.259765625,
+                "vitamin_a": 1393.47998046875,
+                "trans_fat": 0.6052200198173523
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "891bc772-89af-11ea-ab6f-123bdeb932d6",
+                    "name": "Post-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "e30d7be4-cd70-43f8-b7e7-ac04e4808c66",
+            "ingredients": [
+                {
+                    "name": "1 pound lean ground turkey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound",
+                            "weight": {
+                                "value": 450.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "lean ground turkey"
+                    }
+                },
+                {
+                    "name": "1 cup cooked brown rice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 185.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "cooked brown rice"
+                    }
+                },
+                {
+                    "name": "1 15-ounce can Italian-seasoned diced tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "15-ounce can",
+                            "weight": {
+                                "value": 445.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "Italian-seasoned diced tomatoes"
+                    }
+                },
+                {
+                    "name": "1/2 cup cheddar cheese, shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 45.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "cheddar cheese",
+                        "preparation_notes": "shredded"
+                    }
+                },
+                {
+                    "name": "4  bell peppers, seeds and tops removed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0
+                        },
+                        "food": "bell peppers",
+                        "preparation_notes": "seeds and tops removed"
+                    }
+                },
+                {
+                    "name": "2 potatos sweet potatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "potatos"
+                        },
+                        "food": "sweet potatoes"
+                    }
+                }
+            ],
+            "directions": "Use: Meal within an hour after a 30-60 minute cardio or strength workout.\\n\\nPreheat the oven to 375°F (190ºC). Poke holes in potatoes and place on a baking sheet in the oven once oven is preheated. Cook for 45 minutes.\\n\\nIn a skillet, cook turkey over medium-high heat until browned. Add brown rice and tomatoes and heat until slightly thickened. Divide mixture evenly between bell peppers and place in a square baking dish. Cover with foil and bake for 25 minutes. Remove foil, sprinkle cheese over the top and bake another 5 minutes or until cheese is melted.\\n\\nServe 1/2 sweet potato on the side.",
+            "recipe_food_id": "89753574458877"
+        }
+    ]
+}

@@ -1,0 +1,568 @@
+{
+    "items": [
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Tropical+Smoothie.jpg",
+            "name": "Tropical Post-Workout Smoothie",
+            "nutritional_contents": {
+                "sugar": 30.100000381469727,
+                "fiber": 5.199999809265137,
+                "saturated_fat": 3.200000047683716,
+                "protein": 41.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 435.0
+                },
+                "carbohydrates": 43.900001525878906,
+                "sodium": 221.39999389648438,
+                "calcium": 153.1999969482422,
+                "monounsaturated_fat": 5.300000190734863,
+                "vitamin_c": 92.69999694824219,
+                "cholesterol": 7.5,
+                "fat": 12.800000190734863,
+                "iron": 9.199999809265137,
+                "polyunsaturated_fat": 2.299999952316284,
+                "potassium": 1021.9000244140625,
+                "vitamin_a": 191.10000610351562
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "b867b43d-61d8-4b50-bc7e-ef060fafacab",
+                    "name": "Cooking with Ayesha Curry",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ef7861ed-9803-42b3-a312-a076dd45c0db",
+            "ingredients": [
+                {
+                    "name": "1/2 cup coconut water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "coconut water",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 medium banana",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium"
+                        },
+                        "food": "banana"
+                    }
+                },
+                {
+                    "name": "1/2 cup frozen mango",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "frozen mango"
+                    }
+                },
+                {
+                    "name": "1 cup spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "spinach"
+                    }
+                },
+                {
+                    "name": "1 tbsp almond butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "almond butter"
+                    }
+                },
+                {
+                    "name": "1/2 cup 2% greek yogurt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "2% greek yogurt "
+                    }
+                },
+                {
+                    "name": "1 scoop vanilla protein powder ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "scoop"
+                        },
+                        "food": "vanilla protein powder "
+                    }
+                }
+            ],
+            "directions": "Combine all ingredients and blend until smooth.",
+            "recipe_food_id": "137859387338413"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/lettuce+wrap.jpg",
+            "name": "Naked Turkey and Smashed Avocado Burger",
+            "nutritional_contents": {
+                "sugar": 32.0,
+                "fiber": 24.5,
+                "saturated_fat": 30.5,
+                "protein": 99.9000015258789,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2183.0
+                },
+                "carbohydrates": 65.0999984741211,
+                "sodium": 2756.300048828125,
+                "calcium": 20.200000762939453,
+                "monounsaturated_fat": 62.900001525878906,
+                "vitamin_c": 117.69999694824219,
+                "cholesterol": 359.20001220703125,
+                "fat": 175.6999969482422,
+                "iron": 48.5,
+                "polyunsaturated_fat": 73.80000305175781,
+                "potassium": 3182.39990234375,
+                "vitamin_a": 54.400001525878906,
+                "trans_fat": 0.5
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "b867b43d-61d8-4b50-bc7e-ef060fafacab",
+                    "name": "Cooking with Ayesha Curry",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "49a79045-5fbd-4dbe-9aa0-401b9526566c",
+            "ingredients": [
+                {
+                    "name": "1 pound ground turkey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "ground turkey",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tbsp oil for frying",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "oil for frying"
+                    }
+                },
+                {
+                    "name": "1/4 cup mayonnaise",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "mayonnaise"
+                    }
+                },
+                {
+                    "name": "1/2 tsp onion powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "onion powder",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 tsp garlic powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "garlic powder",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 tsp kosher salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "kosher salt"
+                    }
+                },
+                {
+                    "name": "1/4 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                },
+                {
+                    "name": "4 sliced tomatoes for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "sliced"
+                        },
+                        "food": "tomatoes for topping",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 lettuce cups for wrapping",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "lettuce cups"
+                        },
+                        "food": "for wrapping"
+                    }
+                },
+                {
+                    "name": "2 whole avocados, pitted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "whole"
+                        },
+                        "food": "avocados",
+                        "preparation_notes": "pitted"
+                    }
+                },
+                {
+                    "name": "1/3 cup cilantro, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3,
+                            "unit": "cup"
+                        },
+                        "food": "cilantro, finely chopped",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 cup red onion, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "minced"
+                    }
+                },
+                {
+                    "name": "1 tbsp lemon or lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "lemon or lime juice"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper to tatse",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper to tatse"
+                    }
+                },
+                {
+                    "name": "1/4 cup mayonnaise",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "mayonnaise"
+                    }
+                },
+                {
+                    "name": "1 tbsp sriracha",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "sriracha"
+                    }
+                },
+                {
+                    "name": "1 tbsp ketchup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "ketchup"
+                    }
+                },
+                {
+                    "name": "1 tbsp honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "honey"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, add ground turkey, mayo, and seasonings (onion powder, garlic powder, kosher salt, and black pepper). Mix gently until well incorporated. Make 4-inch diameter patties.\\n\\nHeat oil in a large skillet over medium-high heat. Cook patties for 4-5 minutes per side until cooked through and lightly browned.\\n\\nServe with smashed avocado and tomato slices wrapped in lettuce, with Spicy Mayo dipping sauce on the side.\\n\\nFor the smashed avocado, mash all the ingredients (avocados, cilantro, red onion, lemon or lime juice, salt, and pepper) together in a bowl until fully incorporated.\\n\\nFor the spicy mayo, mix together ingredients (mayonnaise, sriracha, ketchup, and honey) in a bowl and set aside.",
+            "recipe_food_id": "67490735427117"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/mango+chicken.jpg",
+            "name": "Grilled Chicken with Mango Corn Salsa",
+            "nutritional_contents": {
+                "sugar": 57.20000076293945,
+                "fiber": 9.800000190734863,
+                "saturated_fat": 6.400000095367432,
+                "protein": 139.39999389648438,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1130.0
+                },
+                "carbohydrates": 93.69999694824219,
+                "sodium": 893.5999755859375,
+                "calcium": 16.700000762939453,
+                "monounsaturated_fat": 0.30000001192092896,
+                "vitamin_c": 310.70001220703125,
+                "cholesterol": 570.0,
+                "fat": 29.299999237060547,
+                "iron": 44.29999923706055,
+                "polyunsaturated_fat": 0.30000001192092896,
+                "potassium": 1035.300048828125,
+                "vitamin_a": 157.60000610351562
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "b867b43d-61d8-4b50-bc7e-ef060fafacab",
+                    "name": "Cooking with Ayesha Curry",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "3bb0d380-3dbe-4eed-a0b0-ef91725ebd78",
+            "ingredients": [
+                {
+                    "name": "6 chicken thighs skinless, boneless",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "chicken thighs"
+                        },
+                        "food": "skinless, boneless",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 tsp garlic powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "garlic powder"
+                    }
+                },
+                {
+                    "name": "1/2 tsp onion powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "onion powder"
+                    }
+                },
+                {
+                    "name": "1 ear sweet corn, shucked",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "ear"
+                        },
+                        "food": "sweet corn",
+                        "preparation_notes": "shucked"
+                    }
+                },
+                {
+                    "name": "1 large mango, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "mango",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "1/2 whole red bell pepper, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "whole"
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "1/2 whole jalapeño, seeded and minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "whole"
+                        },
+                        "food": "jalapeño, seeded and minced",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 whole shallot, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "shallot, diced",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tbsp honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1 juiced lime",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "juiced"
+                        },
+                        "food": "lime"
+                    }
+                },
+                {
+                    "name": "1 handful cilantro, roughly chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "handful"
+                        },
+                        "food": "cilantro",
+                        "preparation_notes": "roughly chopped"
+                    }
+                },
+                {
+                    "name": "1/8 tsp salt and pepper, or to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125,
+                            "unit": "tsp"
+                        },
+                        "food": "salt and pepper, or to taste"
+                    }
+                }
+            ],
+            "directions": "Heat outdoor grill or grill pan to high.\\n\\nIn a small bowl, combine the mango, bell pepper, jalapeno and shallot. Drizzle with the honey, lime juice, and add a pinch of salt and freshly cracked black pepper. Stir to combine. Set aside.\\n\\nSeason the chicken thighs with garlic powder, onion powder, salt and pepper on both sides.\\n\\nOil the grill well so nothing sticks. Grill the chicken thighs and corn until fully cooked, about 8 minutes turning once.\\n\\nOnce the corn has cooled, use a sharp knife to cut the kernels off the cob. Add corn and cilantro to the salsa mixture and stir to combine.\\n\\nServe the chicken topped generously with mango salsa and lime wedges if desired. Pair with rice, greens, or grilled tortillas to make delicious grilled tacos.",
+            "recipe_food_id": "68038347918509"
+        }
+    ]
+}

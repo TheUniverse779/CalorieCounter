@@ -1,0 +1,3545 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2015/07/Mason-Jar-Quinoa-Salad.jpg",
+            "name": "Mason Jar Quinoa Salad",
+            "nutritional_contents": {
+                "sugar": 25.5,
+                "fiber": 55.29999923706055,
+                "saturated_fat": 11.899999618530273,
+                "protein": 59.70000076293945,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1669.0
+                },
+                "carbohydrates": 194.10000610351562,
+                "sodium": 1726.0999755859375,
+                "calcium": 49.0,
+                "monounsaturated_fat": 51.900001525878906,
+                "vitamin_c": 202.3000030517578,
+                "cholesterol": 6.099999904632568,
+                "fat": 82.0999984741211,
+                "iron": 95.5999984741211,
+                "polyunsaturated_fat": 13.699999809265137,
+                "potassium": 4610.5,
+                "vitamin_a": 753.0999755859375
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "e07a829e-4d7b-4540-b497-6ce64f435910",
+            "ingredients": [
+                {
+                    "name": "1/2 cup (125g) Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (125g)"
+                        },
+                        "food": "Greek yogurt",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 tablespoons rice vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "rice vinegar"
+                    }
+                },
+                {
+                    "name": "1/2 cup (8g) cilantro",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (8g)"
+                        },
+                        "food": "cilantro"
+                    }
+                },
+                {
+                    "name": "1 whole  lime, juiced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole "
+                        },
+                        "food": "lime",
+                        "preparation_notes": "juiced"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper, to taste"
+                    }
+                },
+                {
+                    "name": "2 tablespoons olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 clove garlic, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "minced"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cumin"
+                    }
+                },
+                {
+                    "name": "2 cups (370g) cooked quinoa (certified gluten-free if necessary)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups (370g)"
+                        },
+                        "food": "cooked quinoa (certified gluten-free if necessary)"
+                    }
+                },
+                {
+                    "name": "1 cup (195g) black beans (certified gluten-free if necessary)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (195g)"
+                        },
+                        "food": "black beans (certified gluten-free if necessary)"
+                    }
+                },
+                {
+                    "name": "1 cup (170g) corn (certified gluten-free if necessary)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (170g)"
+                        },
+                        "food": "corn (certified gluten-free if necessary)"
+                    }
+                },
+                {
+                    "name": "4 cups (120g) spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups (120g)"
+                        },
+                        "food": "spinach"
+                    }
+                },
+                {
+                    "name": "1 cup (30g) tomatoes, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (30g)"
+                        },
+                        "food": "tomatoes",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "2 medium (200g) avocados, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium (200g)"
+                        },
+                        "food": "avocados",
+                        "preparation_notes": "diced"
+                    }
+                }
+            ],
+            "directions": "To make the dressing, place all ingredients for the salad dressing into a small food processor and process until smooth.\\n\\nAdd 3 tablespoons of salad dressing to the mason jar base. Then add the following ingredients in this order: 1 cup spinach, 1/4 cup tomatoes, 1/2 cup cooked quinoa, 1/4 cup black beans, 1/4 cup corn and 1/2 avocado (diced).",
+            "recipe_food_id": "27493714955629"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Protein+Oats+2.jpg",
+            "name": "Protein Oats",
+            "nutritional_contents": {
+                "sugar": 10.399999618530273,
+                "fiber": 7.400000095367432,
+                "saturated_fat": 1.600000023841858,
+                "protein": 21.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 350.0
+                },
+                "carbohydrates": 46.5,
+                "sodium": 191.0,
+                "calcium": 32.70000076293945,
+                "monounsaturated_fat": 1.0,
+                "vitamin_c": 8.600000381469727,
+                "fat": 10.0,
+                "iron": 18.399999618530273,
+                "polyunsaturated_fat": 2.5,
+                "potassium": 621.5999755859375,
+                "vitamin_a": 12.600000381469727
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "1d804c64-e2ab-4bb1-bc0b-d5c75754f335",
+            "ingredients": [
+                {
+                    "name": "1/2 cup rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "rolled oats",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 cup milk, of your choice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "milk, of your choice"
+                    }
+                },
+                {
+                    "name": "1/2 medium banana, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium"
+                        },
+                        "food": "banana",
+                        "preparation_notes": "minced"
+                    }
+                },
+                {
+                    "name": "2 egg whites",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "egg"
+                        },
+                        "food": "whites"
+                    }
+                },
+                {
+                    "name": "1 dash cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "dash"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1 teaspoon nut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "nut butter"
+                    }
+                }
+            ],
+            "directions": "Add rolled oats, minced banana, cinnamon, and 1 cup of milk (if choosing a non-dairy milk try to select one high in protein such as soy, oat or pea) and a dash of salt to a pot. Cook over medium to high heat until the liquid has been absorbed (6-8 min).\\n\\nThen add your egg whites and stir constantly to prevent eggs from scrambling. This should take about two minutes and you should be left with fluffy oats.\\n\\nDrizzle with nut butter and enjoy!  ",
+            "recipe_food_id": "28329119674093"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2017/11/tortilla.jpg",
+            "name": "Slow Cooker Chicken Tortilla Soup",
+            "nutritional_contents": {
+                "sugar": 14.100000381469727,
+                "fiber": 43.70000076293945,
+                "saturated_fat": 9.0,
+                "protein": 155.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1542.0
+                },
+                "carbohydrates": 132.5,
+                "sodium": 2436.800048828125,
+                "calcium": 30.399999618530273,
+                "monounsaturated_fat": 17.299999237060547,
+                "vitamin_c": 156.89999389648438,
+                "cholesterol": 331.1000061035156,
+                "fat": 47.400001525878906,
+                "iron": 79.0999984741211,
+                "polyunsaturated_fat": 6.099999904632568,
+                "potassium": 5215.2001953125,
+                "vitamin_a": 82.0999984741211
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "3ccd7875-efed-4cc7-bc52-c280a46abd41",
+            "ingredients": [
+                {
+                    "name": "1 pound skinless chicken breast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "skinless chicken breast",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 cups low-sodium chicken broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "low-sodium chicken broth"
+                    }
+                },
+                {
+                    "name": "1 15-ounce can black beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "15-ounce can"
+                        },
+                        "food": "black beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1 15-ounce jar low-sodium salsa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "15-ounce jar"
+                        },
+                        "food": "low-sodium salsa"
+                    }
+                },
+                {
+                    "name": "1/2 whole avocado, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "whole"
+                        },
+                        "food": "avocado",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "12 whole tortilla chips, crumbled",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "12",
+                            "value": 12.0,
+                            "unit": "whole"
+                        },
+                        "food": "tortilla chips",
+                        "preparation_notes": "crumbled"
+                    }
+                }
+            ],
+            "directions": "Place the chicken, broth, black beans and salsa in a slow cooker. Cook on low for 8 hours or high for 4 hours. Remove chicken and shred, then return to soup. Spoon soup into bowls, topping with avocado and tortilla chips.",
+            "recipe_food_id": "63227842866477"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Acai+Bowl+1.jpg",
+            "name": "Low Sugar Acai Bowl",
+            "nutritional_contents": {
+                "sugar": 12.5,
+                "fiber": 7.800000190734863,
+                "saturated_fat": 2.299999952316284,
+                "protein": 17.700000762939453,
+                "energy": {
+                    "unit": "calories",
+                    "value": 318.0
+                },
+                "carbohydrates": 31.799999237060547,
+                "sodium": 136.3000030517578,
+                "calcium": 28.799999237060547,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 68.69999694824219,
+                "fat": 14.699999809265137,
+                "iron": 7.400000095367432,
+                "polyunsaturated_fat": 0.20000000298023224,
+                "potassium": 595.7000122070312,
+                "vitamin_a": 9.5
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "f198b0d7-5cb6-4e78-97f5-45fde54fbad6",
+            "ingredients": [
+                {
+                    "name": "1 packet frozen unsweetened acai",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "packet"
+                        },
+                        "food": "frozen unsweetened acai",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 medium frozen banana",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium"
+                        },
+                        "food": "frozen banana"
+                    }
+                },
+                {
+                    "name": "1/2 cup unsweetened almond milk, or milk of your choice/water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "unsweetened almond milk",
+                        "preparation_notes": "or milk of your choice/water"
+                    }
+                },
+                {
+                    "name": "1/2 scoop protein powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "scoop"
+                        },
+                        "food": "protein powder"
+                    }
+                },
+                {
+                    "name": "1 teaspoon nut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "nut butter"
+                    }
+                },
+                {
+                    "name": "1/2 cup berries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "berries"
+                    }
+                }
+            ],
+            "directions": "Add all ingredients into your blender including 1 acai packet, ½ of a frozen banana, ½ C unsweetened vanilla almond milk (or your choice of milk, water or other non-dairy milk), and ½ scoop of protein powder.\\n\\nBlend until smooth and to your desired consistency.\\n\\nDrizzle with 1 tbsp of nut butter and your choice of berries.",
+            "recipe_food_id": "98414404407277"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/07/Strawberries-stuffed-with-goat-cheese-and-basil-with-pistachios-on-top-18-752x472.jpg",
+            "name": "Berries and Cream",
+            "nutritional_contents": {
+                "sugar": 12.0,
+                "fiber": 3.0999999046325684,
+                "saturated_fat": 1.100000023841858,
+                "protein": 1.2000000476837158,
+                "energy": {
+                    "unit": "calories",
+                    "value": 115.0
+                },
+                "carbohydrates": 18.0,
+                "sodium": 2.799999952316284,
+                "calcium": 2.299999952316284,
+                "monounsaturated_fat": 0.5,
+                "vitamin_c": 110.19999694824219,
+                "cholesterol": 5.300000190734863,
+                "fat": 3.200000047683716,
+                "iron": 3.0999999046325684,
+                "polyunsaturated_fat": 0.30000001192092896,
+                "potassium": 199.39999389648438,
+                "vitamin_a": 0.0,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "5ca71197-c425-4454-846c-2f39a2ed81fc",
+            "ingredients": [
+                {
+                    "name": "1 cup mixed berries ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "mixed berries ",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 tbsp whipped cream",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "whipped cream"
+                    }
+                },
+                {
+                    "name": "1 tsp heart shaped sprinkles",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "heart shaped sprinkles"
+                    }
+                }
+            ],
+            "directions": "Add mixed berries to a bowl and top with whipped cream and sprinkles!",
+            "recipe_food_id": "133605336395757"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/10/Gnocchi-Cauliflower-Skillet-Casserole-752x472.jpg",
+            "name": "Gnocchi-Cauliflower Skillet Casserole",
+            "nutritional_contents": {
+                "sugar": 47.599998474121094,
+                "fiber": 24.600000381469727,
+                "saturated_fat": 38.599998474121094,
+                "protein": 100.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1731.0
+                },
+                "carbohydrates": 152.6999969482422,
+                "sodium": 4231.39990234375,
+                "calcium": 228.0,
+                "monounsaturated_fat": 16.799999237060547,
+                "vitamin_c": 336.70001220703125,
+                "cholesterol": 314.70001220703125,
+                "fat": 85.5,
+                "iron": 44.900001525878906,
+                "polyunsaturated_fat": 5.5,
+                "potassium": 3939.10009765625,
+                "vitamin_a": 85.19999694824219,
+                "trans_fat": 0.699999988079071
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "b17b43c9-3499-4a76-a7ec-5a671d878d88",
+            "ingredients": [
+                {
+                    "name": "8 ounces  chicken Italian sausage , uncooked",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "ounces "
+                        },
+                        "food": "chicken Italian sausage ",
+                        "preparation_notes": "uncooked "
+                    }
+                },
+                {
+                    "name": "6 cups  cauliflower , chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "cups "
+                        },
+                        "food": "cauliflower ",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "1 1/2 cups  low-sodium marinara sauce ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/2",
+                            "value": 1.5,
+                            "unit": "cups "
+                        },
+                        "food": "low-sodium marinara sauce "
+                    }
+                },
+                {
+                    "name": "1 pound  gnocchi ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound "
+                        },
+                        "food": "gnocchi "
+                    }
+                },
+                {
+                    "name": "1 cup  part-skim mozzarella , grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup "
+                        },
+                        "food": "part-skim mozzarella ",
+                        "preparation_notes": "grated "
+                    }
+                }
+            ],
+            "directions": "Heat a 10-inch cast-iron or other ovenproof skillet over medium-high heat. Coat pan with cooking spray. Remove sausage from casings and crumble into the pan. Cook until browned, stirring to crumble, about 5 minutes.\\n\\nAdd cauliflower and 1/2 cup (118ml) water; cover, reduce heat to medium, and cook for 5 minutes. Stir in marinara sauce and gnocchi; cover, reduce heat to medium-low, and cook until cauliflower and gnocchi are tender, about 6 minutes.\\n\\nPreheat the broiler to high. Uncover the pan, and sprinkle evenly with cheese. Broil until the cheese melts, 1–2 minutes.",
+            "recipe_food_id": "133598898138605"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/12/High-Protein-Chicken-Salad.jpeg",
+            "name": "High-Protein Chicken Salad",
+            "nutritional_contents": {
+                "sugar": 67.5,
+                "fiber": 53.099998474121094,
+                "saturated_fat": 12.5,
+                "protein": 211.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2253.0
+                },
+                "carbohydrates": 283.8999938964844,
+                "sodium": 3520.699951171875,
+                "calcium": 73.80000305175781,
+                "monounsaturated_fat": 7.900000095367432,
+                "vitamin_c": 43.400001525878906,
+                "cholesterol": 444.29998779296875,
+                "fat": 45.400001525878906,
+                "iron": 88.80000305175781,
+                "polyunsaturated_fat": 18.399999618530273,
+                "potassium": 2225.5,
+                "vitamin_a": 10.800000190734863,
+                "trans_fat": 14.199999809265137
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "0ded62b7-6e70-4d2b-b29b-cdeacaa0af99",
+            "ingredients": [
+                {
+                    "name": "1 pound cooked chicken breast or rotisserie chicken, shredded (about 4 cups)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "cooked chicken breast or rotisserie chicken",
+                        "preparation_notes": "shredded (about 4 cups)"
+                    }
+                },
+                {
+                    "name": "1/2 cup red onion, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "diced "
+                    }
+                },
+                {
+                    "name": "1/2 cup  apple, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup "
+                        },
+                        "food": "apple",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "2/3 cup grapes, halved or quartered",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2/3",
+                            "value": 0.667,
+                            "unit": "cup"
+                        },
+                        "food": "grapes",
+                        "preparation_notes": "halved or quartered"
+                    }
+                },
+                {
+                    "name": "2/3 cup plain 2% fat Greek yogurt (certified gluten-free if necessary",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2/3",
+                            "value": 0.667,
+                            "unit": "cup"
+                        },
+                        "food": "plain 2% fat Greek yogurt (certified gluten-free if necessary"
+                    }
+                },
+                {
+                    "name": "2 tablespoon lemon juice, freshly squeezed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lemon juice",
+                        "preparation_notes": "freshly squeezed"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon garlic powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "garlic powder"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper, to taste"
+                    }
+                },
+                {
+                    "name": "12 sliced 100% whole grain bread (about 100 calories each)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "12",
+                            "value": 12.0,
+                            "unit": "sliced"
+                        },
+                        "food": "100% whole grain bread (about 100 calories each)"
+                    }
+                },
+                {
+                    "name": "6 medium lettuce leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "medium"
+                        },
+                        "food": "lettuce leaves"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, combine shredded chicken, red onion, apple, grapes, Greek yogurt, lemon juice, garlic powder, salt and pepper. Mix until well combined.\\n\\nUsing a 3/4 cup measuring scoop, portion out the chicken salad. Serve with a lettuce leaf and 2 slices of 100% whole grain bread.",
+            "recipe_food_id": "208775703047277"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2022/03/Dietitians-Favorite-Ways-to-Eat-Peanut-Butter-1200x900.jpg",
+            "name": "Yogurt and Nut Butter",
+            "nutritional_contents": {
+                "fiber": 3.0,
+                "saturated_fat": 1.399999976158142,
+                "protein": 20.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 220.0
+                },
+                "carbohydrates": 22.0,
+                "sodium": 96.0,
+                "calcium": 21.700000762939453,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 5.0,
+                "cholesterol": 8.5,
+                "fat": 8.0,
+                "iron": 27.700000762939453,
+                "potassium": 239.6999969482422,
+                "vitamin_a": 0.10000000149011612
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "5ee77126-d4a4-4f5f-aa74-039f1b2951c3",
+            "ingredients": [
+                {
+                    "name": "3/4 cup plain nonfat Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "plain nonfat Greek yogurt",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tbsp nut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "nut butter"
+                    }
+                },
+                {
+                    "name": "1/4 cup unsweetened goji berries, or dried fruit of your choice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "unsweetened goji berries",
+                        "preparation_notes": "or dried fruit of your choice "
+                    }
+                }
+            ],
+            "directions": "Add your yogurt to a bowl and top with nut butter and dried fruit. Enjoy!",
+            "recipe_food_id": "133323890109757"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2014/08/myfitnesspal-popcorn-toppings-752x472.jpg",
+            "name": "Sweet and Salty Popcorn",
+            "nutritional_contents": {
+                "sugar": 6.800000190734863,
+                "fiber": 3.0,
+                "saturated_fat": 5.0,
+                "protein": 5.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 220.0
+                },
+                "carbohydrates": 15.5,
+                "sodium": 68.0999984741211,
+                "calcium": 1.7000000476837158,
+                "monounsaturated_fat": 5.0,
+                "vitamin_c": 0.10000000149011612,
+                "fat": 18.0,
+                "iron": 9.699999809265137,
+                "polyunsaturated_fat": 2.4000000953674316,
+                "potassium": 107.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "18610c3e-c283-48e0-afaa-e707f2d4fa16",
+            "ingredients": [
+                {
+                    "name": "1 cup popcorn (such as SkinnyPop)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "popcorn (such as SkinnyPop)",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 tbsp mixed nuts, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "mixed nuts",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 tbsp dark chocolate morsels",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "dark chocolate morsels"
+                    }
+                }
+            ],
+            "directions": "Mix together and enjoy!",
+            "recipe_food_id": "62686681181613"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Tuna+Melt.jpg",
+            "name": "Tuna or Turkey Melt Sandwich",
+            "nutritional_contents": {
+                "sugar": 1.600000023841858,
+                "fiber": 10.0,
+                "saturated_fat": 4.900000095367432,
+                "protein": 37.099998474121094,
+                "energy": {
+                    "unit": "calories",
+                    "value": 426.0
+                },
+                "carbohydrates": 36.79999923706055,
+                "sodium": 1599.5999755859375,
+                "calcium": 18.100000381469727,
+                "monounsaturated_fat": 8.699999809265137,
+                "vitamin_c": 22.5,
+                "cholesterol": 66.0,
+                "fat": 14.800000190734863,
+                "iron": 25.5,
+                "polyunsaturated_fat": 1.100000023841858,
+                "potassium": 749.0,
+                "vitamin_a": 93.80000305175781,
+                "trans_fat": 1.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "18926d07-7537-438b-8770-b6f786c86112",
+            "ingredients": [
+                {
+                    "name": "2 slices 100% whole wheat bread, lightly toasted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "slices"
+                        },
+                        "food": "100% whole wheat bread",
+                        "preparation_notes": "lightly toasted"
+                    }
+                },
+                {
+                    "name": "1/2 cup spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "spinach"
+                    }
+                },
+                {
+                    "name": "2 slices tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "slices"
+                        },
+                        "food": "tomatoes"
+                    }
+                },
+                {
+                    "name": "1/4 whole avocado, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "whole"
+                        },
+                        "food": "avocado",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 slice cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "slice"
+                        },
+                        "food": "cheese"
+                    }
+                },
+                {
+                    "name": "1 can tuna, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "tuna",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1 tablespoon mustard ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "mustard "
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper, to taste"
+                    }
+                },
+                {
+                    "name": "2 tablespoons relish",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "relish"
+                    }
+                }
+            ],
+            "directions": "Pre toast bread until lightly toasted. \\n\\nMix 1 4 oz can of drained tuna with mustard (1 tbsp or to taste), salt, pepper and relish (about 2 tbsp). Put 2 slices of toast in the oven layering the tuna mixture, tomato, and avocado with one slice of cheese on top. When the cheese is melted add the spinach and enjoy!\\n\\nOptional- add a drizzle of olive oil and balsamic to kick up the flavor! Not a tuna lover? Try turkey instead of the tuna mixture.",
+            "recipe_food_id": "133332471729901"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/05/Double-Chocolate-Zucchini-Bread-752x472.jpg",
+            "name": "Double-Chocolate Zucchini Bread",
+            "nutritional_contents": {
+                "sugar": 123.4000015258789,
+                "fiber": 45.20000076293945,
+                "saturated_fat": 25.600000381469727,
+                "protein": 67.0999984741211,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2635.0
+                },
+                "carbohydrates": 326.5,
+                "sodium": 2301.699951171875,
+                "calcium": 356.6000061035156,
+                "monounsaturated_fat": 52.70000076293945,
+                "vitamin_c": 45.099998474121094,
+                "cholesterol": 388.6000061035156,
+                "fat": 123.5,
+                "iron": 112.0999984741211,
+                "polyunsaturated_fat": 29.799999237060547,
+                "potassium": 2714.699951171875,
+                "vitamin_a": 185.60000610351562,
+                "trans_fat": 0.30000001192092896
+            },
+            "servings": 12,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "dae738d6-78db-4c41-a36c-df622d71a941",
+                    "name": "Dessert",
+                    "scope": "nutrition-insights",
+                    "priority": 0
+                },
+                {
+                    "id": "2c2c58da-77c4-462a-8c0a-3aa986fe5060",
+                    "name": "Pantry Staples",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "49f2211a-0029-4280-a2c1-973a1d7a7d8b",
+            "ingredients": [
+                {
+                    "name": "2 cups  white whole-wheat flour ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups "
+                        },
+                        "food": "white whole-wheat flour ",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 cup  Dutch-process cocoa powder ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup "
+                        },
+                        "food": "Dutch-process cocoa powder "
+                    }
+                },
+                {
+                    "name": "2 tablespoons  ground  flaxseeds ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons "
+                        },
+                        "food": "ground  flaxseeds "
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon  baking soda ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon "
+                        },
+                        "food": "baking soda "
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon  baking powder ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon "
+                        },
+                        "food": "baking powder "
+                    }
+                },
+                {
+                    "name": "1 1/4 teaspoons  ground cinnamon ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/4",
+                            "value": 1.25,
+                            "unit": "teaspoons "
+                        },
+                        "food": "ground cinnamon "
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon  ground nutmeg ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon "
+                        },
+                        "food": "ground nutmeg "
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon  salt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon "
+                        },
+                        "food": "salt "
+                    }
+                },
+                {
+                    "name": "1/2 cup  plain Greek yogurt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup "
+                        },
+                        "food": "plain Greek yogurt "
+                    }
+                },
+                {
+                    "name": "1/3 cup  coconut sugar ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333,
+                            "unit": "cup "
+                        },
+                        "food": "coconut sugar "
+                    }
+                },
+                {
+                    "name": "1/3 cup  mild olive oil or canola oil ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.333,
+                            "unit": "cup "
+                        },
+                        "food": "mild olive oil or canola oil "
+                    }
+                },
+                {
+                    "name": "1/4 cup  maple syrup ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup "
+                        },
+                        "food": "maple syrup "
+                    }
+                },
+                {
+                    "name": "2 large  eggs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large "
+                        },
+                        "food": "eggs"
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons vanilla extract ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "vanilla extract "
+                    }
+                },
+                {
+                    "name": "2 cups  zucchini , grated (from one large 9-ounce zucchini)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups "
+                        },
+                        "food": "zucchini ",
+                        "preparation_notes": "grated (from one large 9-ounce zucchini)"
+                    }
+                },
+                {
+                    "name": "1/3 cup  dark chocolate chips ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333,
+                            "unit": "cup "
+                        },
+                        "food": "dark chocolate chips "
+                    }
+                }
+            ],
+            "directions": "Preheat oven to 350°F (178°C). Coat a 9-by-5-inch (23-by-13cm) loaf pan or an 8-inch (20cm) square baking pan with cooking spray. Set aside. Sift the flour, cocoa powder, baking soda, baking powder, cinnamon, nutmeg and salt into a large bowl.\\n\\nIn another bowl, whisk together the coconut sugar, oil, yogurt, maple syrup, eggs and extract. Add the wet ingredients to the flour mixture and stir until just combined (with a few traces of flour still present). Add the zucchini and chocolate chips and stir to combine. The batter will be quite thick.\\n\\nSpoon the batter into the prepared baking pan and flatten the top with a rubber spatula. Bake until a toothpick inserted into the center of the bread comes out clean, about 45 minutes for a loaf pan and 30 minutes for an 8-inch square pan. Cool in the pan for 10 minutes. Run a knife around the edges of the pan and invert onto a cooling rack. Wrap leftovers tightly and store at room temperature for up to four days.",
+            "recipe_food_id": "63230015549357"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/03/instant-pot.jpg",
+            "name": "Instant Pot Rotini With Chicken and Bell Peppers",
+            "nutritional_contents": {
+                "sugar": 29.0,
+                "fiber": 41.0,
+                "saturated_fat": 8.0,
+                "protein": 136.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1847.6500244140625
+                },
+                "carbohydrates": 254.0,
+                "sodium": 3680.0,
+                "calcium": 35.0,
+                "monounsaturated_fat": 12.0,
+                "vitamin_c": 373.0,
+                "cholesterol": 217.0,
+                "fat": 40.0,
+                "iron": 69.0,
+                "polyunsaturated_fat": 2.0,
+                "potassium": 1250.0,
+                "vitamin_a": 343.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "4f9e4415-31e7-4e9f-b3b3-eb172ffa1aec",
+                    "name": "High Protein",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "c75dec57-d05f-4228-94a2-cd5fb2ca37e2",
+            "ingredients": [
+                {
+                    "name": "3 cup low-sodium chicken, or vegetable broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cup"
+                        },
+                        "food": "low-sodium chicken",
+                        "preparation_notes": "or vegetable broth"
+                    }
+                },
+                {
+                    "name": "2 tablespoon no-salt added tomato paste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "no-salt added tomato paste"
+                    }
+                },
+                {
+                    "name": "4 cup dry whole-grain rotini pasta",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cup"
+                        },
+                        "food": "dry whole-grain rotini pasta"
+                    }
+                },
+                {
+                    "name": "1/4 cup oil-packed sun-dried tomatoes, drained and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "oil-packed sun-dried tomatoes",
+                        "preparation_notes": "drained and chopped"
+                    }
+                },
+                {
+                    "name": "1 tablespoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons chopped rosemary, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "chopped rosemary",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper",
+                        "preparation_notes": "to taste"
+                    }
+                },
+                {
+                    "name": "1 small red bell pepper, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "small"
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "thinly sliced"
+                    }
+                },
+                {
+                    "name": "3 small boneless, skinless chicken breasts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "small"
+                        },
+                        "food": "boneless, skinless chicken breasts"
+                    }
+                },
+                {
+                    "name": "1 teaspoon salt-free garlic seasoning blend",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt-free garlic seasoning blend"
+                    }
+                },
+                {
+                    "name": "2 cup baby spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "baby spinach"
+                    }
+                },
+                {
+                    "name": "1/4 cup parmesan cheese, shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "parmesan cheese",
+                        "preparation_notes": "shredded"
+                    }
+                }
+            ],
+            "directions": "In the pot of an electric pressure cooker, whisk together the broth and tomato paste until the tomato paste is dissolved. Add the pasta, sun-dried tomatoes, olive oil, rosemary, 1/4 teaspoon salt and several grinds of pepper. Stir to combine. Place the bell peppers on top of the pasta. Season the chicken with the garlic seasoning and place on top of the pasta mixture, do not stir.\\n\\nLock on the lid, select the Manual/Pressure Cook function. Adjust to high pressure and set timer for 4 minutes. Make sure the steam valve is in the “sealing” position.\\n\\nWhen the cooking time is up, carefully quick-release the pressure.\\n\\nUnlock the lid and transfer the chicken to a clean cutting board. Slice the meat into bite-size pieces and return them to the pot. Add the spinach and cheese and stir to wilt the spinach. Serve immediately.",
+            "recipe_food_id": "62678204518253"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Breakfast+Tacos+1.jpg",
+            "name": "Breakfast Tacos",
+            "nutritional_contents": {
+                "sugar": 2.700000047683716,
+                "fiber": 9.699999809265137,
+                "saturated_fat": 5.099999904632568,
+                "protein": 20.899999618530273,
+                "energy": {
+                    "unit": "calories",
+                    "value": 375.0
+                },
+                "carbohydrates": 34.20000076293945,
+                "sodium": 400.3999938964844,
+                "calcium": 9.5,
+                "monounsaturated_fat": 6.900000095367432,
+                "vitamin_c": 9.0,
+                "cholesterol": 327.3999938964844,
+                "fat": 18.0,
+                "iron": 20.0,
+                "polyunsaturated_fat": 2.9000000953674316,
+                "potassium": 488.1000061035156,
+                "vitamin_a": 0.20000000298023224
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "6b614a95-2065-46b8-88ff-8768b71a32db",
+            "ingredients": [
+                {
+                    "name": "2 whole corn tortillas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "whole"
+                        },
+                        "food": "corn tortillas",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 large eggs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "eggs"
+                    }
+                },
+                {
+                    "name": "1 cup spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "spinach"
+                    }
+                },
+                {
+                    "name": "2 tablespoons feta",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "feta"
+                    }
+                },
+                {
+                    "name": "1/4 medium avocado, sliced, 2-3 thin slices per taco",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "medium"
+                        },
+                        "food": "avocado",
+                        "preparation_notes": "sliced, 2-3 thin slices per taco"
+                    }
+                },
+                {
+                    "name": "1/4 cup black beans",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "black beans"
+                    }
+                },
+                {
+                    "name": "2 tablespoons salsa/hot sauce, optional",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "salsa/hot sauce",
+                        "preparation_notes": "optional"
+                    }
+                }
+            ],
+            "directions": "Use an olive oil spray to line your pan. Scramble your eggs in a separate dish and add them to your pan over medium heat. \\n\\nMeasure out your beans and feta and mince your spinach. Add all ingredients to the eggs while they are still runny.\\n\\nUse a tortilla warmer to heat your tortillas or cook them on the stove top. Once your eggs are cooked, add the mixture to your tortillas and top with sliced avocado and your choice of salsa or hot sauce.",
+            "recipe_food_id": "98412219199341"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2021/05/Slow-Cooker-Irish-Beef-Stew.jpg",
+            "name": "Slow Cooker Irish Beef Stew",
+            "nutritional_contents": {
+                "sugar": 27.600000381469727,
+                "fiber": 21.0,
+                "saturated_fat": 25.399999618530273,
+                "protein": 114.4000015258789,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1612.0
+                },
+                "carbohydrates": 129.8000030517578,
+                "sodium": 3535.10009765625,
+                "calcium": 21.100000381469727,
+                "monounsaturated_fat": 12.0,
+                "vitamin_c": 156.89999389648438,
+                "cholesterol": 300.0,
+                "fat": 68.0,
+                "iron": 42.099998474121094,
+                "polyunsaturated_fat": 1.2999999523162842,
+                "potassium": 2646.300048828125,
+                "vitamin_a": 1408.5
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "c8112d26-4dcd-4992-8cde-4c41e930ae5f",
+            "ingredients": [
+                {
+                    "name": "1 pound (450g) beef stew meat",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound (450g)"
+                        },
+                        "food": "beef stew meat",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 teaspoons salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoons"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "3 cloves garlic, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "minced"
+                    }
+                },
+                {
+                    "name": "1 medium onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 medium carrots, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium"
+                        },
+                        "food": "carrots",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 medium Russet potatoes , peeled and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium"
+                        },
+                        "food": "Russet potatoes ",
+                        "preparation_notes": "peeled and chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoons tomato paste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "tomato paste"
+                    }
+                },
+                {
+                    "name": "1 tablespoon lower-sodium soy sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lower-sodium soy sauce"
+                    }
+                },
+                {
+                    "name": "2 1/2 cups (595ml) low sodium beef broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "21/2",
+                            "value": 2.5,
+                            "unit": "cups (595ml)"
+                        },
+                        "food": "low sodium beef broth"
+                    }
+                },
+                {
+                    "name": "1/4 cup (60ml) beer",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (60ml)"
+                        },
+                        "food": "beer"
+                    }
+                },
+                {
+                    "name": "1/4 cup (60ml) red wine",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (60ml)"
+                        },
+                        "food": "red wine"
+                    }
+                },
+                {
+                    "name": "2 whole bay leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "whole"
+                        },
+                        "food": "bay leaves"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon black pepper ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "black pepper "
+                    }
+                },
+                {
+                    "name": "1 cup (150g)  peas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (150g) "
+                        },
+                        "food": "peas"
+                    }
+                },
+                {
+                    "name": "2 tablespoons flour",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "flour"
+                    }
+                },
+                {
+                    "name": "1 tablespoon cooking oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "cooking oil"
+                    }
+                }
+            ],
+            "directions": "Sprinkle stew meat with salt and toss till well combined. Using a fork, prick the meat in multiple places to tenderize. Cover and refrigerate for at least an hour, but ideally refrigerate overnight.\\n\\nToss the meat with flour. Heat a skillet over medium-high heat. Add oil and then sear meat until browned on the outside.\\n\\nWhile meat is browning, mix together tomato paste, soy sauce, beef stock (use more if you like it more soupy than stewy) and Guinness & red wine (if using) in slow cooker.\\n\\nTransfer meat (browned or not) to slow cooker. Add garlic, onions, carrots, potatoes, bay leaves, and black pepper.\\n\\nCook on low for 6 to 7 hours or high for 3 to 4 until meat is falling apart and tender.\\n\\nIf using peas, microwave for ~1 minute and then fold them into stew.\\n\\nRemove bay leaves. Season to taste with salt and pepper and enjoy!",
+            "recipe_food_id": "98414400236845"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/UACF-PB-cups-featured.jpg",
+            "name": "5-Ingredient Chocolate Peanut Butter Cups",
+            "nutritional_contents": {
+                "sugar": 102.19999694824219,
+                "fiber": 22.399999618530273,
+                "saturated_fat": 76.0,
+                "protein": 53.20000076293945,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2116.0
+                },
+                "carbohydrates": 132.5,
+                "sodium": 545.7999877929688,
+                "calcium": 39.400001525878906,
+                "monounsaturated_fat": 0.0,
+                "vitamin_c": 0.10000000149011612,
+                "cholesterol": 0.0,
+                "fat": 161.6999969482422,
+                "iron": 138.39999389648438,
+                "polyunsaturated_fat": 0.0,
+                "potassium": 11.899999618530273,
+                "vitamin_a": 0.0,
+                "trans_fat": 0.0
+            },
+            "servings": 12,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "dae738d6-78db-4c41-a36c-df622d71a941",
+                    "name": "Dessert",
+                    "scope": "nutrition-insights",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "23a557d6-de3d-43d7-917e-fd9e79ff2124",
+            "ingredients": [
+                {
+                    "name": "1/3 cup (85g) all-natural peanut butter, or nut butter of your choice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.33,
+                            "unit": "cup (85g)"
+                        },
+                        "food": "all-natural peanut butter, or nut butter of your choice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tablespoon plain or vanilla collagen peptide powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "plain or vanilla collagen peptide powder"
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "11/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1 teaspoon vanilla extract",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "vanilla extract"
+                    }
+                },
+                {
+                    "name": "9 ounces (255g) 70% dark chocolate, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "9",
+                            "value": 9.0,
+                            "unit": "ounces (255g)"
+                        },
+                        "food": "70% dark chocolate",
+                        "preparation_notes": " chopped"
+                    }
+                }
+            ],
+            "directions": "Line a 12-well muffin tin with paper liners and set aside. In a small bowl combine the peanut butter, collagen powder, honey and vanilla, stirring until smooth. Set aside in the refrigerator.\\n\\nPlace the chocolate in a microwave-safe bowl and heat on 60% power in 1-minute increments, stirring between cooking times, until all the chocolate has melted, 3–4 minutes. Alternatively, melt the chocolate in a metal bowl set over a pot with a few inches of simmering water on the stove, stirring until smooth. (Be sure not to get any steam or water in the chocolate or it will seize.)\\n\\nSpoon about 1 teaspoon of the chocolate into the paper liners, spreading the chocolate to the edges. Using a 1/2 teaspoon measure, put a heaping spoonful of the peanut butter mixture in the center of each muffin cup. Spoon the remaining chocolate over the peanut butter, about 2 teaspoons per muffin cup.\\n\\nRefrigerate until the chocolate is set, about 4 hours. Remove the peanut butter cups (still in their liners) from the muffin tin and store in the refrigerator in an airtight container for up to two weeks.",
+            "recipe_food_id": "98145956351021"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2015/07/29.-May_Baked-Egg-Cups-with-Garlic-Toast-752x472.jpg",
+            "name": "Baked Egg Cups with Garlic Toast",
+            "nutritional_contents": {
+                "sugar": 4.599999904632568,
+                "fiber": 14.800000190734863,
+                "saturated_fat": 24.799999237060547,
+                "protein": 54.70000076293945,
+                "energy": {
+                    "unit": "calories",
+                    "value": 939.0
+                },
+                "carbohydrates": 70.5999984741211,
+                "sodium": 1974.5,
+                "calcium": 32.70000076293945,
+                "monounsaturated_fat": 9.399999618530273,
+                "vitamin_c": 10.300000190734863,
+                "cholesterol": 833.2000122070312,
+                "fat": 50.70000076293945,
+                "iron": 55.70000076293945,
+                "polyunsaturated_fat": 4.199999809265137,
+                "potassium": 826.0,
+                "vitamin_a": 55.400001525878906
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "c68ec6ba-ba63-459c-be33-999a641d477f",
+            "ingredients": [
+                {
+                    "name": "2 tablespoons unsalted butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "unsalted butter",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 cup (70 grams) button mushrooms, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (70 grams)"
+                        },
+                        "food": "button mushrooms",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1/2 cup (70 grams) asparagus, trimmed and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (70 grams)"
+                        },
+                        "food": "asparagus",
+                        "preparation_notes": "trimmed and chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoons half and half",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "half and half"
+                    }
+                },
+                {
+                    "name": "4 large (50 grams each) eggs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "large (50 grams each)"
+                        },
+                        "food": "eggs"
+                    }
+                },
+                {
+                    "name": "2 tablespoons romano cheese, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "romano cheese",
+                        "preparation_notes": "grated"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1 pinch ground pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "ground pepper",
+                        "preparation_notes": "to taste"
+                    }
+                },
+                {
+                    "name": "1 clove garlic, peeled and sliced in half lengthwise",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "peeled and sliced in half lengthwise"
+                    }
+                },
+                {
+                    "name": "4 sliced (about 1 ounce each) whole-grain bread",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "sliced (about 1 ounce each)"
+                        },
+                        "food": "whole-grain bread"
+                    }
+                },
+                {
+                    "name": "1 piece fruit, of your choice to eat on the side",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "piece"
+                        },
+                        "food": "fruit",
+                        "preparation_notes": "of your choice to eat on the side"
+                    }
+                }
+            ],
+            "directions": "Arrange a rack in center of oven and preheat to 350°F (177°C). Fill a 9-inch square baking pan halfway with very hot water. Butter 4 (6-ounce) ramekins with 1 teaspoon butter each. Set aside.\\n\\nIn a large skillet on medium high, heat remaining 2 teaspoons butter until foamy. Add mushrooms and cook, stirring frequently, until golden brown, about 4 minutes. Divide mushrooms evenly among ramekins. Top with asparagus and half and half, dividing evenly. Crack 1 egg into each ramekin and top with cheese. Season with salt and pepper.\\n\\nSet ramekins into prepared pan and carefully transfer to oven. Bake until whites are set and yolks are still slightly runny, 15 to 18 minutes. Meanwhile, rub cut side of garlic over 1 side of each bread slice, and toast until golden. Cut into triangles and serve with egg cups.",
+            "recipe_food_id": "62678087101805"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/BYO+Salad+3.jpg",
+            "name": "Build Your Own Salad",
+            "nutritional_contents": {
+                "sugar": 7.099999904632568,
+                "fiber": 3.200000047683716,
+                "saturated_fat": 5.5,
+                "protein": 29.200000762939453,
+                "energy": {
+                    "unit": "calories",
+                    "value": 393.0
+                },
+                "carbohydrates": 15.300000190734863,
+                "sodium": 412.1000061035156,
+                "calcium": 16.299999237060547,
+                "monounsaturated_fat": 9.399999618530273,
+                "vitamin_c": 108.69999694824219,
+                "cholesterol": 65.5999984741211,
+                "fat": 24.600000381469727,
+                "iron": 16.299999237060547,
+                "polyunsaturated_fat": 8.300000190734863,
+                "potassium": 284.3999938964844,
+                "vitamin_a": 0.800000011920929
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "d30d964a-d723-420e-bd6f-ecc5abb897ca",
+            "ingredients": [
+                {
+                    "name": "2 cups greens (spinach, kale, romaine, or a mixture)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "greens (spinach, kale, romaine, or a mixture)",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "3 ounces  protein (chicken, shrimp, steak, 1 egg, tofu ect.)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "ounces "
+                        },
+                        "food": "protein (chicken, shrimp, steak, 1 egg, tofu ect.)"
+                    }
+                },
+                {
+                    "name": "1 cup vegetable, fruit or a mixture ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "vegetable, fruit or a mixture "
+                    }
+                },
+                {
+                    "name": "2 tablespoons crumbled cheese such as feta, blue cheese, goat cheese ect.",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "crumbled cheese such as feta, blue cheese, goat cheese ect."
+                    }
+                },
+                {
+                    "name": "2 tablespoons nuts, seeds, roasted chickpeas,  crispy quinoa or croutons , (1/4 cup if you choose croutons)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "nuts, seeds, roasted chickpeas,  crispy quinoa or croutons ",
+                        "preparation_notes": "(1/4 cup if you choose croutons)"
+                    }
+                },
+                {
+                    "name": "1 teaspoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 teaspoon balsamic",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "balsamic"
+                    }
+                }
+            ],
+            "directions": "Cook your protein (if necessary) and layer ingredients starting with your greens. Drizzle olive oil and vinegar on top (or your chosen dressing) and enjoy! ",
+            "recipe_food_id": "27496030268717"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2016/11/Chicken-and-Broccoli-Quinoa-752x472.jpg",
+            "name": "Mix and Match Dinner with Chicken, Fish, or Beef",
+            "nutritional_contents": {
+                "sugar": 5.0,
+                "fiber": 4.0,
+                "saturated_fat": 2.0,
+                "protein": 31.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 309.0
+                },
+                "carbohydrates": 25.0,
+                "sodium": 105.0,
+                "calcium": 15.0,
+                "monounsaturated_fat": 5.0,
+                "vitamin_c": 6.0,
+                "cholesterol": 82.0,
+                "fat": 9.0,
+                "iron": 7.0,
+                "polyunsaturated_fat": 2.0,
+                "potassium": 759.0,
+                "vitamin_a": 1.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "01f65ee3-a0a4-48ab-93f7-307ae236380d",
+                    "name": "calorie-goal",
+                    "scope": "plans",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 2.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ae9831fa-dcbf-440b-8ef8-81c1b023e9e3",
+            "ingredients": [
+                {
+                    "name": "4 ounces chicken breast, salmon, fish, or steak",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 4.0,
+                            "unit": "ounces"
+                        },
+                        "food": "chicken breast, salmon, fish, or steak",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/16 cup cooked quinoa, rice, farro, or roasted sweet potato",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0,
+                            "unit": "cup"
+                        },
+                        "food": "cooked quinoa, rice, farro, or roasted sweet potato"
+                    }
+                },
+                {
+                    "name": "1/16 cup chopped vegetable of your choice",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0,
+                            "unit": "cup"
+                        },
+                        "food": "chopped vegetable of your choice"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 375 degrees.\n\nSeason the protein with salt, pepper, and spices of your choice (paprika and garlic powder recommended).\n\nRoast protein in the oven until fully cooked (cooking time will depend on the type of protein used).\n\nWhile protein is roasting, prepare the grain.\n\nSauce the vegetables in olive oil in a frying pan over medium heat.",
+            "recipe_food_id": "28043454009325"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2014/07/banana-bread-overnight-oats-e1406763823693.jpg",
+            "name": "Banana Bread Overnight Oats",
+            "nutritional_contents": {
+                "sugar": 17.399999618530273,
+                "fiber": 10.399999618530273,
+                "saturated_fat": 1.7999999523162842,
+                "protein": 10.600000381469727,
+                "energy": {
+                    "unit": "calories",
+                    "value": 360.0
+                },
+                "carbohydrates": 54.400001525878906,
+                "sodium": 127.30000305175781,
+                "calcium": 38.900001525878906,
+                "monounsaturated_fat": 3.9000000953674316,
+                "vitamin_c": 17.399999618530273,
+                "cholesterol": 6.300000190734863,
+                "fat": 13.300000190734863,
+                "iron": 16.899999618530273,
+                "polyunsaturated_fat": 5.099999904632568,
+                "potassium": 721.7000122070312,
+                "vitamin_a": 11.300000190734863
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "1513e627-648e-48f1-a1b6-2184810a5104",
+            "ingredients": [
+                {
+                    "name": "1 medium banana",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "banana",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/3 cup oats (certified gluten-free if necessary)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.33,
+                            "unit": "cup"
+                        },
+                        "food": "oats (certified gluten-free if necessary)"
+                    }
+                },
+                {
+                    "name": "1/4 cup low-fat plain yogurt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "low-fat plain yogurt "
+                    }
+                },
+                {
+                    "name": "1/2 cup unsweetened almond milk",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "unsweetened almond milk"
+                    }
+                },
+                {
+                    "name": "1 tablespoon chia seeds",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "chia seeds"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon ground cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground cinnamon"
+                    }
+                },
+                {
+                    "name": "1 tablespoon pecans",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "pecans"
+                    }
+                }
+            ],
+            "directions": "Mash half of the banana in a jar, container, or bowl. Next, add the oats, yogurt, milk, chia seeds, cinnamon and stir to combine. Refrigerate overnight. The next morning, top with pecans and the remaining 1/2 banana and enjoy. Optional: drizzle maple syrup or honey on top for sweetness.",
+            "recipe_food_id": "63230162316781"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/12/Why-Eating-Avocados-May-Help-You-Live-Longer-2.jpg",
+            "name": "Protein Toast",
+            "nutritional_contents": {
+                "sugar": 0.699999988079071,
+                "fiber": 5.5,
+                "saturated_fat": 2.200000047683716,
+                "protein": 10.300000190734863,
+                "energy": {
+                    "unit": "calories",
+                    "value": 205.0
+                },
+                "carbohydrates": 17.700000762939453,
+                "sodium": 137.1999969482422,
+                "calcium": 2.700000047683716,
+                "monounsaturated_fat": 5.5,
+                "vitamin_c": 6.300000190734863,
+                "cholesterol": 164.0,
+                "fat": 10.699999809265137,
+                "iron": 8.100000381469727,
+                "polyunsaturated_fat": 1.2999999523162842,
+                "potassium": 312.29998779296875,
+                "vitamin_a": 15.300000190734863
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "1542dbed-0a93-4785-86b8-3f3234796344",
+            "ingredients": [
+                {
+                    "name": "1 slice whole grain bread, toasted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "slice"
+                        },
+                        "food": "whole grain bread",
+                        "preparation_notes": "toasted"
+                    }
+                },
+                {
+                    "name": "1 whole hard boiled egg, sliced in half",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "hard boiled egg",
+                        "preparation_notes": "sliced in half"
+                    }
+                },
+                {
+                    "name": "1/4 sliced avocado",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "sliced"
+                        },
+                        "food": "avocado"
+                    }
+                }
+            ],
+            "directions": "Toast your bread, layer your avocado and boil egg on top and season to your liking.",
+            "recipe_food_id": "133871594958141"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Avocado+Toast+1.jpg",
+            "name": "Build Your Own Avocado Toast",
+            "nutritional_contents": {
+                "sugar": 4.599999904632568,
+                "fiber": 6.0,
+                "saturated_fat": 2.4000000953674316,
+                "protein": 13.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 250.0
+                },
+                "carbohydrates": 24.600000381469727,
+                "sodium": 407.29998779296875,
+                "calcium": 10.199999809265137,
+                "monounsaturated_fat": 5.5,
+                "vitamin_c": 20.299999237060547,
+                "cholesterol": 186.0,
+                "fat": 11.399999618530273,
+                "iron": 16.5,
+                "polyunsaturated_fat": 2.200000047683716,
+                "potassium": 418.29998779296875,
+                "vitamin_a": 187.5
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "5cfa8966-4e6a-4074-a855-9b30b7603615",
+            "ingredients": [
+                {
+                    "name": "1 large slice of whole grain toast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "slice of whole grain toast",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 medium avocado",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "medium"
+                        },
+                        "food": "avocado"
+                    }
+                },
+                {
+                    "name": "1 protein of your choice- eggs, grated tofu, smoked salmon or pepitas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "protein"
+                        },
+                        "food": "of your choice- eggs, grated tofu, smoked salmon or pepitas"
+                    }
+                },
+                {
+                    "name": "1/2 cup veggies of your choice- spinach, tomato, onions, cucumber, microgreens ect.",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "veggies of your choice- spinach, tomato, onions, cucumber, microgreens ect."
+                    }
+                },
+                {
+                    "name": "1 pinch everything seasoning, to your taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "everything seasoning",
+                        "preparation_notes": "to your taste"
+                    }
+                }
+            ],
+            "directions": "Toast your bread and add your avocado and everything seasoning. \\n\\nChoose your veggies, aim for about ½ C but the more the better!\\n\\nThen top it off with your favorite protein- some great options are 1 hard boiled egg, a scrambled egg, 2 oz of smoked salmon, 3 oz of grated and seasoned tofu or ¼ C pepitas. ",
+            "recipe_food_id": "133332454944493"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/yogurt.jpg",
+            "name": "Greek Yogurt and Fruit",
+            "nutritional_contents": {
+                "sugar": 9.0,
+                "fiber": 2.0,
+                "saturated_fat": 2.75,
+                "protein": 11.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 145.0
+                },
+                "carbohydrates": 13.0,
+                "sodium": 55.0,
+                "calcium": 15.5,
+                "vitamin_c": 10.0,
+                "cholesterol": 15.0,
+                "fat": 5.75,
+                "iron": 2.0,
+                "potassium": 155.0,
+                "vitamin_a": 1.350000023841858
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "6399f0bd-23ae-4c2e-91a0-9c7deb2a2c94",
+            "ingredients": [
+                {
+                    "name": "1/2 cup plain Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "plain Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1/2 cup berries, or other chopped fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "berries",
+                        "preparation_notes": "or other chopped fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45min cardio or strength workout.",
+            "recipe_food_id": "28052043951597"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/02/Quinoa-Edamame-Egg-Muffins-31-752x472.jpg",
+            "name": "Quinoa Edamame Egg Muffins",
+            "nutritional_contents": {
+                "sugar": 12.0,
+                "fiber": 12.0,
+                "saturated_fat": 8.0,
+                "protein": 76.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 920.0
+                },
+                "carbohydrates": 64.0,
+                "sodium": 1452.0,
+                "monounsaturated_fat": 4.0,
+                "cholesterol": 380.0,
+                "fat": 20.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "1cddde6f-6265-4c8a-98ab-39be30653120",
+            "ingredients": [
+                {
+                    "name": "1/4 cup quinoa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "quinoa",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 large eggs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "eggs"
+                    }
+                },
+                {
+                    "name": "6 large egg whites",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "large"
+                        },
+                        "food": "egg whites"
+                    }
+                },
+                {
+                    "name": "1 5.3 ounce container 0% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "5.3 ounce container"
+                        },
+                        "food": "0% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "2 tablespoons shredded parmesan cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "shredded parmesan cheese"
+                    }
+                },
+                {
+                    "name": "2 tablespoons fresh parsley",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "fresh parsley"
+                    }
+                },
+                {
+                    "name": "1 cup edamame",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "edamame"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 350ºF (177ºC). Line eight cups in a muffin pan with paper liners and set aside.\\n\\nIn a small pot, bring 1/2 cup water to a boil. Add the quinoa, cover tightly and reduce the heat to low. Cook for 14 minutes, then remove from heat and let stand for 5 minutes. The water should all be absorbed; let cool.\\n\\nIn a large bowl, combine the eggs, egg whites and whisk until mixed. Add the yogurt and parmesan and whisk until smooth. Stir in the parsley, edamame and cooked quinoa.\\n\\nDivide the egg mixture between the prepared muffin cups, filling almost to the top.\\n\\nBake for 30 minutes, until puffed and firm to the touch. Cool in pan on a rack. Serve warm. To save for the week, let cool completely to room temperature before transferring to a storage container and covering tightly. Refrigerate for up to four days.",
+            "recipe_food_id": "98695720512829"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/04/Your-Guide-to-Cooking-and-Eating-Chickpeas.jpg",
+            "name": "Roasted Chickpeas",
+            "nutritional_contents": {
+                "fiber": 5.300000190734863,
+                "saturated_fat": 0.800000011920929,
+                "protein": 6.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 145.0
+                },
+                "carbohydrates": 16.200000762939453,
+                "sodium": 915.0,
+                "calcium": 4.199999809265137,
+                "monounsaturated_fat": 3.700000047683716,
+                "vitamin_c": 0.20000000298023224,
+                "fat": 6.800000190734863,
+                "iron": 8.199999809265137,
+                "polyunsaturated_fat": 1.7000000476837158,
+                "potassium": 172.89999389648438,
+                "vitamin_a": 1.2000000476837158
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "2b89098b-caa4-4a27-9fda-a1398a9e812b",
+            "ingredients": [
+                {
+                    "name": "1/2 cup canned chickpeas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "canned chickpeas",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tsp avocado oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "avocado oil"
+                    }
+                },
+                {
+                    "name": "1 pinch  sea salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch "
+                        },
+                        "food": "sea salt"
+                    }
+                }
+            ],
+            "directions": "Preheat your oven to 375 degrees F. Dry the chickpeas well and toss them well with oil and sea salt. Roast for 20-30 minutes or until crispy. ",
+            "recipe_food_id": "98146073759549"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2017/01/Maple-Cinnamon-Breakfast-Trail-Mix-2.jpg.webp",
+            "name": "Maple Cinnamon Breakfast Trail Mix",
+            "nutritional_contents": {
+                "sugar": 54.70000076293945,
+                "fiber": 26.700000762939453,
+                "saturated_fat": 45.0,
+                "protein": 38.099998474121094,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1613.0
+                },
+                "carbohydrates": 107.30000305175781,
+                "sodium": 422.70001220703125,
+                "calcium": 27.399999618530273,
+                "monounsaturated_fat": 34.0,
+                "vitamin_c": 0.10000000149011612,
+                "fat": 120.0,
+                "iron": 52.70000076293945,
+                "polyunsaturated_fat": 11.0,
+                "potassium": 1310.0999755859375,
+                "vitamin_a": 10.300000190734863
+            },
+            "servings": 8,
+            "tags": [
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "b4646fd3-0ac8-4448-a056-33b5f6391029",
+            "ingredients": [
+                {
+                    "name": "1/2 cup (75g) raw almonds",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (75g)"
+                        },
+                        "food": "raw almonds",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 cup (75g) raw cashews",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (75g)"
+                        },
+                        "food": "raw cashews"
+                    }
+                },
+                {
+                    "name": "1/2 cup (75g) raw, shelled pistachios",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (75g)"
+                        },
+                        "food": "raw, shelled pistachios"
+                    }
+                },
+                {
+                    "name": "1/2 cup (75g) unsweetened coconut flakes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (75g)"
+                        },
+                        "food": "unsweetened coconut flakes"
+                    }
+                },
+                {
+                    "name": "1 tablespoon maple syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "maple syrup"
+                    }
+                },
+                {
+                    "name": "1 teaspoon cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon vanilla",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "vanilla"
+                    }
+                },
+                {
+                    "name": "1 pinch sea salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "sea salt"
+                    }
+                },
+                {
+                    "name": "1/4 cup (40g) dried berries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (40g)"
+                        },
+                        "food": "dried berries"
+                    }
+                }
+            ],
+            "directions": "Preheat oven to 350°F (177°C). Combine almonds, cashews, pistachios and coconut flakes in a mixing bowl with maple syrup, cinnamon, vanilla and sea salt. Toss to combine.\\n\\nSpread nut mixture onto a baking sheet, and bake for about 10 –12 minutes, until nuts are fragrant and golden brown. Remove from oven, and allow nuts to cool. Toss with dried berries, and enjoy (1/4 C is equal to 1 serving). Store leftover mix in a covered storage container for up to a week.",
+            "recipe_food_id": "133048995417981"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/10/Chicken-and-Zucchini-Enchiladas.jpg",
+            "name": "Chicken and Zucchini Enchiladas",
+            "nutritional_contents": {
+                "sugar": 70.80809783935547,
+                "fiber": 56.473899841308594,
+                "saturated_fat": 29.582000732421875,
+                "protein": 134.57400512695312,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2519.320068359375
+                },
+                "carbohydrates": 305.1239929199219,
+                "sodium": 6404.52978515625,
+                "calcium": 59.77980041503906,
+                "monounsaturated_fat": 14.609000205993652,
+                "vitamin_c": 121.55000305175781,
+                "cholesterol": 292.67999267578125,
+                "fat": 88.12339782714844,
+                "iron": 93.05960083007812,
+                "polyunsaturated_fat": 3.4189999103546143,
+                "potassium": 2849.2900390625,
+                "vitamin_a": 33.52000045776367
+            },
+            "servings": 7,
+            "tags": [
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "49fb1652-71f6-4ed9-8fe8-374159c08bf4",
+            "ingredients": [
+                {
+                    "name": "1/4 cup chopped cilantro",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "chopped cilantro"
+                    }
+                },
+                {
+                    "name": "1 teaspoon ground cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground cumin"
+                    }
+                },
+                {
+                    "name": "1 hand full small sprigs cilantro",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "hand full small sprigs"
+                        },
+                        "food": "cilantro"
+                    }
+                },
+                {
+                    "name": "1 medium chopped avocado",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "chopped avocado"
+                    }
+                },
+                {
+                    "name": "1 medium lime , cut into wedges",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "lime ",
+                        "preparation_notes": "cut into wedges"
+                    }
+                },
+                {
+                    "name": "1 dash hot sauce, too taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "dash"
+                        },
+                        "food": "hot sauce",
+                        "preparation_notes": "too taste"
+                    }
+                },
+                {
+                    "name": "1 medium zucchini, shredded and excess liquid squeezed out",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "zucchini",
+                        "preparation_notes": "shredded and excess liquid squeezed out"
+                    }
+                },
+                {
+                    "name": "1 large ear corn, shucked and kernels cut from the cob",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large ear"
+                        },
+                        "food": "corn",
+                        "preparation_notes": "shucked and kernels cut from the cob"
+                    }
+                },
+                {
+                    "name": "1 cup canned low-sodium black beans, rinsed and drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "canned low-sodium black beans",
+                        "preparation_notes": "rinsed and drained"
+                    }
+                },
+                {
+                    "name": "2 1/2 cup tomatillo salsa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2 1/2",
+                            "value": 2.5,
+                            "unit": "cup"
+                        },
+                        "food": "tomatillo salsa"
+                    }
+                },
+                {
+                    "name": "2 tablespoon lime juice, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lime juice",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1 cup crumbled cotija cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "crumbled cotija cheese"
+                    }
+                },
+                {
+                    "name": "1 pinch  salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch "
+                        },
+                        "food": "salt and pepper",
+                        "preparation_notes": "to taste"
+                    }
+                },
+                {
+                    "name": "1 cup 2% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "2% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "10 8-inch corn tortillas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "10",
+                            "value": 10.0,
+                            "unit": "8-inch"
+                        },
+                        "food": "corn tortillas"
+                    }
+                },
+                {
+                    "name": "3 cups (365g) packed shredded chicken or 1/2 of a rotisserie chicken",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cups (365g)"
+                        },
+                        "food": "packed shredded chicken or 1/2 of a rotisserie chicken"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 400°F (205°C). In a large bowl, combine the chicken, zucchini, corn, black beans, cilantro, cumin, 1/2 cup of tomatillo salsa, 1/2 cup of Greek yogurt and 1/2 the cotija cheese. Season with salt and pepper. Spread 1 cup of the tomatillo salsa in the bottom of a 9-by-13-inch baking dish. Working with one tortilla at a time, spread a scant 1/2-cup of the chicken filling down the middle of a tortilla and roll it up like a cigar. Place the enchilada seam-side down in the baking dish. Repeat with the remaining tortillas and filling. Spread the remaining 1-cup of tomatillo salsa over the top of the enchiladas and sprinkle with the remaining 1/2 cup of cotija cheese. Bake until bubbling and beginning to brown, about 20 minutes. Let cool slightly. The enchilada filling can be refrigerated overnight.\\n\\nMeanwhile, in a small bowl, whisk the remaining 1/2 cup of Greek yogurt with the 2 tablespoons lime juice. Season with salt and pepper. Drizzle the lime crema over the enchiladas and garnish with cilantro and chopped avocado. Serve with lime wedges and hot sauce.",
+            "recipe_food_id": "133598893953005"
+        }
+    ]
+}

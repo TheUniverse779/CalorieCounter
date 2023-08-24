@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_marginTop="14dp"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/color_main"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+
+        <RelativeLayout
+            android:foreground="@drawable/bg_ripple_effect_click"
+            android:id="@+id/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/svn_avo_bold"
+                android:text="Edit choice"
+                android:textColor="@color/text_color"
+                android:textSize="16dp" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvTitle"
+                android:layout_alignStart="@+id/tvTitle"
+                android:layout_alignEnd="@+id/tvTitle"
+                android:background="@color/second_color"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="See more"
+                    android:textColor="@color/text_color"
+                    android:textSize="12dp" />
+
+
+                <ImageView
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/next"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:minHeight="180dp"
+                android:id="@+id/rclImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,1335 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/10/Apple-Pie-Energy-Bites.jpg",
+            "name": "Apple Pie Energy Bites",
+            "nutritional_contents": {
+                "sugar": 77.92140197753906,
+                "fiber": 35.60530090332031,
+                "saturated_fat": 30.7898006439209,
+                "protein": 31.228300094604492,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1481.18994140625
+                },
+                "carbohydrates": 122.24600219726562,
+                "sodium": 1025.760009765625,
+                "calcium": 30.291500091552734,
+                "monounsaturated_fat": 28.7278995513916,
+                "vitamin_c": 16.487699508666992,
+                "fat": 104.47000122070312,
+                "iron": 38.431400299072266,
+                "polyunsaturated_fat": 37.30459976196289,
+                "potassium": 1643.18994140625,
+                "vitamin_a": 1.6458499431610107
+            },
+            "servings": 14,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "eba9aa22-7fc1-4f2b-905f-9788a196cd76",
+            "ingredients": [
+                {
+                    "name": "45 grams sliced almonds ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "45",
+                            "value": 45.0,
+                            "unit": "grams"
+                        },
+                        "food": "sliced almonds "
+                    }
+                },
+                {
+                    "name": "45 grams walnuts ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "45",
+                            "value": 45.0,
+                            "unit": "grams"
+                        },
+                        "food": "walnuts "
+                    }
+                },
+                {
+                    "name": "1/4 cup rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "3/4 cup dried apple slices, lightly packed and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "dried apple slices",
+                        "preparation_notes": "lightly packed and chopped "
+                    }
+                },
+                {
+                    "name": "106 grams Medjool dates , pitted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "106",
+                            "value": 106.0,
+                            "unit": "grams"
+                        },
+                        "food": "Medjool dates ",
+                        "preparation_notes": "pitted "
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons vanilla extract",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "vanilla extract",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 teaspoon lemon zest , finely grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "lemon zest ",
+                        "preparation_notes": "finely grated "
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons ground cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "ground cinnamon",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon nutmeg, freshly grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "nutmeg",
+                        "preparation_notes": "freshly grated "
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/3 cup unsweetened coconut , finely shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.333,
+                            "unit": "cup"
+                        },
+                        "food": "unsweetened coconut ",
+                        "preparation_notes": "finely shredded"
+                    }
+                }
+            ],
+            "directions": "Preheat oven to 350°F (177ºC). Place the almonds, walnuts and oats on a rimmed baking sheet and bake until lightly toasted, 8 minutes. Set aside and allow the mixture to cool completely.\\n\\nPlace the apples and dates in the bowl of a food processor and pulse until finely chopped. Add the toasted nuts and oats, vanilla, lemon zest, cinnamon, nutmeg and salt and pulse until the mixture is finely chopped and forms clumps, about 30 pulses.\\n\\nRoll the mixture into 14 balls, about 1 tablespoon each. Roll the balls in the coconut. Store in the refrigerator in an airtight container for up to 1 month.",
+            "recipe_food_id": "129200709021181"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/oatmeal.jpg",
+            "name": "Oatmeal, Fruit, and Peanut Butter",
+            "nutritional_contents": {
+                "sugar": 7.5,
+                "fiber": 4.0,
+                "saturated_fat": 1.75,
+                "protein": 6.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 210.0
+                },
+                "carbohydrates": 25.0,
+                "sodium": 77.5,
+                "calcium": 4.0,
+                "monounsaturated_fat": 0.5,
+                "vitamin_c": 10.0,
+                "fat": 9.5,
+                "iron": 8.0,
+                "polyunsaturated_fat": 0.5,
+                "vitamin_a": 1.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "4bb17169-106a-4f92-b7ad-c38fd39db1ef",
+            "ingredients": [
+                {
+                    "name": "1/2 cup oatmeal",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "oatmeal"
+                    }
+                },
+                {
+                    "name": "1 tablespoon peanut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "peanut butter"
+                    }
+                },
+                {
+                    "name": "1/2 cup fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 1+ hour strength workout. You can also try it before a short cardio session, but the fiber might make it sit in your stomach longer than you'd like. If you have a sensitive stomach or you're going to be bouncing around a lot, try something with less fiber.",
+            "recipe_food_id": "27221150237749"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/banana.jpg",
+            "name": "Rice Cakes with Fruit",
+            "nutritional_contents": {
+                "sugar": 17.431400299072266,
+                "fiber": 3.068000078201294,
+                "saturated_fat": 0.1321599930524826,
+                "protein": 2.2862000465393066,
+                "energy": {
+                    "unit": "calories",
+                    "value": 155.02000427246094
+                },
+                "carbohydrates": 37.95119857788086,
+                "sodium": 31.18000030517578,
+                "calcium": 5.900000095367432,
+                "monounsaturated_fat": 0.03776000067591667,
+                "vitamin_c": 10.265999794006348,
+                "cholesterol": 0.0,
+                "fat": 0.38940000534057617,
+                "iron": 0.3068000078201294,
+                "polyunsaturated_fat": 0.08613999933004379,
+                "potassium": 422.44000244140625,
+                "vitamin_a": 3.5399999618530273,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "e31b0436-377e-4b53-8d99-f05649e8e6fc",
+            "ingredients": [
+                {
+                    "name": "1 large rice cake",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "rice cake"
+                    }
+                },
+                {
+                    "name": "1  banana, or apple",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "banana",
+                        "preparation_notes": "or apple"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45 min cardio or strength workout.",
+            "recipe_food_id": "58563505301053"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/overnight-oats-blueberries.jpg",
+            "name": "Golden Overnight Oats with Blueberries",
+            "nutritional_contents": {
+                "sugar": 34.65489959716797,
+                "fiber": 26.133100509643555,
+                "saturated_fat": 2.1661999225616455,
+                "protein": 24.629199981689453,
+                "energy": {
+                    "unit": "calories",
+                    "value": 846.7529907226562
+                },
+                "carbohydrates": 156.96200561523438,
+                "sodium": 365.572998046875,
+                "calcium": 108.52200317382812,
+                "monounsaturated_fat": 0.15947499871253967,
+                "vitamin_c": 28.76490020751953,
+                "cholesterol": 0.0,
+                "fat": 18.124099731445312,
+                "iron": 62.68069839477539,
+                "polyunsaturated_fat": 0.46643200516700745,
+                "potassium": 662.3800048828125,
+                "vitamin_a": 28.8799991607666,
+                "trans_fat": 0.0025386700872331858
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "b9af5ef6-1bb3-407b-ab11-6cc080cc3c77",
+            "ingredients": [
+                {
+                    "name": "2 teaspoon ground turmeric",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground turmeric"
+                    }
+                },
+                {
+                    "name": "2 teaspoon grated ginger, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "grated ginger",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon ground black pepper, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground black pepper",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "2 cup blueberries, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 288.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "blueberries",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "2 cup thick rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 176.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "thick rolled oats"
+                    }
+                },
+                {
+                    "name": "2 cup unsweetened almond milk",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "unsweetened almond milk"
+                    }
+                }
+            ],
+            "directions": "Use: Meal 1-2 hours before 1+ hour cardio or strength workout. \\n\\nIn a 4-cup (1L) storage tub, combine milk, turmeric, ginger and black pepper. Whisk to mix well. Stir in the oats and cover the tub, refrigerate overnight or at least 4 hours.\\n\\nStir until creamy, then serve topped with blueberries.",
+            "recipe_food_id": "23370669139005"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/wild-rice.jpg",
+            "name": "Steamed Brown Rice",
+            "nutritional_contents": {
+                "fiber": 1.0,
+                "protein": 3.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 150.0
+                },
+                "carbohydrates": 32.0,
+                "fat": 1.0,
+                "iron": 8.0,
+                "potassium": 100.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "664afc31-12af-4a5d-9621-9517cade0e36",
+            "ingredients": [
+                {
+                    "name": "1 cup cooked brown rice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "cooked brown rice"
+                    }
+                }
+            ],
+            "directions": "Use: Snack 1-2 hours before a 1+ hour cardio or strength workout. For a shorter workout, eat 1/2 cup instead of 1 cup.",
+            "recipe_food_id": "127706196821541"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/oatmeal.jpg",
+            "name": "Oatmeal and Fruit",
+            "nutritional_contents": {
+                "sugar": 5.5,
+                "fiber": 7.5,
+                "saturated_fat": 0.25,
+                "protein": 2.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 110.0
+                },
+                "carbohydrates": 22.0,
+                "sodium": 0.0,
+                "calcium": 2.0,
+                "monounsaturated_fat": 0.5,
+                "vitamin_c": 34.0,
+                "cholesterol": 0.0,
+                "fat": 1.5,
+                "iron": 6.0,
+                "polyunsaturated_fat": 0.5,
+                "potassium": 85.0,
+                "vitamin_a": 0.0,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "a30eb5c9-aa44-430d-b94d-e4181bb864f7",
+            "ingredients": [
+                {
+                    "name": "1/2 cup oatmeal",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "oatmeal"
+                    }
+                },
+                {
+                    "name": "1/2 cup fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45 minute strength workout. You can also try it before a short cardio session, but the fiber might make it sit in your stomach longer than you'd like. If you have a sensitive stomach or you're going to be bouncing around a lot, try something with less fiber.",
+            "recipe_food_id": "94289055917933"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/yogurt.jpg",
+            "name": "Greek Yogurt and Fruit",
+            "nutritional_contents": {
+                "sugar": 9.0,
+                "fiber": 2.0,
+                "saturated_fat": 2.75,
+                "protein": 11.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 145.0
+                },
+                "carbohydrates": 13.0,
+                "sodium": 55.0,
+                "calcium": 15.5,
+                "vitamin_c": 10.0,
+                "cholesterol": 15.0,
+                "fat": 5.75,
+                "iron": 2.0,
+                "potassium": 155.0,
+                "vitamin_a": 1.350000023841858
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "6399f0bd-23ae-4c2e-91a0-9c7deb2a2c94",
+            "ingredients": [
+                {
+                    "name": "1/2 cup plain Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "plain Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1/2 cup berries, or other chopped fruit",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "berries",
+                        "preparation_notes": "or other chopped fruit"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45min cardio or strength workout.",
+            "recipe_food_id": "28052043951597"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/mang-mandarin-smoothie.jpg",
+            "name": "Mango-Mandarin Smoothie",
+            "nutritional_contents": {
+                "sugar": 75.86589813232422,
+                "fiber": 10.919599533081055,
+                "saturated_fat": 0.43410399556159973,
+                "protein": 34.16339874267578,
+                "energy": {
+                    "unit": "calories",
+                    "value": 475.8160095214844
+                },
+                "carbohydrates": 89.64830017089844,
+                "sodium": 115.44599914550781,
+                "calcium": 36.088401794433594,
+                "monounsaturated_fat": 0.500931978225708,
+                "vitamin_c": 203.91900634765625,
+                "cholesterol": 12.5,
+                "fat": 2.49780011177063,
+                "iron": 23.76449966430664,
+                "polyunsaturated_fat": 0.28996801376342773,
+                "potassium": 705.9199829101562,
+                "vitamin_a": 72.71040344238281,
+                "trans_fat": 0.0038079998921602964
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "289e5f54-7794-48ee-bee2-10d838170f61",
+            "ingredients": [
+                {
+                    "name": "1 medium mango, peeled, cubed and frozen",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "mango",
+                        "preparation_notes": "peeled, cubed and frozen"
+                    }
+                },
+                {
+                    "name": "1 1/4 cup 0% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/4",
+                            "value": 1.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 10.0,
+                                "unit": "ounces"
+                            }
+                        },
+                        "food": "0% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1 tablespoon turmeric, fresh, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "turmeric",
+                        "preparation_notes": "fresh, chopped"
+                    }
+                },
+                {
+                    "name": "1 cup mandarin section, save 8 sections for garnish",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "mandarin section",
+                        "preparation_notes": "save 8 sections for garnish"
+                    }
+                }
+            ],
+            "directions": "Use: Meal 1-2 hours before 1+ hour cardio or strength workout. \\n\\nThe day before, prep the mango, place on a sheet pan and freeze until solid, then transfer to a freezer-safe container.\\n\\nPlace the yogurt, turmeric, mandarin sections (reserving 8) and frozen mango in a powerful blender. Blend until smooth and creamy.\\n\\nDivide the smoothie between two glasses. Garnish with mandarin sections, either skewered on 5-inch skewers or placed on top of the smoothie.",
+            "recipe_food_id": "23097816917613"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/carrot-cake.jpg",
+            "name": "Carrot Cake Bites",
+            "nutritional_contents": {
+                "sugar": 96.23519897460938,
+                "fiber": 30.535200119018555,
+                "saturated_fat": 7.113790035247803,
+                "protein": 36.8848991394043,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1778.47998046875
+                },
+                "carbohydrates": 263.8970031738281,
+                "sodium": 1435.510009765625,
+                "calcium": 21.87649917602539,
+                "monounsaturated_fat": 36.270301818847656,
+                "vitamin_c": 15.796699523925781,
+                "cholesterol": 186.0,
+                "fat": 70.17960357666016,
+                "iron": 65.89459991455078,
+                "polyunsaturated_fat": 19.978700637817383,
+                "potassium": 1251.5699462890625,
+                "vitamin_a": 433.8699951171875,
+                "trans_fat": 0.0
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "26833248-5642-482e-be1f-b57722fbb6a9",
+            "ingredients": [
+                {
+                    "name": "3/4 cup white whole-wheat flour, or whole-wheat pastry flour",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 90.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "white whole-wheat flour",
+                        "preparation_notes": "or whole-wheat pastry flour"
+                    }
+                },
+                {
+                    "name": "1 teaspoon baking soda",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "baking soda"
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoon cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1/8 teaspoon nutmeg",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125,
+                            "unit": "teaspoon"
+                        },
+                        "food": "nutmeg"
+                    }
+                },
+                {
+                    "name": "1/3 cup dark brown sugar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333333333333333,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 75.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "dark brown sugar"
+                    }
+                },
+                {
+                    "name": "1 large egg",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large",
+                            "weight": {
+                                "value": 50.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "egg"
+                    }
+                },
+                {
+                    "name": "1 teaspoon vanilla extract",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "vanilla extract"
+                    }
+                },
+                {
+                    "name": "1 cup shredded carrots",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 110.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "shredded carrots"
+                    }
+                },
+                {
+                    "name": "1 1/2 cup rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 122.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "1/4 cup raisins",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 40.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "raisins"
+                    }
+                },
+                {
+                    "name": "1/4 cup cooking oil, mild-flavored, like canola or melted coconut oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 55.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "cooking oil",
+                        "preparation_notes": "mild-flavored, like canola or melted coconut oil"
+                    }
+                }
+            ],
+            "directions": "Use: Meal 1-2 hours before 1+ hour cardio or strength workout. \\n\\nPreheat oven to 350°F. Line a baking sheet with parchment paper or lightly grease with cooking oil.\\n\\nIn a medium bowl, whisk together flour, baking soda, cinnamon and nutmeg.\\n\\nIn a separate large bowl, mix together cooking oil, brown sugar, egg and vanilla until well combined. Fold in shredded carrots, flour mixture, oats and raisins and stir gently until just combined.\\n\\nUsing a 1 tablespoon scoop, drop batter by the tablespoonful on prepared baking sheet. Bake for 8-10 minutes or until golden brown around the edges.\\n\\nCool bites for a few minutes on the baking sheet before transferring to a wire rack to finish cooling.",
+            "recipe_food_id": "94014215554157"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/peanut-butter.jpg",
+            "name": "Toast and Peanut Butter",
+            "nutritional_contents": {
+                "sugar": 2.5,
+                "fiber": 13.5,
+                "saturated_fat": 1.5,
+                "protein": 5.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 145.0
+                },
+                "carbohydrates": 15.0,
+                "sodium": 195.0,
+                "calcium": 2.0,
+                "fat": 9.0,
+                "iron": 6.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "5c7b7a6d-682c-40e0-b48b-3c04a189cf86",
+            "ingredients": [
+                {
+                    "name": "1 slice whole wheat toast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "slice"
+                        },
+                        "food": "whole wheat toast"
+                    }
+                },
+                {
+                    "name": "1 tablespoon peanut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "peanut butter"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45min cardio or strength workout. \\n\\nIf you need some extra energy, add a sliced banana. \\n\\nYou can also substitute jelly for the peanut butter if you have a sensitive stomach or you're close to your workout time.",
+            "recipe_food_id": "66818609751909"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/strawberries.jpg",
+            "name": "Fruit with Peanut Butter",
+            "nutritional_contents": {
+                "sugar": 20.409799575805664,
+                "fiber": 5.368000030517578,
+                "saturated_fat": 1.5509599447250366,
+                "protein": 3.9732000827789307,
+                "energy": {
+                    "unit": "calories",
+                    "value": 194.63999938964844
+                },
+                "carbohydrates": 28.134199142456055,
+                "sodium": 71.81999969482422,
+                "calcium": 10.920000076293945,
+                "monounsaturated_fat": 0.012740000151097775,
+                "vitamin_c": 8.371999740600586,
+                "cholesterol": 0.0,
+                "fat": 8.309399604797363,
+                "iron": 2.218400001525879,
+                "polyunsaturated_fat": 0.09282000362873077,
+                "potassium": 194.74000549316406,
+                "vitamin_a": 5.460000038146973,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "6869d7f8-8b05-4b96-828f-00810de07369",
+            "ingredients": [
+                {
+                    "name": "1 tablespoon peanut butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "peanut butter"
+                    }
+                },
+                {
+                    "name": "1  apple, or banana or berries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "apple",
+                        "preparation_notes": "or banana or berries"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45min cardio or strength workout.",
+            "recipe_food_id": "93741615286125"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/quinoa-oat-granola.jpg",
+            "name": "Quinoa-Oat Granola with Fruit and Seeds",
+            "nutritional_contents": {
+                "sugar": 65.69999694824219,
+                "fiber": 44.1265983581543,
+                "saturated_fat": 53.85810089111328,
+                "protein": 70.17109680175781,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2723.8701171875
+                },
+                "carbohydrates": 290.2959899902344,
+                "sodium": 602.2310180664062,
+                "calcium": 118.58399963378906,
+                "monounsaturated_fat": 6.365520000457764,
+                "vitamin_c": 150.0989990234375,
+                "cholesterol": 0.0,
+                "fat": 148.84800720214844,
+                "iron": 127.125,
+                "polyunsaturated_fat": 14.807700157165527,
+                "potassium": 899.1729736328125,
+                "vitamin_a": 0.8220000267028809,
+                "trans_fat": 0.015259999781847
+            },
+            "servings": 10,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "d101b208-540c-44e2-bdda-dc4a11e66d39",
+            "ingredients": [
+                {
+                    "name": "2 1/2 cup rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2 1/2",
+                            "value": 2.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 250.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "1/3 cup uncooked quinoa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333333333333333,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 57.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "uncooked quinoa"
+                    }
+                },
+                {
+                    "name": "1/4 cup hemp seed hearts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 45.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "hemp seed hearts"
+                    }
+                },
+                {
+                    "name": "1 teaspoon cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/4 cup coconut oil, melted",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "coconut oil",
+                        "preparation_notes": "melted"
+                    }
+                },
+                {
+                    "name": "1/4 cup maple syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "maple syrup"
+                    }
+                },
+                {
+                    "name": "1 teaspoon vanilla extract",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "vanilla extract"
+                    }
+                },
+                {
+                    "name": "1/2 cup freeze-dried mango, broken into small pieces",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 20.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "freeze-dried mango",
+                        "preparation_notes": "broken into small pieces"
+                    }
+                },
+                {
+                    "name": "1/2 cup freeze-dried raspberries, coarsely crushed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 15.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "freeze-dried raspberries",
+                        "preparation_notes": "coarsely crushed"
+                    }
+                },
+                {
+                    "name": "1/2 cup sunflower seeds, hulled",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 60.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "sunflower seeds",
+                        "preparation_notes": "hulled"
+                    }
+                },
+                {
+                    "name": "1/4 cup unsweetened shredded coconut",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 25.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "unsweetened shredded coconut"
+                    }
+                },
+                {
+                    "name": "1/2 cup pumpkin seeds, pepitas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup",
+                            "weight": {
+                                "value": 75.0,
+                                "unit": "grams"
+                            }
+                        },
+                        "food": "pumpkin seeds",
+                        "preparation_notes": "pepitas"
+                    }
+                }
+            ],
+            "directions": "Use: Meal 1-2 hours before 1+ hour cardio or strength workout. \\n\\nPreheat oven to 350°F (177°C). Line a rimmed baking sheet with parchment paper and set aside.\\n\\nIn a large bowl, combine oats, pumpkin seeds, sunflower seeds, quinoa, hemp seeds, cinnamon and salt. In a measuring cup, combine coconut oil, maple syrup and vanilla. Stir into oat mixture and spread evenly in the prepared pan, pressing down with a spatula — this encourages the granola to form clusters.\\n\\nBake, rotating pan once, until light golden brown, 25 minutes. Let cool slightly and then stir in fruit. Let cool completely and store in an airtight container for up to 1 week.\\n\\nServing size: 1/2 cup",
+            "recipe_food_id": "58829965255725"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/pre-workout/bread.jpg",
+            "name": "Toast with Jelly",
+            "nutritional_contents": {
+                "sugar": 1.0,
+                "fiber": 12.5,
+                "saturated_fat": 0.0,
+                "protein": 2.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 95.0
+                },
+                "carbohydrates": 25.0,
+                "sodium": 125.0,
+                "calcium": 2.0,
+                "monounsaturated_fat": 0.0,
+                "vitamin_c": 0.0,
+                "cholesterol": 0.0,
+                "fat": 1.0,
+                "iron": 4.0,
+                "polyunsaturated_fat": 0.0,
+                "potassium": 0.0,
+                "vitamin_a": 0.0,
+                "trans_fat": 0.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "599b3b52-2ee3-4a15-9e41-904fb802b49d",
+                    "name": "Pre-Workout",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "id": "126d0c3c-774e-4b44-98a0-36c220f8b484",
+            "ingredients": [
+                {
+                    "name": "1 slice whole wheat toast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "slice"
+                        },
+                        "food": "whole wheat toast"
+                    }
+                },
+                {
+                    "name": "1 tablespoon jelly",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "jelly"
+                    }
+                }
+            ],
+            "directions": "Use: Small snack 1-2 hours before a 30-45min cardio workout.",
+            "recipe_food_id": "23929010677293"
+        }
+    ]
+}

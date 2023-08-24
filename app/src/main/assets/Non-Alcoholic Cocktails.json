@@ -1,0 +1,928 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/12-Refreshing-Summer-Mocktail-Recipes-11.jpg",
+            "name": "T-BAR CHOPIN COSMO",
+            "nutritional_contents": {
+                "sugar": 29.399999618530273,
+                "fiber": 0.6000000238418579,
+                "protein": 0.30000001192092896,
+                "energy": {
+                    "unit": "calories",
+                    "value": 126.0
+                },
+                "carbohydrates": 32.0,
+                "sodium": 10.699999809265137,
+                "calcium": 1.0,
+                "vitamin_c": 53.0,
+                "iron": 1.0,
+                "potassium": 132.60000610351562,
+                "vitamin_a": 1.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "0fbdc613-eae1-44a5-a931-c7aaa26aa1cc",
+            "ingredients": [
+                {
+                    "name": "2 ounces cranberry juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ounces"
+                        },
+                        "food": "cranberry juice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 ounce blood orange juice, freshly squeezed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "ounce"
+                        },
+                        "food": "blood orange juice",
+                        "preparation_notes": "freshly squeezed"
+                    }
+                },
+                {
+                    "name": "1/2 ounce lime juice, freshly squeezed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "ounce"
+                        },
+                        "food": "lime juice",
+                        "preparation_notes": "freshly squeezed"
+                    }
+                },
+                {
+                    "name": "1/2 cup sugar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "sugar"
+                    }
+                },
+                {
+                    "name": "1/2 cup dried cranberries, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "dried cranberries",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "Cook the sugar and 1/4 cup water until it becomes light caramel. Remove from the heat and stir in the dried cranberries.\\n\\nSpread the mixture on a flat pan in a thin layer. Let cool and break into small chunks.\\n\\nMix the juices together and serve on the rocks.",
+            "recipe_food_id": "23252823805165"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/10/Spiced-Apple-Shrub-Mocktail-752x472.jpg",
+            "name": "Spiced Apple Shrub Mocktail",
+            "nutritional_contents": {
+                "sugar": 244.39999389648438,
+                "fiber": 16.200000762939453,
+                "saturated_fat": 0.20000000298023224,
+                "protein": 3.299999952316284,
+                "energy": {
+                    "unit": "calories",
+                    "value": 991.0
+                },
+                "carbohydrates": 268.79998779296875,
+                "sodium": 16.100000381469727,
+                "calcium": 96.0999984741211,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 92.30000305175781,
+                "fat": 1.100000023841858,
+                "iron": 3.9000000953674316,
+                "polyunsaturated_fat": 0.30000001192092896,
+                "potassium": 1031.199951171875,
+                "vitamin_a": 27.799999237060547
+            },
+            "servings": 18,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ad09e7df-bfa3-4f7e-bca9-6e0fcbf831e6",
+            "ingredients": [
+                {
+                    "name": "1 pound  Fuji or Honeycrisp apples , about 2 large",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound "
+                        },
+                        "food": "Fuji or Honeycrisp apples ",
+                        "preparation_notes": "about 2 large"
+                    }
+                },
+                {
+                    "name": "3/4 cup apple cider vinegar ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "apple cider vinegar "
+                    }
+                },
+                {
+                    "name": "2 tablespoons fresh ginger, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "fresh ginger",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "1 whole orange ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "orange "
+                    }
+                },
+                {
+                    "name": "2/3 cup  honey ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2/3",
+                            "value": 0.6667,
+                            "unit": "cup "
+                        },
+                        "food": "honey "
+                    }
+                },
+                {
+                    "name": "3 whole cinnamon sticks",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "whole"
+                        },
+                        "food": "cinnamon sticks"
+                    }
+                },
+                {
+                    "name": "2 whole cloves ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "whole"
+                        },
+                        "food": "cloves "
+                    }
+                }
+            ],
+            "directions": "Thinly slice the apples and discard the core. Place apples in a large, non-reactive bowl. Add the vinegar and ginger. Using a sharp peeler, peel long strips of the zest from the orange (without the white pith underneath) and add to the bowl, reserve the orange for another use. Lightly smash the ingredients together using a cocktail muddler or potato masher.\\n\\nIn a small saucepan, combine 1 cup (237ml) of water with the honey, cinnamon sticks and cloves. Bring to a boil, stirring occasionally. Pour over the apple mixture in the bowl. Let cool to room temperature. Cover tightly and refrigerate for 2–3 days.\\n\\nStrain off the solids and pour the liquid into a 24-ounce glass bottle or Mason jar. Store in the refrigerator indefinitely.\\n\\nTo make a non-alcoholic spritzer, fill an 8-ounce (237ml) glass with ice and plain carbonated water. Add 2 tablespoons shrub to the glass and stir to combine. Makes 2 1/4 cups.",
+            "recipe_food_id": "58993318661357"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2021/01/MFP-Hibiscus-Mocktai-Featured.jpg",
+            "name": "Dried Hibiscus Mocktail",
+            "nutritional_contents": {
+                "sugar": 14.0,
+                "fiber": 4.699999809265137,
+                "protein": 1.399999976158142,
+                "energy": {
+                    "unit": "calories",
+                    "value": 80.0
+                },
+                "carbohydrates": 20.899999618530273,
+                "sodium": 2.200000047683716,
+                "calcium": 7.900000095367432,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 143.3000030517578,
+                "fat": 0.30000001192092896,
+                "iron": 3.0,
+                "polyunsaturated_fat": 0.10000000149011612,
+                "potassium": 283.8999938964844,
+                "vitamin_a": 7.0
+            },
+            "servings": 8,
+            "tags": [
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "bd0667e4-605c-46bc-96cc-1551f5d6c897",
+            "ingredients": [
+                {
+                    "name": "3/4 cup dried hibiscus leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "dried hibiscus leaves",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tablespoon  monk fruit powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon "
+                        },
+                        "food": "monk fruit powder"
+                    }
+                },
+                {
+                    "name": "2 strips organic orange peel , (use a sharp vegetable peeler)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "strips"
+                        },
+                        "food": "organic orange peel ",
+                        "preparation_notes": "(use a sharp vegetable peeler) "
+                    }
+                },
+                {
+                    "name": "1 whole star anise",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "star anise"
+                    }
+                },
+                {
+                    "name": "1/2  cinnamon stick",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": ""
+                        },
+                        "food": "cinnamon stick"
+                    }
+                },
+                {
+                    "name": "2 cups  plain or orange sparkling water ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups "
+                        },
+                        "food": "plain or orange sparkling water "
+                    }
+                },
+                {
+                    "name": "1 whole orange , sliced, for garnish",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "whole"
+                        },
+                        "food": "orange ",
+                        "preparation_notes": "sliced, for garnish "
+                    }
+                }
+            ],
+            "directions": "Bring 6 cups (1.4L) of water to a boil. Add the hibiscus leaves, remove from heat and let stand for 5 minutes.\\n\\nPut the orange peel, star anise and cinnamon stick in a clean bottle or Mason jar. Strain the hibiscus mixture and pour over the ingredients in the bottle. Let cool completely, cover and refrigerate for up to 10 days. It’s ready right away, but the mixture continues to infuse with flavor as it sits. Remove the aromatics when the mixture is as spicy as you like it.\\n\\nFill a tall glass with crushed ice. Pour 1 cup (237ml) hibiscus mixture over the ice. Top off with about 1/4 cup sparkling water and garnish with an orange slice.",
+            "recipe_food_id": "18972788288813"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/12-Refreshing-Summer-Mocktail-Recipes-4.jpg",
+            "name": "PEACHES + HONEY",
+            "nutritional_contents": {
+                "sugar": 15.0,
+                "fiber": 0.699999988079071,
+                "protein": 0.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 63.0
+                },
+                "carbohydrates": 16.799999237060547,
+                "sodium": 9.0,
+                "calcium": 0.699999988079071,
+                "vitamin_c": 10.800000190734863,
+                "iron": 1.2999999523162842,
+                "potassium": 75.0,
+                "vitamin_a": 1.2999999523162842
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "5d0c0ca1-4f97-40ed-bf9b-8f6044e8d2b1",
+            "ingredients": [
+                {
+                    "name": "1 1/2 ounces honey lime syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "ounces"
+                        },
+                        "food": "honey lime syrup",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "3  basil leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0
+                        },
+                        "food": "basil leaves"
+                    }
+                },
+                {
+                    "name": "4 ounces sparkling water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "ounces"
+                        },
+                        "food": "sparkling water"
+                    }
+                },
+                {
+                    "name": "1  ripe peach, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "ripe peach",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1/3 cup honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.33,
+                            "unit": "cup"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1/3 cup fresh lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.33,
+                            "unit": "cup"
+                        },
+                        "food": "fresh lime juice"
+                    }
+                }
+            ],
+            "directions": "In a small saucepan combine honey, 1/2 cup warm water and lime juice. Heat on low and mix together, being careful not to let the water boil.\\n\\nRemove from heat once combined. Muddle basil in a tall glass or cocktail shaker; add sparkling water, 1 1/2 ounces honey-lime syrup and a couple of peach slices. Shake to combine.\\n\\nPour over ice and garnish with additional lime and peach slices.",
+            "recipe_food_id": "129355733601837"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/12-Refreshing-Summer-Mocktail-Recipes-9.jpg",
+            "name": "Ginger Mule",
+            "nutritional_contents": {
+                "sugar": 1.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 21.0
+                },
+                "carbohydrates": 6.0,
+                "sodium": 15.0,
+                "calcium": 1.0,
+                "vitamin_c": 36.0,
+                "iron": 1.0,
+                "potassium": 141.0
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "3766839d-bf18-4382-9cc7-48bdc1b541f3",
+            "ingredients": [
+                {
+                    "name": "1/4 cup lemon juice, freshly squeezed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "lemon juice",
+                        "preparation_notes": "freshly squeezed"
+                    }
+                },
+                {
+                    "name": "1 teaspoon ginger, zested",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ginger",
+                        "preparation_notes": "zested"
+                    }
+                },
+                {
+                    "name": "1/4  cucumber, finely sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25
+                        },
+                        "food": "cucumber",
+                        "preparation_notes": "finely sliced"
+                    }
+                },
+                {
+                    "name": "18 ounces sparkling water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "18",
+                            "value": 18.0,
+                            "unit": "ounces"
+                        },
+                        "food": "sparkling water"
+                    }
+                },
+                {
+                    "name": "12 drops stevia",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "12",
+                            "value": 12.0,
+                            "unit": "drops"
+                        },
+                        "food": "stevia"
+                    }
+                }
+            ],
+            "directions": "Add lemon juice, ginger, cucumber slices and stevia to a jar or pitcher. Top with sparkling water and mix well. Pour over two glasses filled with ice and garnish with lemon slices.",
+            "recipe_food_id": "129355716881453"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/12-Refreshing-Summer-Mocktail-Recipes-12.jpg",
+            "name": "Elderberry Limeade",
+            "nutritional_contents": {
+                "sugar": 3.0,
+                "fiber": 0.20000000298023224,
+                "protein": 0.20000000298023224,
+                "energy": {
+                    "unit": "calories",
+                    "value": 24.0
+                },
+                "carbohydrates": 6.800000190734863,
+                "sodium": 9.199999809265137,
+                "calcium": 0.800000011920929,
+                "vitamin_c": 28.0,
+                "iron": 0.30000001192092896,
+                "potassium": 78.0,
+                "vitamin_a": 0.20000000298023224
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ef8a9aed-0787-4e7d-a75c-7729025c344d",
+            "ingredients": [
+                {
+                    "name": "2 ounces fresh lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ounces"
+                        },
+                        "food": "fresh lime juice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "5 drops liquid stevia",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "5",
+                            "value": 5.0,
+                            "unit": "drops"
+                        },
+                        "food": "liquid stevia"
+                    }
+                },
+                {
+                    "name": "2 teaspoons elderberry syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "elderberry syrup"
+                    }
+                },
+                {
+                    "name": "6 ounces sparkling water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "ounces"
+                        },
+                        "food": "sparkling water"
+                    }
+                },
+                {
+                    "name": "5  rasberries and mint leaves, optional garnish",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "5",
+                            "value": 5.0
+                        },
+                        "food": "rasberries and mint leaves",
+                        "preparation_notes": "optional garnish"
+                    }
+                }
+            ],
+            "directions": "Combine all ingredients and shake. Pour over ice and serve in a cocktail glass.",
+            "recipe_food_id": "128805965221037"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/06/4-Refreshing-Mocktails-to-Help-Beat-the-Heat-6.jpg",
+            "name": "The Moni & The Mule from Chauhan Ale & Masala House",
+            "nutritional_contents": {
+                "sugar": 9.600000381469727,
+                "fiber": 0.20000000298023224,
+                "protein": 0.20000000298023224,
+                "energy": {
+                    "unit": "calories",
+                    "value": 48.0
+                },
+                "carbohydrates": 11.0,
+                "sodium": 3.5,
+                "calcium": 1.2000000476837158,
+                "vitamin_c": 11.699999809265137,
+                "iron": 1.2999999523162842,
+                "potassium": 23.700000762939453,
+                "vitamin_a": 6.699999809265137
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "4c4f8b75-a87b-43dc-b72a-058f0d9ad4e0",
+            "ingredients": [
+                {
+                    "name": "1/2 ounce ginger beer",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "ounce"
+                        },
+                        "food": "ginger beer",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/2 ounce lemon juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "ounce"
+                        },
+                        "food": "lemon juice"
+                    }
+                },
+                {
+                    "name": "1/4 ounce simple syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "ounce"
+                        },
+                        "food": "simple syrup"
+                    }
+                },
+                {
+                    "name": "1 pinch cayenne",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "cayenne"
+                    }
+                },
+                {
+                    "name": "2 dashes lavender bitters",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "dashes"
+                        },
+                        "food": "lavender bitters"
+                    }
+                },
+                {
+                    "name": "1 1/2 ounce tamarind soda",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "ounce"
+                        },
+                        "food": "tamarind soda"
+                    }
+                },
+                {
+                    "name": "4 leaves fresh mint, or to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "leaves"
+                        },
+                        "food": "fresh mint",
+                        "preparation_notes": "or to taste"
+                    }
+                }
+            ],
+            "directions": "Add all ingredients except tamarind soda to cocktail shaker and shake for 5 seconds. Double-strain into tall glass. Top with tamarind soda. Garnish with mint sprig.",
+            "recipe_food_id": "93621584785069"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/07/12-Refreshing-Summer-Mocktail-Recipes-10.jpg",
+            "name": "ITALIAN LEMONADE",
+            "nutritional_contents": {
+                "sugar": 15.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 65.0
+                },
+                "carbohydrates": 15.699999809265137,
+                "sodium": 57.0,
+                "vitamin_c": 13.699999809265137,
+                "potassium": 22.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "23d6a968-3d44-49d4-a970-d17b18be70fd",
+                    "name": "Non-Alcoholic Cocktails",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ccb512ca-74d6-4cd9-bd59-b070b731eb2e",
+            "ingredients": [
+                {
+                    "name": "3/4 ounces lemon juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "ounces"
+                        },
+                        "food": "lemon juice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "3/4 ounces  orgeat (almond syrup)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "ounces "
+                        },
+                        "food": "orgeat (almond syrup)"
+                    }
+                },
+                {
+                    "name": "6 ounces club soda, or to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "ounces"
+                        },
+                        "food": "club soda",
+                        "preparation_notes": "or to taste"
+                    }
+                }
+            ],
+            "directions": "Pour lemon juice and orgeat into a cocktail shaker. Add 1–2 ice cubes and shake just 3–4 times to blend and chill the ingredients. Strain into a Collins glass and add ice. Top with club soda or seltzer, garnish with a slice of lemon.",
+            "recipe_food_id": "23252865756717"
+        }
+    ]
+}

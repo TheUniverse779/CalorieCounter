@@ -129,14 +129,14 @@
             android:enabled="true"
             android:exported="false" />
 
-<!--        <meta-data-->
-<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
-<!--            android:value="ca-app-pub-3940256099942544~3347511713" />-->
-
-
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6989606115612474~5765046815" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="ca-app-pub-6989606115612474~5765046815" />-->
     </application>
 
 </manifest>

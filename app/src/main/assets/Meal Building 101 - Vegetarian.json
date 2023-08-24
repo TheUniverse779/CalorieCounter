@@ -1,0 +1,844 @@
+{
+    "items": [
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Chili+2x.jpg",
+            "name": "One Pot Vegetarian Chili",
+            "nutritional_contents": {
+                "sugar": 85.0,
+                "fiber": 100.69999694824219,
+                "saturated_fat": 10.699999809265137,
+                "protein": 121.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2342.0
+                },
+                "carbohydrates": 343.8999938964844,
+                "sodium": 5601.39990234375,
+                "calcium": 154.6999969482422,
+                "monounsaturated_fat": 30.5,
+                "vitamin_c": 443.70001220703125,
+                "cholesterol": 50.0,
+                "fat": 56.79999923706055,
+                "iron": 185.3000030517578,
+                "polyunsaturated_fat": 7.300000190734863,
+                "potassium": 6852.2998046875,
+                "vitamin_a": 3718.89990234375
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "43188341-1735-416b-9007-ca5ad9dac1c7",
+                    "name": "Meal Building 101 - Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "6d522986-e611-4c1b-aa1f-b95930a5b451",
+            "ingredients": [
+                {
+                    "name": "1 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 large sweet onions, peeled and quartered",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "sweet onions",
+                        "preparation_notes": "peeled and quartered"
+                    }
+                },
+                {
+                    "name": "4 cloves garlic",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic"
+                    }
+                },
+                {
+                    "name": "2  carrots, peeled and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0
+                        },
+                        "food": "carrots",
+                        "preparation_notes": "peeled and chopped"
+                    }
+                },
+                {
+                    "name": "2 ribs celery, rough chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ribs"
+                        },
+                        "food": "celery",
+                        "preparation_notes": "rough chopped"
+                    }
+                },
+                {
+                    "name": "1  jalapeno, halved and seeded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "jalapeno",
+                        "preparation_notes": "halved and seeded"
+                    }
+                },
+                {
+                    "name": "1  red bell pepper, seeded and rough chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "seeded and rough chopped"
+                    }
+                },
+                {
+                    "name": "3 tbsp chili powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "chili powder"
+                    }
+                },
+                {
+                    "name": "1 tbsp ground cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "ground cumin"
+                    }
+                },
+                {
+                    "name": "1 28 oz can diced fire roasted tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "28 oz can"
+                        },
+                        "food": "diced fire roasted tomatoes"
+                    }
+                },
+                {
+                    "name": "1 can black beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "black beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1 can pinto beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "pinto beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1 can kidney beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "kidney beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "2 cups vegetable broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "vegetable broth"
+                    }
+                },
+                {
+                    "name": "1/16  scallions and jalapeños  , for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0
+                        },
+                        "food": "scallions and jalapeños  ",
+                        "preparation_notes": "for topping"
+                    }
+                },
+                {
+                    "name": "1/4 cup  Greek yogurt, for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup "
+                        },
+                        "food": "Greek yogurt",
+                        "preparation_notes": "for topping"
+                    }
+                }
+            ],
+            "directions": "In a food processor, add all of your vegetables and pulse them until they are finely chopped. You can also chop the veggies by hand.\\n\\nAdd olive oil into the pan and add the veggies, a good pinch of salt and the spices. Saute until fragrant and the veggies start to brown.\\n\\nAdd the canned tomatoes, black beans and stock.\\n\\nCover (leave the lid slightly off to allow some of the chili to reduce a bit more) and simmer for 1-1.5 hours. \\n\\nServe with chopped scallions, jalapenos and a dollop of plain Greek yogurt. ",
+            "recipe_food_id": "173464649240061"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Tofu+Salad+2x.jpg",
+            "name": "Hearty Grilled Tofu Salad with Shallot Vinaigrette",
+            "nutritional_contents": {
+                "sugar": 18.0,
+                "fiber": 21.200000762939453,
+                "saturated_fat": 28.0,
+                "protein": 71.69999694824219,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1906.0
+                },
+                "carbohydrates": 77.30000305175781,
+                "sodium": 4456.89990234375,
+                "calcium": 146.6999969482422,
+                "monounsaturated_fat": 87.9000015258789,
+                "vitamin_c": 632.2999877929688,
+                "cholesterol": 60.0,
+                "fat": 148.0,
+                "iron": 63.400001525878906,
+                "polyunsaturated_fat": 22.0,
+                "potassium": 1818.5,
+                "vitamin_a": 131.39999389648438
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "43188341-1735-416b-9007-ca5ad9dac1c7",
+                    "name": "Meal Building 101 - Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "9c3f4f89-b3fd-4ecc-81d0-23975a136a86",
+            "ingredients": [
+                {
+                    "name": "14 oz firm tofu, marinated with marinade of choice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "14",
+                            "value": 14.0,
+                            "unit": "oz"
+                        },
+                        "food": "firm tofu, marinated with marinade of choice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 cups kale, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "kale",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 large cucumber, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "cucumber",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 cup roasted red bell peppers, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "roasted red bell peppers",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 cup whole baby tomatoes, halved",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "whole baby tomatoes",
+                        "preparation_notes": "halved "
+                    }
+                },
+                {
+                    "name": "1/2 cup garbanzo beans",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "garbanzo beans"
+                    }
+                },
+                {
+                    "name": "4 oz feta cheese, crumbled",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "oz"
+                        },
+                        "food": "feta cheese",
+                        "preparation_notes": "crumbled "
+                    }
+                },
+                {
+                    "name": "1 pinch fresh dill, basil, and parsley , for topping",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "fresh dill, basil, and parsley ",
+                        "preparation_notes": "for topping "
+                    }
+                },
+                {
+                    "name": "1/2 cup olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1  shallot, finely diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "shallot",
+                        "preparation_notes": "finely diced"
+                    }
+                },
+                {
+                    "name": "1 clove garlic, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "grated"
+                    }
+                },
+                {
+                    "name": "2 tsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 tbsp lemon juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "lemon juice"
+                    }
+                },
+                {
+                    "name": "2 tbsp champagne vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "champagne vinegar"
+                    }
+                },
+                {
+                    "name": "1 tsp salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                }
+            ],
+            "directions": "Prepare the tofu: Marinate the tofu in a marinade of your choice. Slice the tofu into cubes. Cook in a frying pan over medium heat until all sides are slightly crispy.\\n\\nFor the dressing: In a small bowl, whisk together the olive oil, shallot, garlic, dijon mustard, lemon juice, champagne vinegar, salt, and black pepper.\\n\\nIn a large bowl, toss the salad ingredients together and drizzle the dressing on top. Serve immediately. ",
+            "recipe_food_id": "243281624345981"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Tofu+Bowl+2x.jpg",
+            "name": "Roasted Tofu & Veggie Bowl",
+            "nutritional_contents": {
+                "sugar": 36.20000076293945,
+                "fiber": 32.099998474121094,
+                "saturated_fat": 9.399999618530273,
+                "protein": 63.400001525878906,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1601.0
+                },
+                "carbohydrates": 177.89999389648438,
+                "sodium": 4036.60009765625,
+                "calcium": 73.69999694824219,
+                "monounsaturated_fat": 32.5,
+                "vitamin_c": 229.5,
+                "fat": 71.0,
+                "iron": 96.80000305175781,
+                "polyunsaturated_fat": 10.5,
+                "potassium": 2241.5,
+                "vitamin_a": 24.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "43188341-1735-416b-9007-ca5ad9dac1c7",
+                    "name": "Meal Building 101 - Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "34fdd852-ccaf-421b-9121-eb139a8f69f2",
+            "ingredients": [
+                {
+                    "name": "14 oz firm tofu, cut into 2 steaks",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "14",
+                            "value": 14.0,
+                            "unit": "oz"
+                        },
+                        "food": "firm tofu",
+                        "preparation_notes": "cut into 2 steaks"
+                    }
+                },
+                {
+                    "name": "1 cup quinoa",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "quinoa"
+                    }
+                },
+                {
+                    "name": "4 cups mixed vegetables (i.e brussels sprouts, cauliflower, carrots, parsnips, and sweet potatoes)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "mixed vegetables (i.e brussels sprouts, cauliflower, carrots, parsnips, and sweet potatoes)"
+                    }
+                },
+                {
+                    "name": "1 tsp garlic salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "garlic salt"
+                    }
+                },
+                {
+                    "name": "1 tsp paprika",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "paprika"
+                    }
+                },
+                {
+                    "name": "1 tsp onion powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "onion powder"
+                    }
+                },
+                {
+                    "name": "1/2 tsp group black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "group black pepper"
+                    }
+                },
+                {
+                    "name": "1/16  olive oil/ avocado oil",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0
+                        },
+                        "food": "olive oil/ avocado oil"
+                    }
+                },
+                {
+                    "name": "2 tbsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "2 tbsp coconut aminos or GF soy sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "coconut aminos or GF soy sauce"
+                    }
+                },
+                {
+                    "name": "1 tbsp maple syrup",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "maple syrup"
+                    }
+                },
+                {
+                    "name": "1  lemon or lime",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "lemon or lime"
+                    }
+                },
+                {
+                    "name": "1/2 tsp salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                },
+                {
+                    "name": "2 cloves garlic, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "minced"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, mix together the marinade ingredients and set aside.\\n\\nAdd the tofu to the marinade and let it soak for at least an hour (overnight is best). \\n\\nWhen you are ready to cook, preheat the oven to 400° F. \\n\\nTransfer the marinated tofu to a large foil-lined baking sheet. \\n\\nChop the vegetables and spread evenly on the same baking sheet (or a separate one depending on size). Lightly coat the vegetables with olive oil or avocado oil and season with garlic salt, paprika, onion powder, and black pepper. \\n\\nBake for 10-15 min until the tofu is cooked and vegetables are tender.\\n\\nMeanwhile, rinse the quinoa and transfer to a medium pot with 2 cups of water and salt (to taste). Bring the mixture to a rolling boil then lower heat and simmer, covered, for 15 minutes. Remove from heat and let stand, still covered, for 5 minutes. Then uncover and gently fluff with a fork. \\n\\nOnce the tofu and vegetables are cooked, add to your plate with quinoa and serve. Enjoy! ",
+            "recipe_food_id": "173462455595005"
+        },
+        {
+            "image_url": "https://photos-cloudfront.myfitnesspal.com/images/recipes/managed/Greens+Wrap+2x.jpg",
+            "name": "Collard Greens Vegetarian Wraps",
+            "nutritional_contents": {
+                "sugar": 2.299999952316284,
+                "fiber": 27.5,
+                "saturated_fat": 5.699999809265137,
+                "protein": 30.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 809.0
+                },
+                "carbohydrates": 89.80000305175781,
+                "sodium": 1852.5999755859375,
+                "calcium": 29.0,
+                "monounsaturated_fat": 29.600000381469727,
+                "vitamin_c": 61.900001525878906,
+                "fat": 42.79999923706055,
+                "iron": 37.79999923706055,
+                "polyunsaturated_fat": 4.400000095367432,
+                "potassium": 1341.0,
+                "vitamin_a": 24.200000762939453
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "43188341-1735-416b-9007-ca5ad9dac1c7",
+                    "name": "Meal Building 101 - Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "14b57fe2-98e9-465d-9975-1dfd77e4e059",
+            "ingredients": [
+                {
+                    "name": "4 large collard green leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "large"
+                        },
+                        "food": "collard green leaves",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 cups canned white beans",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "canned white beans"
+                    }
+                },
+                {
+                    "name": "1/16  juice of 1 lemon",
+                    "semantics": {
+                        "serving_size": {
+                            "value": 0.0
+                        },
+                        "food": "juice of 1 lemon"
+                    }
+                },
+                {
+                    "name": "1 tsp lemon zest",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "lemon zest"
+                    }
+                },
+                {
+                    "name": "2 tsp dijon mustard",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tsp"
+                        },
+                        "food": "dijon mustard"
+                    }
+                },
+                {
+                    "name": "2 ribs celery, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "ribs"
+                        },
+                        "food": "celery",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "3 tbsp olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 tbsp capers or cornichons, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "capers or cornichons",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 tbsp parsley, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "parsley",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper",
+                        "preparation_notes": "to taste"
+                    }
+                }
+            ],
+            "directions": "Trim the stems and spines of each collard green leaf. \\n\\nOptional: Add the leaves to boiling water and blanche for 15-20 seconds. Immediately transfer the leaves to an ice bath to stop the cooking process. Pat the leaves dry and set aside. \\n\\nIn a small bowl, mash together the white beans, lemon juice, lemon zest, dijon mustard, celery, olive oil, capers / cornichons, parsley, salt, and pepper with a fork until thoroughly combined. \\n\\nSpoon each half of the white bean salad onto the center of both collard green leaves. \\n\\nOptional: top with additional mix-ins.\\n\\nGripping the edge of the leaf closest to you, fold over the mixture and tuck the leaf beneath the mixture. Roll forward once, then tuck in the sides, then continue to roll until the wrap is complete. Repeat for both leaves. \\n\\nSlice both wraps and enjoy immediately, or wrap tightly in parchment paper and then plastic wrap to refrigerate for up to 24 hours. ",
+            "recipe_food_id": "173462635965949"
+        }
+    ]
+}

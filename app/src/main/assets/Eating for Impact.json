@@ -1,0 +1,2743 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/02/tofu.jpg",
+            "name": "Golden Tofu Scramble",
+            "nutritional_contents": {
+                "sugar": 5.800020217895508,
+                "fiber": 9.696069717407227,
+                "saturated_fat": 1.232069969177246,
+                "protein": 62.15950012207031,
+                "energy": {
+                    "unit": "calories",
+                    "value": 657.8880004882812
+                },
+                "carbohydrates": 35.871700286865234,
+                "sodium": 1989.0999755859375,
+                "calcium": 14.257800102233887,
+                "monounsaturated_fat": 7.195740222930908,
+                "vitamin_c": 95.71189880371094,
+                "fat": 32.44150161743164,
+                "iron": 57.4025993347168,
+                "polyunsaturated_fat": 1.5456199645996094,
+                "potassium": 978.1489868164062,
+                "vitamin_a": 83.07759857177734,
+                "trans_fat": 0.0025386700872331858
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "164a92bb-e2a8-4c11-b6fa-437659f7068b",
+            "ingredients": [
+                {
+                    "name": "2 teaspoon avocado or coconut oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "avocado or coconut oil"
+                    }
+                },
+                {
+                    "name": "1 cup red onion, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "2 teaspoon turmeric",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "turmeric"
+                    }
+                },
+                {
+                    "name": "2 teaspoon cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cumin"
+                    }
+                },
+                {
+                    "name": "1 teaspoon sea salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "sea salt"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon ground pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground pepper"
+                    }
+                },
+                {
+                    "name": "1 cup shredded kale, or baby spinach",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "shredded kale",
+                        "preparation_notes": "or baby spinach"
+                    }
+                },
+                {
+                    "name": "1/4 cup nutritional yeast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "nutritional yeast"
+                    }
+                },
+                {
+                    "name": "1 dash hot sauce, to taste, optional",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "dash"
+                        },
+                        "food": "hot sauce",
+                        "preparation_notes": "to taste, optional"
+                    }
+                },
+                {
+                    "name": "16 ounce firm tofu, or extra-firm, pressed and drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "16",
+                            "value": 16.0,
+                            "unit": "ounce"
+                        },
+                        "food": "firm tofu",
+                        "preparation_notes": "or extra-firm, pressed and drained"
+                    }
+                },
+                {
+                    "name": "2 clove garlic, minced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "minced"
+                    }
+                },
+                {
+                    "name": "1 cup button mushrooms, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "button mushrooms",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "Add oil to a large skillet set over medium heat. Once hot, add garlic and onion, cooking for about 3-4 minutes or until onions begin to soften.\\n\\nAdd mushrooms to the pan, then use your fingers to crumble the tofu into chunks before tossing it into the pan as well. Cook for about 10 minutes, stirring occasionally. If the tofu starts to stick or the pan becomes dry, add a little water to the pan.\\n\\nAdd the turmeric, cumin, salt and pepper and stir to combine. Then add the kale and nutritional yeast. Stir and cook for an additional 3-4 minutes. Taste and season with additional black pepper and sea salt, if needed. Serve the scramble warm with sliced avocado and fresh herbs.",
+            "recipe_food_id": "278594825661549"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/08/Vietnamese-Style-Shaking-Beef-and-Watercress.jpg",
+            "name": "Vietnamese-Style Shaking Beef and Watercress",
+            "nutritional_contents": {
+                "sugar": 22.0,
+                "fiber": 4.699999809265137,
+                "saturated_fat": 8.0,
+                "protein": 134.6999969482422,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1029.0
+                },
+                "carbohydrates": 34.599998474121094,
+                "sodium": 2528.5,
+                "calcium": 40.70000076293945,
+                "monounsaturated_fat": 18.399999618530273,
+                "vitamin_c": 78.19999694824219,
+                "cholesterol": 311.79998779296875,
+                "fat": 41.29999923706055,
+                "iron": 58.900001525878906,
+                "polyunsaturated_fat": 3.5,
+                "potassium": 552.9000244140625,
+                "vitamin_a": 115.5999984741211
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "4f9e4415-31e7-4e9f-b3b3-eb172ffa1aec",
+                    "name": "High Protein",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "e2521329-1de0-49f0-8716-50b62be25701",
+            "ingredients": [
+                {
+                    "name": "2 tablespoons lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "lime juice",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "5 teaspoons safflower oil, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "5",
+                            "value": 5.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "safflower oil",
+                        "preparation_notes": "divided"
+                    }
+                },
+                {
+                    "name": "1 tablespoon fish sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "fish sauce"
+                    }
+                },
+                {
+                    "name": "2 teaspoons honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon Sriracha",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "Sriracha"
+                    }
+                },
+                {
+                    "name": "1/2 bunch  watercress (3 oz), cut into 2-inch lengths",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "bunch "
+                        },
+                        "food": "watercress (3 oz)",
+                        "preparation_notes": " cut into 2-inch lengths"
+                    }
+                },
+                {
+                    "name": "1 medium  tomato, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": " tomato",
+                        "preparation_notes": "thinly sliced"
+                    }
+                },
+                {
+                    "name": "1 1/4 pound grass-fed NY strip beef or tenderloin, fat trimmed, cut into 1-inch cubes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/4",
+                            "value": 1.25,
+                            "unit": "pound"
+                        },
+                        "food": "grass-fed NY strip beef or tenderloin",
+                        "preparation_notes": " fat trimmed, cut into 1-inch cubes"
+                    }
+                },
+                {
+                    "name": "1/2 cup red onions, very thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "red onions",
+                        "preparation_notes": "very thinly sliced"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon five-spice powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "five-spice powder"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon black pepper ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "black pepper "
+                    }
+                },
+                {
+                    "name": "3 cloves garlic , thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cloves"
+                        },
+                        "food": "garlic ",
+                        "preparation_notes": "thinly sliced"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, whisk together the lime juice, 2 teaspoons of the safflower oil, fish sauce, honey and Sriracha until the honey has dissolved. Set aside. Arrange the watercress and tomato slices on a serving platter, set aside.\\n\\nToss the beef with the five-spice powder, salt and pepper. Heat a wok or large cast-iron skillet over high heat and add the remaining tablespoon of oil. When the oil is very hot, add the beef and onions and cook without stirring until the beef is browned on one side, about 1 1/2 minutes. Stir in the garlic and continue to cook until the beef is browned all over but still pink in the center, about 1 1/2–2 minutes more.\\n\\nTransfer the beef and onion mixture to the serving platter. Drizzle the lime juice mixture over the top and serve immediately.",
+            "recipe_food_id": "243962348497965"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2016/04/Overnight-Oats-752x472.jpg",
+            "name": "Overnight Oats",
+            "nutritional_contents": {
+                "sugar": 41.599998474121094,
+                "fiber": 28.600000381469727,
+                "saturated_fat": 13.0,
+                "protein": 33.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1000.0
+                },
+                "carbohydrates": 104.5,
+                "sodium": 329.0,
+                "calcium": 126.69999694824219,
+                "monounsaturated_fat": 10.800000190734863,
+                "vitamin_c": 74.5,
+                "cholesterol": 25.0,
+                "fat": 50.0,
+                "iron": 56.79999923706055,
+                "polyunsaturated_fat": 16.600000381469727,
+                "potassium": 1149.699951171875,
+                "vitamin_a": 14.600000381469727
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "84b4b971-f100-4a92-b194-876d5f5c61de",
+            "ingredients": [
+                {
+                    "name": "1/4 cup (24g) whole wheat pastry flour",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (24g)"
+                        },
+                        "food": "whole wheat pastry flour",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tablespoon rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "1 tablespoon coconut sugar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "coconut sugar"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon baking powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "baking powder"
+                    }
+                },
+                {
+                    "name": "1 pinch salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/4 cup (60 ml) 2% milk or unsweetened non-dairy",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (60 ml)"
+                        },
+                        "food": "2% milk or unsweetened non-dairy"
+                    }
+                },
+                {
+                    "name": "2 teaspoons canola oil or melted coconut oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "canola oil or melted coconut oil"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon  vanilla extract ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon "
+                        },
+                        "food": "vanilla extract "
+                    }
+                },
+                {
+                    "name": "1/4 cup (40 g) fresh blueberries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (40 g)"
+                        },
+                        "food": "fresh blueberries"
+                    }
+                },
+                {
+                    "name": "2 teaspoons toasted pecans, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "toasted pecans",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "In a small bowl, whisk together the flour, oats, sugar, cinnamon, baking powder and salt. In a small measuring cup, whisk together the milk, oil and vanilla. Add the wet ingredients to the dry ingredients and mix with a fork until moistened. Stir in the blueberries.\\n\\nSpoon the batter into a 12–16-ounce (450–473ml) mug. Sprinkle the top with nuts. Microwave on high until the cake has expanded and is firm to the touch, 1 1/2–2 minutes, depending on the wattage of your microwave. Watch closely and do not overcook. Add time in 10-second intervals if the muffin is not done. The muffin will puff up at first, but deflate as it cools.",
+            "recipe_food_id": "243693762096445"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2016/01/oats-horiz-752x472.jpg",
+            "name": "Protein-Packed Overnight Oats",
+            "nutritional_contents": {
+                "sugar": 25.78860092163086,
+                "fiber": 8.170960426330566,
+                "saturated_fat": 1.6275399923324585,
+                "protein": 21.008100509643555,
+                "energy": {
+                    "unit": "calories",
+                    "value": 455.218994140625
+                },
+                "carbohydrates": 62.033199310302734,
+                "sodium": 83.37799835205078,
+                "calcium": 39.351600646972656,
+                "monounsaturated_fat": 6.107880115509033,
+                "vitamin_c": 8.477459907531738,
+                "cholesterol": 3.2967000007629395,
+                "fat": 15.968600273132324,
+                "iron": 14.040399551391602,
+                "polyunsaturated_fat": 3.1827399730682373,
+                "potassium": 610.3709716796875,
+                "vitamin_a": 3.2813398838043213
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "4f9e4415-31e7-4e9f-b3b3-eb172ffa1aec",
+                    "name": "High Protein",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "21f8064e-b8be-4e3f-b3a6-239125ae754d",
+            "ingredients": [
+                {
+                    "name": "1/3 cup skim milk",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333333333333333,
+                            "unit": "cup"
+                        },
+                        "food": "skim milk"
+                    }
+                },
+                {
+                    "name": "1/3 cup nonfat plain Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.3333333333333333,
+                            "unit": "cup"
+                        },
+                        "food": "nonfat plain Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1 tablespoon almond butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "almond butter"
+                    }
+                },
+                {
+                    "name": "2 teaspoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon apple pie spice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "apple pie spice"
+                    }
+                },
+                {
+                    "name": "2 teaspoon chopped toasted walnuts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "chopped toasted walnuts"
+                    }
+                },
+                {
+                    "name": "1/2 cup old fashioned oats, certified gluten-free if necessary",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "old fashioned oats",
+                        "preparation_notes": "certified gluten-free if necessary"
+                    }
+                },
+                {
+                    "name": "1/2 medium apple, cored, and chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "medium"
+                        },
+                        "food": "apple",
+                        "preparation_notes": "cored, and chopped"
+                    }
+                }
+            ],
+            "directions": "Combine oats, milk, yogurt, almond butter, honey, spice, and apple in a 1-cup jar, stirring until very well blended. Cover and refrigerate 8 hours or overnight.\\n\\nStir before serving and sprinkle with walnuts.",
+            "recipe_food_id": "173327198932413"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2015/11/Pumpkin-Pie-Oatmeal.jpg",
+            "name": "Pumpkin Pie Oatmeal",
+            "nutritional_contents": {
+                "sugar": 67.23899841308594,
+                "fiber": 21.99839973449707,
+                "saturated_fat": 5.683259963989258,
+                "protein": 51.289798736572266,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1134.3499755859375
+                },
+                "carbohydrates": 179.57899475097656,
+                "sodium": 922.697998046875,
+                "calcium": 84.71829986572266,
+                "monounsaturated_fat": 5.031280040740967,
+                "vitamin_c": 23.441999435424805,
+                "cholesterol": 30.0,
+                "fat": 20.355300903320312,
+                "iron": 56.101898193359375,
+                "polyunsaturated_fat": 5.02200984954834,
+                "potassium": 1066.739990234375,
+                "vitamin_a": 160.14599609375
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "8c1d1831-16e4-4b3e-94ee-721bd4e053e0",
+            "ingredients": [
+                {
+                    "name": "1 cup water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "water"
+                    }
+                },
+                {
+                    "name": "1 teaspoon vanilla extract",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "vanilla extract"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoon pumpkin pie spice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "pumpkin pie spice"
+                    }
+                },
+                {
+                    "name": "2 tablespoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "2 cup low-fat milk",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "low-fat milk"
+                    }
+                },
+                {
+                    "name": "2 1/2 cup uncooked quick oats, certified gluten-free, if necessary",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2 1/2",
+                            "value": 2.5,
+                            "unit": "cup"
+                        },
+                        "food": "uncooked quick oats",
+                        "preparation_notes": "certified gluten-free, if necessary"
+                    }
+                },
+                {
+                    "name": "1/4 cup canned pumpkin puree, certified gluten-free if necessary",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "canned pumpkin puree",
+                        "preparation_notes": "certified gluten-free if necessary"
+                    }
+                }
+            ],
+            "directions": "In a saucepan, combine milk and water and heat over medium-low heat for 2–3 minutes. Add oats, pumpkin puree, vanilla extract, salt and pumpkin pie spice to the pot, then stir until well combined. Allow the oatmeal to simmer for 2–3 minutes.\\n\\nIf the oatmeal is too thick, stir in a tablespoon of water at a time until it reaches the desired consistency.\\n\\nAdd honey, and stir. Enjoy!",
+            "recipe_food_id": "279144485007021"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/09/Shredded-Vegetable-Salad-With-Sesame-Chicken-Strips.jpg",
+            "name": "Shredded Vegetable Salad With Sesame Chicken Strips",
+            "nutritional_contents": {
+                "sugar": 19.717899322509766,
+                "fiber": 14.77340030670166,
+                "saturated_fat": 4.504990100860596,
+                "protein": 71.29440307617188,
+                "energy": {
+                    "unit": "calories",
+                    "value": 698.56298828125
+                },
+                "carbohydrates": 42.83489990234375,
+                "sodium": 966.0830078125,
+                "calcium": 36.5880012512207,
+                "monounsaturated_fat": 4.105189800262451,
+                "vitamin_c": 137.19000244140625,
+                "cholesterol": 131.54200744628906,
+                "fat": 26.536699295043945,
+                "iron": 38.42919921875,
+                "polyunsaturated_fat": 4.779550075531006,
+                "potassium": 1481.0999755859375,
+                "vitamin_a": 431.19500732421875,
+                "trans_fat": 0.2267960011959076
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "4f9e4415-31e7-4e9f-b3b3-eb172ffa1aec",
+                    "name": "High Protein",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "a7f6098f-0d8b-4edb-a8df-a8f0a5ff9140",
+            "ingredients": [
+                {
+                    "name": "2 cup shredded cabbage",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "shredded cabbage"
+                    }
+                },
+                {
+                    "name": "1 cup shredded carrot",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "shredded carrot"
+                    }
+                },
+                {
+                    "name": "2 teaspoon tamari soy sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "tamari soy sauce"
+                    }
+                },
+                {
+                    "name": "2 teaspoon rice vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "rice vinegar"
+                    }
+                },
+                {
+                    "name": "1 teaspoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "4 large red radishes, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "large"
+                        },
+                        "food": "red radishes",
+                        "preparation_notes": "thinly sliced"
+                    }
+                },
+                {
+                    "name": "2 teaspoon ginger, fresh, grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ginger",
+                        "preparation_notes": "fresh, grated"
+                    }
+                },
+                {
+                    "name": "2 tablespoon tahini",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "tahini"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 400ºF (205ºC). Line a small sheet pan with parchment paper and reserve.\\n\\nIn a large bowl, combine the cabbage, carrots and radishes. In a cup, combine the tahini, tamari, rice vinegar, honey and ginger and stir well. Pour over the vegetables and toss to coat.\\n\\nCut the chicken into 6 even slices, across the grain. Place the egg white in a medium bowl and whisk with 1 teaspoon water. Place the sesame seeds in a medium bowl. Dip the chicken in the egg white, then seeds, then place on the parchment-lined pan.\\n\\nBake for 10 minutes, until the chicken is cooked through.",
+            "recipe_food_id": "173043890392301"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/04/cacao.jpg",
+            "name": "Cacao Nib & Almond Green Smoothie Bowl",
+            "nutritional_contents": {
+                "sugar": 12.37030029296875,
+                "fiber": 15.592499732971191,
+                "saturated_fat": 2.0744900703430176,
+                "protein": 35.77899932861328,
+                "energy": {
+                    "unit": "calories",
+                    "value": 552.030029296875
+                },
+                "carbohydrates": 46.27109909057617,
+                "sodium": 93.76499938964844,
+                "calcium": 32.977500915527344,
+                "monounsaturated_fat": 0.5453600287437439,
+                "vitamin_c": 59.20500183105469,
+                "cholesterol": 5.0,
+                "fat": 27.233800888061523,
+                "iron": 23.640899658203125,
+                "polyunsaturated_fat": 0.8546249866485596,
+                "potassium": 603.1649780273438,
+                "vitamin_a": 113.18000030517578
+            },
+            "servings": 2,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c0cda153-84e2-4de7-b511-7db40be87695",
+                    "name": "Breakfast",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "59685833-8e7a-499b-b6eb-59813f2dd79b",
+            "ingredients": [
+                {
+                    "name": "1 cup 0% plain Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "0% plain Greek yogurt"
+                    }
+                },
+                {
+                    "name": "2 cup raw spinach, packed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "raw spinach",
+                        "preparation_notes": "packed"
+                    }
+                },
+                {
+                    "name": "1/4 cup rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "1/2 cup raspberries, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "raspberries",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "2 tablespoon whole raw almonds, coarsely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "whole raw almonds",
+                        "preparation_notes": "coarsely chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoon almond butter",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "almond butter"
+                    }
+                },
+                {
+                    "name": "3 teaspoon cacao nibs, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cacao nibs",
+                        "preparation_notes": "divided"
+                    }
+                }
+            ],
+            "directions": "Place 2 teaspoons of the cacao nibs in the container of a powerful blender. Add the yogurt, almond butter, frozen banana, spinach and oats and blend, tamping or scraping down to make a smooth puree.\\n\\nDivide between two cereal bowls and smooth the mixture. Arrange the banana slices, raspberries, chopped almonds and remaining cacao nibs on top of the smoothie.\\n\\nServe immediately with a spoon.",
+            "recipe_food_id": "279144577256621"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/12/High-Protein-Chicken-Salad.jpeg",
+            "name": "High-Protein Chicken Salad",
+            "nutritional_contents": {
+                "sugar": 67.5,
+                "fiber": 53.099998474121094,
+                "saturated_fat": 12.5,
+                "protein": 211.5,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2253.0
+                },
+                "carbohydrates": 283.8999938964844,
+                "sodium": 3520.699951171875,
+                "calcium": 73.80000305175781,
+                "monounsaturated_fat": 7.900000095367432,
+                "vitamin_c": 43.400001525878906,
+                "cholesterol": 444.29998779296875,
+                "fat": 45.400001525878906,
+                "iron": 88.80000305175781,
+                "polyunsaturated_fat": 18.399999618530273,
+                "potassium": 2225.5,
+                "vitamin_a": 10.800000190734863,
+                "trans_fat": 14.199999809265137
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "94092102-1e3f-47c2-a7f2-53d6d1296f18",
+                    "name": "Low Sugar",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "0ded62b7-6e70-4d2b-b29b-cdeacaa0af99",
+            "ingredients": [
+                {
+                    "name": "1 pound cooked chicken breast or rotisserie chicken, shredded (about 4 cups)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "cooked chicken breast or rotisserie chicken",
+                        "preparation_notes": "shredded (about 4 cups)"
+                    }
+                },
+                {
+                    "name": "1/2 cup red onion, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "diced "
+                    }
+                },
+                {
+                    "name": "1/2 cup  apple, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup "
+                        },
+                        "food": "apple",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "2/3 cup grapes, halved or quartered",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2/3",
+                            "value": 0.667,
+                            "unit": "cup"
+                        },
+                        "food": "grapes",
+                        "preparation_notes": "halved or quartered"
+                    }
+                },
+                {
+                    "name": "2/3 cup plain 2% fat Greek yogurt (certified gluten-free if necessary",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2/3",
+                            "value": 0.667,
+                            "unit": "cup"
+                        },
+                        "food": "plain 2% fat Greek yogurt (certified gluten-free if necessary"
+                    }
+                },
+                {
+                    "name": "2 tablespoon lemon juice, freshly squeezed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lemon juice",
+                        "preparation_notes": "freshly squeezed"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon garlic powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "garlic powder"
+                    }
+                },
+                {
+                    "name": "1 pinch salt and pepper, to taste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt and pepper, to taste"
+                    }
+                },
+                {
+                    "name": "12 sliced 100% whole grain bread (about 100 calories each)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "12",
+                            "value": 12.0,
+                            "unit": "sliced"
+                        },
+                        "food": "100% whole grain bread (about 100 calories each)"
+                    }
+                },
+                {
+                    "name": "6 medium lettuce leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "medium"
+                        },
+                        "food": "lettuce leaves"
+                    }
+                }
+            ],
+            "directions": "In a large bowl, combine shredded chicken, red onion, apple, grapes, Greek yogurt, lemon juice, garlic powder, salt and pepper. Mix until well combined.\\n\\nUsing a 3/4 cup measuring scoop, portion out the chicken salad. Serve with a lettuce leaf and 2 slices of 100% whole grain bread.",
+            "recipe_food_id": "208775703047277"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/06/chicken-soba.jpg",
+            "name": "Chicken and Soba Noodle Salad with Ginger Dressing",
+            "nutritional_contents": {
+                "sugar": 8.0,
+                "fiber": 5.0,
+                "saturated_fat": 1.0,
+                "protein": 29.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 340.0
+                },
+                "carbohydrates": 34.0,
+                "sodium": 767.0,
+                "calcium": 52.0,
+                "monounsaturated_fat": 4.0,
+                "vitamin_c": 89.0,
+                "cholesterol": 62.0,
+                "fat": 10.0,
+                "iron": 12.0,
+                "polyunsaturated_fat": 2.0,
+                "potassium": 658.0,
+                "vitamin_a": 35.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "01f65ee3-a0a4-48ab-93f7-307ae236380d",
+                    "name": "calorie-goal",
+                    "scope": "plans",
+                    "priority": 0
+                },
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 2.0,
+                "1200": 1.0,
+                "1800": 2.0,
+                "1600": 1.0
+            },
+            "id": "af2157cb-0b02-4f64-8fbb-651d6ef04232",
+            "ingredients": [
+                {
+                    "name": "2 tablespoons low-sodium soy sauce",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "low-sodium soy sauce",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "2 tablespoons rice vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "rice vinegar"
+                    }
+                },
+                {
+                    "name": "1 tablespoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "2 teaspoons toasted sesame oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "toasted sesame oil"
+                    }
+                },
+                {
+                    "name": "3 teaspoons ginger, finely grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "ginger",
+                        "preparation_notes": "finely grated "
+                    }
+                },
+                {
+                    "name": "3 medium  garlic cloves , finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "medium "
+                        },
+                        "food": "garlic cloves ",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "1 tablespoon canola oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "canola oil"
+                    }
+                },
+                {
+                    "name": "3 cups shiitake mushrooms, stems discarded, caps sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cups"
+                        },
+                        "food": "shiitake mushrooms",
+                        "preparation_notes": "stems discarded, caps sliced"
+                    }
+                },
+                {
+                    "name": "1 pinch  salt and pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch "
+                        },
+                        "food": "salt and pepper"
+                    }
+                },
+                {
+                    "name": "2 portions (8 ounces each) boneless, skinless, chicken breasts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "portions (8 ounces each)"
+                        },
+                        "food": "boneless, skinless, chicken breasts",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 cups broccoli crowns , cut into 2-inch florets",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "broccoli crowns ",
+                        "preparation_notes": "cut into 2-inch florets "
+                    }
+                },
+                {
+                    "name": "75 grams  shelled edamame ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "75",
+                            "value": 75.0,
+                            "unit": "grams "
+                        },
+                        "food": "shelled edamame "
+                    }
+                },
+                {
+                    "name": "6 ounces  dry buckwheat soba noodles , (such as Eden Organic)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "ounces "
+                        },
+                        "food": "dry buckwheat soba noodles ",
+                        "preparation_notes": "(such as Eden Organic)"
+                    }
+                },
+                {
+                    "name": "3 stalks green onion, thinly sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "stalks"
+                        },
+                        "food": "green onion",
+                        "preparation_notes": "thinly sliced"
+                    }
+                }
+            ],
+            "directions": "In a small bowl, combine the soy sauce, vinegar, honey, sesame oil, ginger and garlic. Set aside.\\n\\nHeat the canola oil in a cast-iron skillet or heavy sauté pan over medium-high heat. Add the mushrooms and sauté until tender, 4 minutes. Transfer to a large serving bowl. Season the chicken with the salt and pepper before adding it to the skillet, reduce heat to medium, and cook until cooked through, about 5 minutes per side. Place on a cutting board and let rest, uncovered, for 10 minutes.\\n\\nWhile the chicken rests, bring a medium saucepan of water to a boil. Add the broccoli and edamame and cook until broccoli is crisp-tender, 4 minutes. With a slotted spoon, transfer the vegetables to the serving bowl with the mushrooms. Add the soba noodles to the boiling water and cook according to package instructions. Drain and rinse with cool water to stop the noodles from overcooking. Add to the noodles to the vegetables in the bowl. Toss with the soy sauce dressing.\\n\\nThinly slice the chicken against the grain and place on top of the noodle mixture. Sprinkle green onions over the top and serve. (The salad can be stored in an airtight container for up to 2 days.)",
+            "recipe_food_id": "208775698845293"
+        },
+        {
+            "image_url": "https://i0.wp.com/laurenfitfoodie.com/wp-content/uploads/2022/04/chickencups-9.jpg?resize=750%2C500&ssl=1",
+            "name": "Zesty Shrimp Lettuce Wrap",
+            "nutritional_contents": {
+                "sugar": 9.199999809265137,
+                "fiber": 12.0,
+                "saturated_fat": 3.5,
+                "protein": 50.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 572.0
+                },
+                "carbohydrates": 55.0,
+                "sodium": 2785.0,
+                "calcium": 181.0,
+                "monounsaturated_fat": 10.199999809265137,
+                "vitamin_c": 474.0,
+                "cholesterol": 540.0,
+                "fat": 22.200000762939453,
+                "iron": 23.0,
+                "polyunsaturated_fat": 1.7000000476837158,
+                "potassium": 879.0,
+                "vitamin_a": 278.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "35e8c19c-1910-4895-96a0-c725c92c72ee",
+            "ingredients": [
+                {
+                    "name": "3/4 pound (340 grams) cooked, peeled and deveined small or medium shrimp",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "pound (340 grams)"
+                        },
+                        "food": "cooked, peeled and deveined small or medium shrimp",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 large (70 grams) carrot, peeled and shaved with vegetable peeler or grated",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large (70 grams)"
+                        },
+                        "food": "carrot",
+                        "preparation_notes": "peeled and shaved with vegetable peeler or grated "
+                    }
+                },
+                {
+                    "name": "1 small (75 grams) yellow bell pepper , finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "small (75 grams)"
+                        },
+                        "food": "yellow bell pepper ",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "1/2 cup (120 grams) no-salt-added canned black beans, rinsed and drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (120 grams)"
+                        },
+                        "food": "no-salt-added canned black beans",
+                        "preparation_notes": "rinsed and drained"
+                    }
+                },
+                {
+                    "name": "1/4 cup (60 grams) fresh lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (60 grams)"
+                        },
+                        "food": "fresh lime juice"
+                    }
+                },
+                {
+                    "name": "1 tablespoon extra virgin olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "extra virgin olive oil"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon ground cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground cumin"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "24 large Boston or butter lettuce leaves, rinsed and patted dry (12 leaves will work if leaves do not need to be stacked)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "24",
+                            "value": 24.0,
+                            "unit": "large"
+                        },
+                        "food": "Boston or butter lettuce leaves",
+                        "preparation_notes": "rinsed and patted dry (12 leaves will work if leaves do not need to be stacked) "
+                    }
+                },
+                {
+                    "name": "1/4 cup (5 grams) fresh cilantro leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (5 grams)"
+                        },
+                        "food": "fresh cilantro leaves"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon grated lime rind",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "grated lime rind"
+                    }
+                }
+            ],
+            "directions": "Combine all ingredients except lettuce in a medium bowl. (Mixture may be chilled until ready to serve.) Spoon 1/3 cup shrimp salad into each lettuce leaf. Serve immediately.\\n\\n* If lettuce leaves are small, stack two together before filling.",
+            "recipe_food_id": "243962386205805"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/02/Blueberry-Breakfast-Mug-Cake.jpg",
+            "name": "Blueberry Muffin Breakfast Mug Cake",
+            "nutritional_contents": {
+                "sugar": 16.0,
+                "fiber": 6.599999904632568,
+                "saturated_fat": 1.0,
+                "protein": 4.599999904632568,
+                "energy": {
+                    "unit": "calories",
+                    "value": 325.0
+                },
+                "carbohydrates": 46.70000076293945,
+                "sodium": 731.0,
+                "calcium": 18.0,
+                "monounsaturated_fat": 8.0,
+                "vitamin_c": 6.199999809265137,
+                "fat": 14.0,
+                "iron": 12.0,
+                "polyunsaturated_fat": 3.799999952316284,
+                "potassium": 85.0,
+                "vitamin_a": 3.0
+            },
+            "servings": 1,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "b30e4f65-f312-46ec-bbe5-da6537ab6263",
+            "ingredients": [
+                {
+                    "name": "1/4 cup (24 g) whole-wheat pastry flour",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (24 g)"
+                        },
+                        "food": "whole-wheat pastry flour",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tablespoon rolled oats",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "rolled oats"
+                    }
+                },
+                {
+                    "name": "1 tablespoon coconut sugar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "coconut sugar"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "cinnamon"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon baking powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "baking powder"
+                    }
+                },
+                {
+                    "name": "1 pinch salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/4 cup (60 ml) 2% milk or unsweetened non-dairy",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (60 ml)"
+                        },
+                        "food": "2% milk or unsweetened non-dairy"
+                    }
+                },
+                {
+                    "name": "2 teaspoons canola oil or melted coconut oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "canola oil or melted coconut oil"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon  vanilla extract ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon "
+                        },
+                        "food": "vanilla extract "
+                    }
+                },
+                {
+                    "name": "1/4 cup (40 g) fresh blueberries",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup (40 g)"
+                        },
+                        "food": "fresh blueberries"
+                    }
+                },
+                {
+                    "name": "2 teaspoons toasted pecans, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "toasted pecans",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "In a small bowl, whisk together the flour, oats, sugar, cinnamon, baking powder and salt. In a small measuring cup, whisk together the milk, oil and vanilla. Add the wet ingredients to the dry ingredients and mix with a fork until moistened. Stir in the blueberries.\\n\\nSpoon the batter into a 12–16-ounce (450–473ml) mug. Sprinkle the top with nuts. Microwave on high until the cake has expanded and is firm to the touch, 1 1/2–2 minutes, depending on the wattage of your microwave. Watch closely and do not overcook. Add time in 10-second intervals if the muffin is not done. The muffin will puff up at first, but deflate as it cools.",
+            "recipe_food_id": "173593478434413"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/06/Egg-Salad-Provencal-in-Lettuce-Wraps.jpg",
+            "name": "Egg Salad Provencal in Lettuce Wraps",
+            "nutritional_contents": {
+                "sugar": 10.74839973449707,
+                "fiber": 3.3348000049591064,
+                "saturated_fat": 11.469200134277344,
+                "protein": 41.1968994140625,
+                "energy": {
+                    "unit": "calories",
+                    "value": 656.594970703125
+                },
+                "carbohydrates": 17.89590072631836,
+                "sodium": 1261.8699951171875,
+                "calcium": 21.75160026550293,
+                "monounsaturated_fat": 21.773500442504883,
+                "vitamin_c": 16.84000015258789,
+                "cholesterol": 1116.0,
+                "fat": 44.22760009765625,
+                "iron": 33.237300872802734,
+                "polyunsaturated_fat": 7.104020118713379,
+                "potassium": 1283.6600341796875,
+                "vitamin_a": 71.74150085449219,
+                "trans_fat": 0.11400000005960464
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "10ac63db-5302-460e-9b91-44569595f997",
+            "ingredients": [
+                {
+                    "name": "6 large egg, boiled and peeled",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "large"
+                        },
+                        "food": "egg",
+                        "preparation_notes": "boiled and peeled"
+                    }
+                },
+                {
+                    "name": "3 ounce grape tomatoes, about 3/4 cup chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "ounce"
+                        },
+                        "food": "grape tomatoes",
+                        "preparation_notes": "about 3/4 cup chopped"
+                    }
+                },
+                {
+                    "name": "6 medium pitted green olives, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "medium"
+                        },
+                        "food": "pitted green olives",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoon red onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoon basil, fresh, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "basil",
+                        "preparation_notes": "fresh, chopped"
+                    }
+                },
+                {
+                    "name": "1 tablespoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 tablespoon white wine vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "white wine vinegar"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "8 medium bibb lettuce leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "medium"
+                        },
+                        "food": "bibb lettuce leaves"
+                    }
+                }
+            ],
+            "directions": "Peel and chop the eggs and place in a medium bowl. Add the chopped tomatoes, olives, red onion and basil. In a cup, stir the olive oil, vinegar and salt and pour over the egg mixture. Stir to mix.\\n\\nScoop into lettuce leaves by rounded 1/4-cup servings. Roll to close. ",
+            "recipe_food_id": "208775828917421"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2016/03/Baked-Egg-Cups-752x472.jpg",
+            "name": "Baked Veggie Egg Cups",
+            "nutritional_contents": {
+                "sugar": 13.399999618530273,
+                "fiber": 6.400000095367432,
+                "saturated_fat": 17.0,
+                "protein": 79.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 784.0
+                },
+                "carbohydrates": 27.700000762939453,
+                "sodium": 2458.300048828125,
+                "calcium": 39.20000076293945,
+                "monounsaturated_fat": 11.300000190734863,
+                "vitamin_c": 287.5,
+                "cholesterol": 1134.800048828125,
+                "fat": 39.400001525878906,
+                "iron": 42.0,
+                "polyunsaturated_fat": 6.199999809265137,
+                "potassium": 1693.0,
+                "vitamin_a": 5.400000095367432
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "af48ad73-5e29-4b32-be8b-910471288198",
+            "ingredients": [
+                {
+                    "name": "6 large eggs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "large"
+                        },
+                        "food": "eggs",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 cup (240 ml) egg whites (or another 6 eggs)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (240 ml)"
+                        },
+                        "food": "egg whites (or another 6 eggs)"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon sea salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "sea salt"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "black pepper"
+                    }
+                },
+                {
+                    "name": "1 teaspoon coconut oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "coconut oil"
+                    }
+                },
+                {
+                    "name": "1/2  orange bell pepper, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5
+                        },
+                        "food": "orange bell pepper",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1/2 cup (75g) yellow onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup (75g)"
+                        },
+                        "food": "yellow onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 cup (150g) broccoli, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (150g)"
+                        },
+                        "food": "broccoli",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 cup (150g) mushrooms, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (150g)"
+                        },
+                        "food": "mushrooms",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1/3 cup (30g) crumbled feta cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/3",
+                            "value": 0.33,
+                            "unit": "cup (30g)"
+                        },
+                        "food": "crumbled feta cheese"
+                    }
+                },
+                {
+                    "name": "2 tablespoons flat-leaf parsley, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "flat-leaf parsley",
+                        "preparation_notes": "chopped "
+                    }
+                }
+            ],
+            "directions": "Preheat oven to 375°F (191°C).\\n\\nCoat 12-cup muffin pan with cooking spray, or line with silicone baking cups. (I coated the silicone baking cups with spray.)\\n\\nWhisk eggs and egg whites in a large bowl. Season with salt and pepper.\\n\\nHeat a skillet over medium with oil. Add chopped veggies. Cook 5–6 minutes, until they’re a little soft and the onions are fragrant.\\n\\nAdd veggies to eggs. Add in feta and parsley, and mix well.\\n\\nUse a measuring cup to pour egg mixture evenly into muffin cups, about 1/3 cup each. Bake for 17–20 minutes, or until the egg cups are no longer jiggly and a toothpick inserted in the center comes out clean. Allow cups to cool before refrigerating, or enjoy immediately.",
+            "recipe_food_id": "208775837290221"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2023/01/Ayesha-Curry-Grilled-Chicken-with-Mango-Corn-Salsa.jpg",
+            "name": "20-Minute Mango Chicken Bowls",
+            "nutritional_contents": {
+                "sugar": 65.80000305175781,
+                "fiber": 18.899999618530273,
+                "saturated_fat": 4.800000190734863,
+                "protein": 110.19999694824219,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1318.0
+                },
+                "carbohydrates": 177.60000610351562,
+                "sodium": 1555.300048828125,
+                "calcium": 17.399999618530273,
+                "monounsaturated_fat": 13.399999618530273,
+                "vitamin_c": 368.20001220703125,
+                "cholesterol": 260.0,
+                "fat": 25.700000762939453,
+                "iron": 41.29999923706055,
+                "polyunsaturated_fat": 3.0,
+                "potassium": 2668.5,
+                "vitamin_a": 74.19999694824219
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ca9ce491-68d1-46f4-9d21-67821d9a77eb",
+            "ingredients": [
+                {
+                    "name": "2 teaspoons olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "olive oil",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 4-ounce (113 g) boneless, skinless chicken breasts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "4-ounce (113 g)"
+                        },
+                        "food": "boneless, skinless chicken breasts"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon sea salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "sea salt"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon ground black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "ground black pepper"
+                    }
+                },
+                {
+                    "name": "2 whole mangos, peeled and diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "whole"
+                        },
+                        "food": "mangos",
+                        "preparation_notes": "peeled and diced"
+                    }
+                },
+                {
+                    "name": "1  green bell pepper, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "green bell pepper",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 cup (240 ml) low-sodium chicken broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup (240 ml)"
+                        },
+                        "food": "low-sodium chicken broth"
+                    }
+                },
+                {
+                    "name": "2  green onions, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0
+                        },
+                        "food": "green onions",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 tablespoons fresh mint, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "fresh mint",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 tablespoon fresh lime juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "fresh lime juice"
+                    }
+                },
+                {
+                    "name": "1 teaspoon lime zest",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "lime zest"
+                    }
+                },
+                {
+                    "name": "1 teaspoon garlic, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "2 cups (400 g) cooked brown rice ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups (400 g)"
+                        },
+                        "food": "cooked brown rice "
+                    }
+                }
+            ],
+            "directions": "In a large skillet, heat oil on medium-high. Season both sides of chicken with salt and pepper. Add chicken to skillet, and cook for 1 to 2 minutes per side, until golden brown.\\n\\nAdd mangos, bell pepper, broth, green onions, mint, lime juice, lime zest and garlic, and bring to a simmer. Reduce heat to medium. Partially cover, and cook for 5 minutes, until chicken is cooked through. Add rice to skillet, and stir to combine. Cook for 1 minute to heat through. Serve immediately.",
+            "recipe_food_id": "278605454036013"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2018/08/Chicken-and-Avocado-Zucchini-Noodle-Bowl.jpg",
+            "name": "Chicken and Avocado Zucchini-Noodle Bowl",
+            "nutritional_contents": {
+                "sugar": 46.98099899291992,
+                "fiber": 19.84429931640625,
+                "saturated_fat": 10.741700172424316,
+                "protein": 162.77999877929688,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1459.8699951171875
+                },
+                "carbohydrates": 68.21929931640625,
+                "sodium": 2290.93994140625,
+                "calcium": 28.764299392700195,
+                "monounsaturated_fat": 23.97760009765625,
+                "vitamin_c": 311.74798583984375,
+                "cholesterol": 378.3330078125,
+                "fat": 58.02320098876953,
+                "iron": 68.53700256347656,
+                "polyunsaturated_fat": 11.472900390625,
+                "potassium": 3135.030029296875,
+                "vitamin_a": 212.75100708007812
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "5e1185d1-12e6-448c-8691-e5f144bdce91",
+                    "name": "Low Carb",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "59ec7280-00f9-4891-9fbb-a021056506fc",
+                    "name": "Eating for Impact",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "4f9e4415-31e7-4e9f-b3b3-eb172ffa1aec",
+                    "name": "High Protein",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "ddf65147-77a7-4f35-84ef-7233ffd8fc59",
+            "ingredients": [
+                {
+                    "name": "1/2 cup 0% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "0% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "1 tablespoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "1 tablespoon honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1 tablespoon lemon juice, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lemon juice",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1 teaspoon wasabi paste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "wasabi paste"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "4 cup baby spinach, coarsely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cup"
+                        },
+                        "food": "baby spinach",
+                        "preparation_notes": "coarsely chopped"
+                    }
+                },
+                {
+                    "name": "1 pound zucchini noodles, from 2 medium zucchinis",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "zucchini noodles",
+                        "preparation_notes": "from 2 medium zucchinis"
+                    }
+                },
+                {
+                    "name": "1 pound cooked chicken breasts, cubed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pound"
+                        },
+                        "food": "cooked chicken breasts",
+                        "preparation_notes": "cubed"
+                    }
+                },
+                {
+                    "name": "16 whole grape tomatoes, halved",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "16",
+                            "value": 16.0,
+                            "unit": "whole"
+                        },
+                        "food": "grape tomatoes",
+                        "preparation_notes": "halved"
+                    }
+                },
+                {
+                    "name": "1 medium avocado, pitted and sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "avocado",
+                        "preparation_notes": "pitted and sliced"
+                    }
+                }
+            ],
+            "directions": "In a cup, stir the yogurt, olive oil, honey, lemon juice, wasabi and salt. Reserve.\\n\\nIn each of four wide bowls, spread a cup of spinach, a heaping cup of zucchini noodles and top with 1/4 of the chicken, 4 halved grape tomatoes and 1/4 of the avocado. Drizzle with 2 heaping tablespoons of the yogurt mixture and serve.",
+            "recipe_food_id": "278596998278317"
+        }
+    ]
+}

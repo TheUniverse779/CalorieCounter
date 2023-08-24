@@ -119,8 +119,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
                 var specialArtTabFragment = NewTrendingFragment()
                 tabAdapter?.addFragment(specialArtTabFragment, "")
             } else {
-                var homeTabFragment = HomeTabFragment()
-                homeTabFragment.setData(i.contentType)
+                var homeTabFragment = DiscoveryFragment()
                 tabAdapter?.addFragment(homeTabFragment, "")
             }
 

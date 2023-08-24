@@ -1,0 +1,1893 @@
+{
+    "items": [
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2015/12/Slow-Cooker-Sweet-Potato-Curry.jpg",
+            "name": "Slow Cooker Sweet Potato Curry",
+            "nutritional_contents": {
+                "sugar": 59.34130096435547,
+                "fiber": 31.198200225830078,
+                "saturated_fat": 3.0524299144744873,
+                "protein": 30.60770034790039,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1455.77001953125
+                },
+                "carbohydrates": 302.65899658203125,
+                "sodium": 2162.35009765625,
+                "calcium": 67.92169952392578,
+                "monounsaturated_fat": 0.015457999892532825,
+                "vitamin_c": 603.1950073242188,
+                "cholesterol": 25.0,
+                "fat": 15.038000106811523,
+                "iron": 52.251800537109375,
+                "polyunsaturated_fat": 0.058653999119997025,
+                "potassium": 2890.3701171875,
+                "vitamin_a": 2819.719970703125
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "2e99a6e3-7dff-49ad-ad91-bf12e77b849f",
+            "ingredients": [
+                {
+                    "name": "1 medium onion, coarsely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "onion",
+                        "preparation_notes": "coarsely chopped"
+                    }
+                },
+                {
+                    "name": "1 medium red bell pepper, coarsely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "coarsely chopped"
+                    }
+                },
+                {
+                    "name": "2 large sweet potatoes, peeled and cubed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "sweet potatoes",
+                        "preparation_notes": "peeled and cubed"
+                    }
+                },
+                {
+                    "name": "1 tablespoon chopped ginger, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "chopped ginger",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "1 1/2 cup vegetable broth",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "cup"
+                        },
+                        "food": "vegetable broth"
+                    }
+                },
+                {
+                    "name": "1 tablespoon mild curry powder, or hot",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "mild curry powder",
+                        "preparation_notes": "or hot"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/4 cup basil, fresh, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "basil",
+                        "preparation_notes": "fresh, chopped"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon grated zest lime",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "grated zest lime"
+                    }
+                },
+                {
+                    "name": "1 1/2 tablespoon lime juice, fresh",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "tablespoon"
+                        },
+                        "food": "lime juice",
+                        "preparation_notes": "fresh"
+                    }
+                },
+                {
+                    "name": "4 tablespoon low-fat Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "low-fat Greek yogurt"
+                    }
+                },
+                {
+                    "name": "4  basil leaves, or sprigs",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0
+                        },
+                        "food": "basil leaves",
+                        "preparation_notes": "or sprigs"
+                    }
+                },
+                {
+                    "name": "3 clove garlic, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "clove"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "3 cup hot cooked jasmine, or basmati rice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "cup"
+                        },
+                        "food": "hot cooked jasmine",
+                        "preparation_notes": "or basmati rice"
+                    }
+                }
+            ],
+            "directions": "Combine onion, bell pepper, sweet potatoes, garlic, and ginger in a 4-quart slow cooker.\\n\\nCombine broth, curry powder, and salt; stir into slow cooker mixture. Cover, and cook on high for 4 hours or low for 8 hours. Stir in basil, zest, and lime juice.\\n\\nServe 1 1/4 curry over 3/4 cup hot cooked rice. Dollop each serving with 1 tablespoon yogurt and garnish with basil.",
+            "recipe_food_id": "265127971466541"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/05/Dijon-Chickpea-and-Egg-Salad-752x472.jpg",
+            "name": "Dijon Chickpea and Egg Salad",
+            "nutritional_contents": {
+                "sugar": 14.399999618530273,
+                "fiber": 17.200000762939453,
+                "saturated_fat": 6.599999904632568,
+                "protein": 48.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1005.0
+                },
+                "carbohydrates": 82.80000305175781,
+                "sodium": 2458.10009765625,
+                "calcium": 99.9000015258789,
+                "monounsaturated_fat": 20.200000762939453,
+                "vitamin_c": 28.399999618530273,
+                "cholesterol": 848.0,
+                "fat": 52.29999923706055,
+                "iron": 36.900001525878906,
+                "polyunsaturated_fat": 12.100000381469727,
+                "potassium": 1511.0,
+                "vitamin_a": 857.5999755859375
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "7de17668-982d-4b3b-b90b-db5378044cf3",
+            "ingredients": [
+                {
+                    "name": "1 can (15-ounce/425g) no-salt-added chickpeas, drained and rinsed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can (15-ounce/425g)"
+                        },
+                        "food": "no-salt-added chickpeas",
+                        "preparation_notes": "drained and rinsed "
+                    }
+                },
+                {
+                    "name": "4 large  hard-boiled eggs, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "large "
+                        },
+                        "food": "hard-boiled eggs",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "6 tablespoons canola mayonnaise ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "canola mayonnaise "
+                    }
+                },
+                {
+                    "name": "1/4 cup green onions , chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "green onions ",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "2 tablespoons capers , drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "capers ",
+                        "preparation_notes": "drained "
+                    }
+                },
+                {
+                    "name": "1 tablespoon Dijon mustard ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "Dijon mustard "
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon salt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "salt "
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon black pepper ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "black pepper "
+                    }
+                },
+                {
+                    "name": "8 each lettuce leaves ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "each"
+                        },
+                        "food": "lettuce leaves "
+                    }
+                }
+            ],
+            "directions": "In a large bowl, coarsely mash chickpeas with a fork. Add eggs and stir to combine. Stir in mayonnaise, green onions, capers, Dijon, salt and pepper. Serve over lettuce leaves.",
+            "recipe_food_id": "195315296448253"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2021/02/MFP-Red-Lentil-Stew-Featured.jpg",
+            "name": "Red Lentil and Collard Stew",
+            "nutritional_contents": {
+                "sugar": 25.700000762939453,
+                "fiber": 40.79999923706055,
+                "saturated_fat": 0.30000001192092896,
+                "protein": 51.900001525878906,
+                "energy": {
+                    "unit": "calories",
+                    "value": 782.0
+                },
+                "carbohydrates": 147.39999389648438,
+                "sodium": 176.39999389648438,
+                "calcium": 124.30000305175781,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 64.19999694824219,
+                "fat": 1.399999976158142,
+                "iron": 65.5999984741211,
+                "polyunsaturated_fat": 0.6000000238418579,
+                "potassium": 3240.699951171875,
+                "vitamin_a": 1170.800048828125
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "bba16e40-6e79-4955-ae39-6db9895c2ba9",
+                    "name": "Under 300 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "baecc289-705f-11ea-ab6f-123bdeb932d6",
+                    "name": "Immune Support",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "a8fd875c-77b7-4952-a29a-9c86c4b776ec",
+                    "name": "Low Sodium",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "858270d9-cbe1-4040-b52c-9b1158223a45",
+            "ingredients": [
+                {
+                    "name": "1 cup Red lentils",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "Red lentils",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 large Onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "Onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 clove Garlic, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "clove"
+                        },
+                        "food": "Garlic",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 tablespoon Fresh ginger, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tablespoon"
+                        },
+                        "food": "Fresh ginger",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 large Carrot, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "Carrot",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 large Roma, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "Roma",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 teaspoon Paprika",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "Paprika"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon Ground coriander",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon"
+                        },
+                        "food": "Ground coriander"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoon  Cayenne",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoon "
+                        },
+                        "food": "Cayenne"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon Cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "Cinnamon"
+                    }
+                },
+                {
+                    "name": "2 cups Collards, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "Collards",
+                        "preparation_notes": "chopped"
+                    }
+                }
+            ],
+            "directions": "In a large pot, place the lentils, onion, garlic, ginger, carrot, tomatoes and 4 cups (1L) water; stir. Add the paprika, coriander, cayenne and cinnamon, stir and place over medium-high heat.\\n\\nCover and bring to a boil, then reduce heat to medium-low or low to maintain a simmer. Cover the pot tightly and cook for 30 minutes until the lentils are falling apart and the vegetables are tender.\\n\\nStir in the collard greens and cook for 5 minutes longer, uncovered. Serve hot.",
+            "recipe_food_id": "229943423208813"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/09/UACF-Cauliflower-Gnocchi-featured--1024x643.jpg",
+            "name": "Cauliflower Gnocchi With Eggplant Ragu",
+            "nutritional_contents": {
+                "sugar": 63.5,
+                "fiber": 45.79999923706055,
+                "saturated_fat": 9.600000381469727,
+                "protein": 55.20000076293945,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1643.0
+                },
+                "carbohydrates": 256.20001220703125,
+                "sodium": 3397.10009765625,
+                "calcium": 85.69999694824219,
+                "monounsaturated_fat": 31.700000762939453,
+                "vitamin_c": 141.8000030517578,
+                "cholesterol": 14.399999618530273,
+                "fat": 54.70000076293945,
+                "iron": 92.19999694824219,
+                "polyunsaturated_fat": 5.699999809265137,
+                "potassium": 4251.89990234375,
+                "vitamin_a": 119.30000305175781
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "efbea3dc-1333-4916-9755-243f6ae3eb49",
+                    "name": "Lunch",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "820a451a-d590-4a22-ab04-ddf7ea0922a3",
+                    "name": "Gluten-free",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "4fc9f8c7-7220-4a3d-a6e3-a67f6a6dbe96",
+            "ingredients": [
+                {
+                    "name": "3 tablespoons olive oil , divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "olive oil ",
+                        "preparation_notes": "divided "
+                    }
+                },
+                {
+                    "name": "1 small onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "small"
+                        },
+                        "food": "onion",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "1 medium  eggplant , cut into 1/2-inch (1.2cm) cubes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium "
+                        },
+                        "food": "eggplant ",
+                        "preparation_notes": "cut into 1/2-inch (1.2cm) cubes"
+                    }
+                },
+                {
+                    "name": "2 pinches salt ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "pinches"
+                        },
+                        "food": "salt "
+                    }
+                },
+                {
+                    "name": "2 medium  garlic cloves , chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium "
+                        },
+                        "food": "garlic cloves ",
+                        "preparation_notes": "chopped "
+                    }
+                },
+                {
+                    "name": "1 1/2 teaspoons oregano ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1-1/2",
+                            "value": 1.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "oregano "
+                    }
+                },
+                {
+                    "name": "1 pinch  crushed red pepper ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "pinch "
+                        },
+                        "food": "crushed red pepper "
+                    }
+                },
+                {
+                    "name": "1 can (28-ounce/739g) chopped tomatoes with juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can (28-ounce/739g)"
+                        },
+                        "food": "chopped tomatoes with juice"
+                    }
+                },
+                {
+                    "name": "1/4 teaspoon pepper ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "teaspoon"
+                        },
+                        "food": "pepper "
+                    }
+                },
+                {
+                    "name": "4 cups  frozen cauliflower gnocchi",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups "
+                        },
+                        "food": "frozen cauliflower gnocchi",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 cup  Parmesan cheese shavings , (use a sharp peeler to carve shards off a wedge of cheese)",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup "
+                        },
+                        "food": "Parmesan cheese shavings ",
+                        "preparation_notes": "(use a sharp peeler to carve shards off a wedge of cheese)"
+                    }
+                }
+            ],
+            "directions": "Heat 2 tablespoons of oil in a large saute pan over medium heat. Add the onions, eggplant and salt and cook, stirring occasionally, until the vegetables are tender and beginning to brown, 5 minutes. Add the garlic, oregano, and crushed red pepper and cook until fragrant, about 30 seconds. Add the tomatoes and 1/2 cup (118ml) water and bring to a simmer. Reduce heat to low, cover and simmer, stirring occasionally and breaking up the eggplant a bit with a wooden spoon, until the eggplant is very tender, 20 minutes.\\n\\nPut the frozen gnocchi and 1/4 cup (59ml) water in large nonstick skillet. Bring to a simmer over medium-high heat. Cover the pan, reduce heat to low, and simmer for 5 minutes. Remove lid and continue to cook, tossing occasionally with a rubber spatula, until the water evaporates and the gnocchi is golden brown, 5 minutes.\\n\\nDivide the eggplant ragu among 4 pasta bowls. Spoon the gnocchi over the ragu and garnish with the cheese shavings.",
+            "recipe_food_id": "229943431647213"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/03/Spaghetti-Pie-With-White-Beans.jpg",
+            "name": "Spaghetti Pie With White Beans",
+            "nutritional_contents": {
+                "sugar": 20.569000244140625,
+                "fiber": 43.71989822387695,
+                "saturated_fat": 12.748700141906738,
+                "protein": 88.20680236816406,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1170.6500244140625
+                },
+                "carbohydrates": 146.13800048828125,
+                "sodium": 1835.56005859375,
+                "calcium": 867.5869750976562,
+                "monounsaturated_fat": 9.250189781188965,
+                "vitamin_c": 96.74400329589844,
+                "cholesterol": 69.5,
+                "fat": 29.432199478149414,
+                "iron": 54.1593017578125,
+                "polyunsaturated_fat": 3.6338698863983154,
+                "potassium": 3406.050048828125,
+                "vitamin_a": 913.7119750976562,
+                "trans_fat": 0.6570000052452087
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "2c2c58da-77c4-462a-8c0a-3aa986fe5060",
+                    "name": "Pantry Staples",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "7cdf098f-27d5-4c5f-8aac-302e8b2ccd3f",
+            "ingredients": [
+                {
+                    "name": "4 ounce whole-wheat spaghetti",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "ounce"
+                        },
+                        "food": "whole-wheat spaghetti"
+                    }
+                },
+                {
+                    "name": "1 teaspoon olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "olive oil"
+                    }
+                },
+                {
+                    "name": "2 cup tomatoes, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cup"
+                        },
+                        "food": "tomatoes",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "4 cup spinach, fresh, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cup"
+                        },
+                        "food": "spinach",
+                        "preparation_notes": "fresh, chopped"
+                    }
+                },
+                {
+                    "name": "1 teaspoon dried basil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "dried basil"
+                    }
+                },
+                {
+                    "name": "1 teaspoon dried oregano",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "teaspoon"
+                        },
+                        "food": "dried oregano"
+                    }
+                },
+                {
+                    "name": "1/2 cup 0% Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "0% Greek yogurt"
+                    }
+                },
+                {
+                    "name": "3/4 cup Parmesan cheese, shredded",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "Parmesan cheese",
+                        "preparation_notes": "shredded"
+                    }
+                },
+                {
+                    "name": "1/2 cup dried navy beans, cooked, no salt added",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "cup"
+                        },
+                        "food": "dried navy beans",
+                        "preparation_notes": "cooked, no salt added"
+                    }
+                },
+                {
+                    "name": "1 large onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "large"
+                        },
+                        "food": "onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "6 large egg whites, large whites",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": "large"
+                        },
+                        "food": "egg whites",
+                        "preparation_notes": "large whites"
+                    }
+                }
+            ],
+            "directions": "PANTRY STAPLE SUBSTITUTIONS: Replace fresh tomatoes with 1 cup canned, diced tomatoes, drained. Replace fresh spinach with 2.5 ounces frozen spinach (1/4 of a 10oz bag)\\n\\nLightly coat a 9-inch, deep-dish pie pan with cooking spray and reserve. Set a large pot of water to boil for the spaghetti, then cook according to package directions and drain. Reserve.\\n\\nDrizzle olive oil in a large saute pan over medium-high heat. Add the onion and stir for about 5 minutes, until softened. Add the chopped tomatoes, and stir frequently until the tomatoes are soft and the pan is nearly dry. (If the tomatoes are too juicy, the pie will be soggy.) Stir in the spinach, basil and oregano and remove from heat. Stir a few more times until the spinach is wilted and bright green. Let cool.\\n\\nIn a large bowl, whisk the egg whites and yogurt until smooth. Stir in 1/2 cup (50g) of Parmesan, then stir in the white beans, cooked spaghetti and spinach mixture. Fold together, then scrape into the prepared pie pan. Smooth the top and sprinkle with the remaining Parmesan cheese.\\n\\nBake at 375ºF (190ºC) for 45 minutes, until puffed and golden brown. Let cool for at least 5 minutes before slicing into six pieces.\\n\\nKeeps for four days in the refrigerator, tightly covered.",
+            "recipe_food_id": "230493225168749"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2019/12/Cauliflower-Black-Bean-Tacos.jpg",
+            "name": "Cauliflower Black Bean Tacos",
+            "nutritional_contents": {
+                "sugar": 22.0,
+                "fiber": 46.20000076293945,
+                "saturated_fat": 1.5,
+                "protein": 39.0,
+                "energy": {
+                    "unit": "calories",
+                    "value": 845.0
+                },
+                "carbohydrates": 154.39999389648438,
+                "sodium": 2141.39990234375,
+                "calcium": 33.70000076293945,
+                "monounsaturated_fat": 3.5999999046325684,
+                "vitamin_c": 428.8999938964844,
+                "cholesterol": 0.0,
+                "fat": 11.800000190734863,
+                "iron": 66.9000015258789,
+                "polyunsaturated_fat": 2.799999952316284,
+                "potassium": 3085.60009765625,
+                "vitamin_a": 1.0,
+                "trans_fat": 0.0
+            },
+            "servings": 3,
+            "tags": [
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "9832ceb9-a878-4346-b6b5-e1a2062b5d94",
+            "ingredients": [
+                {
+                    "name": "6  corn tortillas",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "6",
+                            "value": 6.0,
+                            "unit": ""
+                        },
+                        "food": "corn tortillas",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "4 cups cauliflower",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0,
+                            "unit": "cups"
+                        },
+                        "food": "cauliflower"
+                    }
+                },
+                {
+                    "name": "1 tsp olive oil ",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "olive oil "
+                    }
+                },
+                {
+                    "name": "2 colves garlic, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "colves"
+                        },
+                        "food": "garlic",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 tsp chipotle powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "chipotle powder"
+                    }
+                },
+                {
+                    "name": "1/4 tsp salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1 1/2 cups cooked black beans, drained and rinsed",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "cups"
+                        },
+                        "food": "cooked black beans",
+                        "preparation_notes": "drained and rinsed"
+                    }
+                },
+                {
+                    "name": "1/4 cup green onions, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "green onions",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 large tomatoes, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "large"
+                        },
+                        "food": "tomatoes",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1/4 cup cilantro, coarsely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "cilantro",
+                        "preparation_notes": "coarsely chopped"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 400ºF (200ºC), and wrap the tortillas in foil. Heat the tortillas for 10 minutes.\\n\\nPlace the cauliflower in a food processor and pulse until chopped to the size of ground beef.\\n\\nCoat a large saute pan with olive oil and place over medium-high heat; add the cauliflower. Cook, stirring frequently for about 5 minutes, until the cauliflower is tender and the pan is dry. Add the garlic, chipotle powder, salt and black beans and cook until hot.\\n\\nServe 1/2 cup of the cauliflower filling in each corn tortilla, top with green onions, tomatoes and cilantro.",
+            "recipe_food_id": "194894518693373"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2017/11/Butternut.jpg",
+            "name": "Butternut Squash Black Bean Chili",
+            "nutritional_contents": {
+                "sugar": 41.400001525878906,
+                "fiber": 49.599998474121094,
+                "saturated_fat": 1.0,
+                "protein": 56.099998474121094,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1090.0
+                },
+                "carbohydrates": 207.3000030517578,
+                "sodium": 4087.699951171875,
+                "calcium": 71.80000305175781,
+                "monounsaturated_fat": 0.800000011920929,
+                "vitamin_c": 161.5,
+                "cholesterol": 0.0,
+                "fat": 4.400000095367432,
+                "iron": 180.0,
+                "polyunsaturated_fat": 2.4000000953674316,
+                "potassium": 5524.7001953125,
+                "vitamin_a": 840.2999877929688,
+                "trans_fat": 0.0
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "db7c8f4a-4d82-471e-94c2-7f5ec06175dc",
+            "ingredients": [
+                {
+                    "name": "2 cups (300g) butternut squash , diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups (300g)"
+                        },
+                        "food": "butternut squash ",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "2 cans (15 oz) black beans, drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cans (15 oz)"
+                        },
+                        "food": "black beans",
+                        "preparation_notes": "drained"
+                    }
+                },
+                {
+                    "name": "1  red onion, diced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "diced"
+                    }
+                },
+                {
+                    "name": "1 can (15 oz) crushed tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can (15 oz)"
+                        },
+                        "food": "crushed tomatoes"
+                    }
+                },
+                {
+                    "name": "2 tbsp chili powder",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "chili powder"
+                    }
+                },
+                {
+                    "name": "2 tbsp smoked paprika",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "smoked paprika"
+                    }
+                },
+                {
+                    "name": "1 can (15 oz) diced tomatoes",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can (15 oz)"
+                        },
+                        "food": "diced tomatoes"
+                    }
+                }
+            ],
+            "directions": "Place all ingredients in a large stockpot and simmer until butternut squash is tender and the flavors have melded about 30–40 minutes.",
+            "recipe_food_id": "230776797826285"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2017/08/Newkabobb.jpg",
+            "name": "Lebanese Impossible Burger Kabobs with Lemon Tahini Sauce",
+            "nutritional_contents": {
+                "sugar": 2.0,
+                "fiber": 19.0,
+                "saturated_fat": 28.399999618530273,
+                "protein": 76.69999694824219,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1172.0
+                },
+                "carbohydrates": 52.70000076293945,
+                "sodium": 2389.5,
+                "calcium": 79.0,
+                "monounsaturated_fat": 12.0,
+                "vitamin_c": 48.900001525878906,
+                "fat": 74.0,
+                "iron": 112.0,
+                "polyunsaturated_fat": 14.0,
+                "potassium": 2527.0,
+                "vitamin_a": 0.5
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "a56a63c2-c833-45e2-b749-993e7c44b20d",
+            "ingredients": [
+                {
+                    "name": "8  bamboo skewers",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": ""
+                        },
+                        "food": "bamboo skewers",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1/4 cup tahini",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "tahini"
+                    }
+                },
+                {
+                    "name": "1/4 cup warm water",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "cup"
+                        },
+                        "food": "warm water"
+                    }
+                },
+                {
+                    "name": "3 tbsp nutritional yeast",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "nutritional yeast"
+                    }
+                },
+                {
+                    "name": "3 tbsp lemon juice",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "lemon juice"
+                    }
+                },
+                {
+                    "name": "2 medium garlic cloves, finely chopped and smashed, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium"
+                        },
+                        "food": "garlic cloves",
+                        "preparation_notes": "finely chopped and smashed, divided"
+                    }
+                },
+                {
+                    "name": "1/4 tsp salt, divided",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "salt",
+                        "preparation_notes": "divided"
+                    }
+                },
+                {
+                    "name": "1 12 oz package impossible burger",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "12 oz"
+                        },
+                        "food": "package impossible burger"
+                    }
+                },
+                {
+                    "name": "1 tsp ground cumin",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tsp"
+                        },
+                        "food": "ground cumin"
+                    }
+                },
+                {
+                    "name": "1/4 tsp ground cinnamon",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "ground cinnamon"
+                    }
+                },
+                {
+                    "name": "2 tbsp parsley or cilantro, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "parsley or cilantro",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "1/4 tsp pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "pepper"
+                    }
+                }
+            ],
+            "directions": "Soak the bamboo skewers in a pan of cold water for 30 minutes; this prevents them from burning on the grill. You can also use metal skewers, which won’t need to be soaked. Preheat a grill or grill pan over medium-high heat.\\n\\nIn a medium bowl, whisk together the tahini, water, nutritional yeast, lemon juice, 1 teaspoon garlic and 1/4 teaspoon salt. Set aside.\\n\\nIn a large bowl, mix the ground vegetarian burger, remaining garlic, cumin, cinnamon, parsley and pepper until combined. Divide the mixture into 8 portions. Shape the portions onto the skewers into flattened sausage shapes, squeezing the mixture to mold it onto the skewer and leaving the last 2 inches (5cm) of the skewers uncovered. Mist the kabobs with olive oil spray before grilling.\\n\\nGrill until the kabobs are browned on both sides and heated through, about 4 minutes per side. Serve with the tahini sauce.",
+            "recipe_food_id": "243842076691565"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/12/MFP-Vegetarian-Lentil-Nut-featured.jpg",
+            "name": "Vegetarian Lentil, Mushroom and Nut Roast",
+            "nutritional_contents": {
+                "sugar": 33.0,
+                "fiber": 41.20000076293945,
+                "saturated_fat": 20.5,
+                "protein": 92.69999694824219,
+                "energy": {
+                    "unit": "calories",
+                    "value": 2020.0
+                },
+                "carbohydrates": 161.89999389648438,
+                "sodium": 2909.39990234375,
+                "calcium": 239.5,
+                "monounsaturated_fat": 25.799999237060547,
+                "vitamin_c": 169.6999969482422,
+                "cholesterol": 568.0,
+                "fat": 120.5999984741211,
+                "iron": 92.0999984741211,
+                "polyunsaturated_fat": 6.5,
+                "potassium": 2204.699951171875,
+                "vitamin_a": 433.1000061035156,
+                "trans_fat": 0.10000000149011612
+            },
+            "servings": 6,
+            "tags": [
+                {
+                    "id": "10e1b872-2b8f-46a2-9a17-1dfdf7c83b34",
+                    "name": "Dinner",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "c4e0853b-3e4c-4834-82ab-a5c1c182ac2b",
+                    "name": "Vegetarian",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "0b59880e-10a9-4611-8315-497fbec6b341",
+                    "name": "Under 500 Calories",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                },
+                {
+                    "id": "baecc289-705f-11ea-ab6f-123bdeb932d6",
+                    "name": "Immune Support",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "e51ace05-7a19-4914-b83d-1725b90c266c",
+            "ingredients": [
+                {
+                    "name": "2 tablespoons Olive oil",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "Olive oil",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 medium onion, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "onion",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "8 ounces cremini mushrooms, sliced",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0,
+                            "unit": "ounces"
+                        },
+                        "food": "cremini mushrooms",
+                        "preparation_notes": "sliced"
+                    }
+                },
+                {
+                    "name": "1 medium red bell pepper, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "medium"
+                        },
+                        "food": "red bell pepper",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "2 teaspoons herbes de provence",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "teaspoons"
+                        },
+                        "food": "herbes de provence"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoons salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "salt"
+                    }
+                },
+                {
+                    "name": "1/2 teaspoons pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/2",
+                            "value": 0.5,
+                            "unit": "teaspoons"
+                        },
+                        "food": "pepper"
+                    }
+                },
+                {
+                    "name": "2 tablespoons tomato paste",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons"
+                        },
+                        "food": "tomato paste"
+                    }
+                },
+                {
+                    "name": "2 medium garlic cloves, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "medium"
+                        },
+                        "food": "garlic cloves",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 cup mixed, roasted unsalted nuts",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "cup"
+                        },
+                        "food": "mixed, roasted unsalted nuts"
+                    }
+                },
+                {
+                    "name": "1 1/4 slices 100% whole-wheat sandwich bread, torn into pieces",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/4",
+                            "value": 1.25,
+                            "unit": "slices"
+                        },
+                        "food": "100% whole-wheat sandwich bread",
+                        "preparation_notes": "torn into pieces"
+                    }
+                },
+                {
+                    "name": "1 can brown lentils (15oz), rinsed and drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can"
+                        },
+                        "food": "brown lentils (15oz)",
+                        "preparation_notes": "rinsed and drained"
+                    }
+                },
+                {
+                    "name": "3 large eggs, beaten",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3",
+                            "value": 3.0,
+                            "unit": "large"
+                        },
+                        "food": "eggs",
+                        "preparation_notes": "beaten"
+                    }
+                },
+                {
+                    "name": "2 tablespoons  finely shredded parmesan cheese",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tablespoons "
+                        },
+                        "food": "finely shredded parmesan cheese"
+                    }
+                }
+            ],
+            "directions": "Preheat the oven to 350°F (180°C). Line the bottom and long sides of a 4-by-8-inch (10 x 20cm) loaf pan with parchment paper and coat the pan with cooking spray. Set aside.\\n\\nHeat the oil in a large saute pan over medium-high heat. Add the onion, mushrooms, bell pepper, herbes de Provence, salt and pepper. Cook, stirring occasionally, until tender and browned, 6 minutes. Add the tomato paste and garlic and cook, stirring constantly, until fragrant, 45 seconds. Add 1/3 cup water and simmer, scraping up browned bits on the bottom of the pan, until evaporated, 1 minute. Remove from heat and let cool for 10 minutes.\\n\\nMeanwhile, put the nuts and bread in a food processor and pulse until finely ground, about 30, 1-second pulses. Pour into a large bowl and set aside.\\n\\nTransfer the sauteed vegetables and lentils to the food processor and pulse until well chopped, 20, 1-second pulses. Scrape out into the bowl with the ground nut mixture.\\n\\nAdd the eggs and cheese and stir everything together with a wooden spoon until thoroughly combined. Scoop the mixture into the prepared pan. Cover with foil and bake for 35 minutes. Uncover and bake for 25 minutes more or until the loaf is firm when pressed gently.\\n\\nRun a knife around the edges of the loaf pan. Invert the pan onto a serving platter to remove from the pan. Discard the parchment paper. Slice the roast and serve.\\n\\nTip: Herbes de Provence is a salt-free French blend of thyme, savory, fennel, basil, and lavender. It’s available in bulk where spices are sold and in cute little earthenware crocks. The sunny flavors enliven soups, sauces and egg dishes.",
+            "recipe_food_id": "230491203555181"
+        },
+        {
+            "image_url": "https://blog.myfitnesspal.com/wp-content/uploads/2020/09/Artboard-1-copybroc-wrap2-featured.jpg",
+            "name": "Chickpea Broccoli Salad Wraps",
+            "nutritional_contents": {
+                "sugar": 50.0,
+                "fiber": 58.29999923706055,
+                "saturated_fat": 3.0,
+                "protein": 76.4000015258789,
+                "energy": {
+                    "unit": "calories",
+                    "value": 1307.0
+                },
+                "carbohydrates": 216.60000610351562,
+                "sodium": 2464.0,
+                "calcium": 144.8000030517578,
+                "monounsaturated_fat": 0.10000000149011612,
+                "vitamin_c": 399.3999938964844,
+                "fat": 32.0,
+                "iron": 75.30000305175781,
+                "polyunsaturated_fat": 0.20000000298023224,
+                "potassium": 917.5999755859375,
+                "vitamin_a": 120.19999694824219
+            },
+            "servings": 4,
+            "tags": [
+                {
+                    "id": "b4057f48-4c5b-4626-9738-049ede308da2",
+                    "name": "Eat Green",
+                    "scope": "recipe-discovery",
+                    "priority": 0
+                }
+            ],
+            "country_code": "US",
+            "calorie_range_scaling_factor": {
+                "1400": 1.0,
+                "2000": 1.0,
+                "1200": 1.0,
+                "1800": 1.0,
+                "1600": 1.0
+            },
+            "id": "e4a002db-2c7a-4e8b-9213-ac33a8f257ec",
+            "ingredients": [
+                {
+                    "name": "3/4 cup plain nonfat Greek yogurt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "3/4",
+                            "value": 0.75,
+                            "unit": "cup"
+                        },
+                        "food": "plain nonfat Greek yogurt",
+                        "preparation_notes": ""
+                    }
+                },
+                {
+                    "name": "1 tbsp apple cider vinegar",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "apple cider vinegar"
+                    }
+                },
+                {
+                    "name": "1 1/2 tsp honey",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1 1/2",
+                            "value": 1.5,
+                            "unit": "tsp"
+                        },
+                        "food": "honey"
+                    }
+                },
+                {
+                    "name": "1/4 tsp black pepper",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25,
+                            "unit": "tsp"
+                        },
+                        "food": "black pepper"
+                    }
+                },
+                {
+                    "name": "1/8  kosher salt",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/8",
+                            "value": 0.125
+                        },
+                        "food": "kosher salt"
+                    }
+                },
+                {
+                    "name": "2 cups broccoli, chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "cups"
+                        },
+                        "food": "broccoli",
+                        "preparation_notes": "chopped"
+                    }
+                },
+                {
+                    "name": "1 can (15.5 oz) low-sodium chickpeas, rinsed and drained",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1",
+                            "value": 1.0,
+                            "unit": "can (15.5 oz)"
+                        },
+                        "food": "low-sodium chickpeas",
+                        "preparation_notes": "rinsed and drained"
+                    }
+                },
+                {
+                    "name": "1/4  red onion, finely chopped",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "1/4",
+                            "value": 0.25
+                        },
+                        "food": "red onion",
+                        "preparation_notes": "finely chopped"
+                    }
+                },
+                {
+                    "name": "2 tbsp sunflower seed kernels",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "2",
+                            "value": 2.0,
+                            "unit": "tbsp"
+                        },
+                        "food": "sunflower seed kernels"
+                    }
+                },
+                {
+                    "name": "4  tortilla wraps, low carb, high-fiber",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "4",
+                            "value": 4.0
+                        },
+                        "food": "tortilla wraps, low carb, high-fiber"
+                    }
+                },
+                {
+                    "name": "8  Boston lettuce leaves",
+                    "semantics": {
+                        "serving_size": {
+                            "quantity": "8",
+                            "value": 8.0
+                        },
+                        "food": "Boston lettuce leaves"
+                    }
+                }
+            ],
+            "directions": "In a medium bowl, stir together the yogurt, vinegar, honey, pepper and salt. Stir in the broccoli, chickpeas, cranberries, onion and sunflower seeds.\\n\\nLine each tortilla wrap with 2 lettuce leaves; spoon a scant 1 cup broccoli salad into each. Roll up and cut in half.",
+            "recipe_food_id": "159856167136941"
+        }
+    ]
+}
