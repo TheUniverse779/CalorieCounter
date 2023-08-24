@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:foreground="@drawable/ripple_effect"
+            android:gravity="center_vertical"
+            tools:background="@color/black">
+
+
+            <TextView
+                android:paddingStart="16dp"
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/svn_avo"
+                android:text="One Piece"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/btnDelete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="14dp"
+                android:src="@drawable/cancel_3" />
+
+
+        </LinearLayout>
+        
+        <View
+            android:layout_marginHorizontal="16dp"
+            android:background="#1AFFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"/>
+
+    </LinearLayout>
+</layout>

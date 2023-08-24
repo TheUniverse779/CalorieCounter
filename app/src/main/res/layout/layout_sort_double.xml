@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <com.ornach.richtext.RichView
+        android:orientation="vertical"
+        app:rt_radius="5dp"
+        app:rt_backgroundColor="#3C3F41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/btnNewest"
+            android:textSize="11dp"
+            android:paddingStart="15dp"
+            android:paddingVertical="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="#B3FFFFFF"
+            android:textAllCaps="true"
+            android:text="Newest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/btnPopular"
+            android:textSize="11dp"
+            android:paddingStart="15dp"
+            android:paddingVertical="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="#B3FFFFFF"
+            android:textAllCaps="true"
+            android:text="Most Popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </com.ornach.richtext.RichView>
+
+</LinearLayout>

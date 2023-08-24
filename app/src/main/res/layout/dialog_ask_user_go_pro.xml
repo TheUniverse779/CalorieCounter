@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/black">
+
+
+        <com.ornach.richtext.RichView
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:paddingBottom="25dp"
+            app:rt_backgroundColor="#1AFFFFFF"
+            app:rt_radius="16dp">
+
+
+            <ImageView
+                android:id="@+id/btnClose"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/cancel_2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/svn_avo_bold"
+                android:gravity="center"
+                android:text="Become PRO to download \nwallpapers without Ecoins and \nADs!"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnWatchAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="9dp"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/play" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:text="Continue to watch ads"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/svn_avo"
+                            android:text="to get "
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="-2dp"
+                            android:src="@drawable/ic_coin" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/svn_avo"
+                            android:text="1!"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </com.ornach.richtext.RichView>
+
+
+            <com.ornach.richtext.RichView
+                android:visibility="visible"
+                android:id="@+id/btnGoPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                app:rt_backgroundColor="@color/color_brand"
+                app:rt_radius="100dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_star" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="Unlock all exclusive"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+
+            </com.ornach.richtext.RichView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/svn_avo"
+                    android:text="Your coin: "
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="-2dp"
+                    android:src="@drawable/ic_coin" />
+
+                <TextView
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/tvCoinCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+        </com.ornach.richtext.RichView>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rootV"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="4dp"
+        android:layout_height="wrap_content"
+        tools:background="@color/black"
+        android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:background="@color/color_3a3a3a"
+                app:riv_corner_radius="3dp"
+                android:id="@+id/imgAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintDimensionRatio="1:1.9"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgShowAds"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="@id/imgAvatar"
+                app:layout_constraintTop_toTopOf="@id/imgAvatar"
+                android:src="@drawable/ic_need_play_ads"
+                android:layout_width="16dp"
+                android:layout_height="16dp" />
+
+
+            <ImageView
+                android:layout_marginBottom="4dp"
+                android:visibility="visible"
+                android:id="@+id/imgVideo"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/imgAvatar"
+                app:layout_constraintStart_toStartOf="@id/imgAvatar"
+                android:src="@drawable/ic_icon_video"
+                android:layout_width="28dp"
+                android:layout_height="24dp" />
+
+            <com.ornach.richtext.RichView
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@id/imgAvatar"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/viewCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_vertical"
+                android:paddingVertical="2dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                app:rt_backgroundColor="#333333"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_coin" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvCoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="-2dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+
+            </com.ornach.richtext.RichView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</layout>

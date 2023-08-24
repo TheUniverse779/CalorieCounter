@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/intro_1" />
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo_bold"
+                android:text="100.000+"
+                android:textColor="#FFDE30"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text="4K Wallpapers"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp" />
+
+
+            <com.ornach.richtext.RichView
+                android:visibility="invisible"
+                android:id="@+id/btnNext"
+                android:layout_marginBottom="64dp"
+                android:layout_marginTop="32dp"
+                app:rt_radius="100dp"
+                app:rt_backgroundColor="@color/color_brand"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:textSize="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingVertical="18dp"
+                        android:text="CONTINUE"
+                        android:textColor="#333333" />
+
+
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.ornach.richtext.RichView>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</layout>

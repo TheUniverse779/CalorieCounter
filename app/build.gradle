@@ -1,0 +1,165 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'com.google.dagger.hilt.android'
+    id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'com.caloriecounter.calorie'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.caloriecounter.calorie"
+        minSdk 21
+        targetSdk 33
+        versionCode 8
+        versionName "1.0.8"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+//        debug {
+//            applicationIdSuffix ".devvvvv"
+//            debuggable true
+//            minifyEnabled false
+//            zipAlignEnabled true
+//        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.plattysoft.leonids:LeonidsLib:1.3.1'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    implementation 'androidx.work:work-runtime:2.7.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.activity:activity-ktx:1.5.1'
+
+
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
+
+
+    def nav_version = "2.5.3"
+
+    // Java language implementation
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:x.x.x"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:x.x.x"
+
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+
+    def retrofitVersion = '2.9.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2"
+
+    implementation 'com.ornach.richtext:richtext:1.0'
+
+    implementation 'me.tankery.lib:circularSeekBar:1.4.1'
+    implementation "com.airbnb.android:lottie:3.4.0"
+
+    implementation "com.jakewharton.rxbinding2:rxbinding:2.1.1"
+    implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0"
+
+
+    def room_version = "2.4.3"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.5.1"
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
+    implementation 'com.google.android.gms:play-services-ads:21.2.0'
+
+
+
+    implementation platform('com.google.firebase:firebase-bom:30.3.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.flurry.android:analytics:13.3.0@aar'
+// adjust
+    implementation 'com.adjust.sdk:adjust-android:4.31.0'
+
+    implementation("com.tbuonomo:dotsindicator:4.3")
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+
+    implementation 'com.google.android:flexbox:2.0.1'
+
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+    implementation 'androidx.room:room-rxjava2:2.3.0'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.1'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.9.6'
+
+    implementation 'com.ryanjeffreybrooks:indefinitepagerindicator:1.0.10'
+
+    implementation 'com.yqritc:android-scalablevideoview:1.0.4'
+
+    implementation 'com.android.volley:volley:1.2.1'
+
+    implementation 'com.mani:ThinDownloadManager:1.4.0'
+    implementation 'com.android.billingclient:billing-ktx:5.0.0'
+    implementation 'com.google.guava:guava:24.1-jre'
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+    implementation 'com.github.mmin18:realtimeblurview:1.2.1'
+    implementation project(':google-iab')
+}

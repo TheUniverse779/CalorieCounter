@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_main">
+
+
+            <ImageView
+                android:id="@+id/imgBackdrop"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.github.mmin18.widget.RealtimeBlurView
+                android:id="@+id/blurFull"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:realtimeBlurRadius="25dp"
+                app:realtimeOverlayColor="#66101210" />
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_marginBottom="40dp"
+                android:id="@+id/vpContent"
+                android:layout_marginTop="60dp"
+                android:layout_above="@id/layoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:id="@+id/layoutToolbar"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <com.ornach.richtext.RichView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:id="@+id/btnBack"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="9dp"
+                        android:src="@drawable/ic_round_keyboard_backspace_24" />
+
+
+
+
+                </com.ornach.richtext.RichView>
+
+
+                <com.ornach.richtext.RichView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/viewCoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="15dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/layoutButton"
+                android:layout_marginBottom="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/btnDownload"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    app:rt_radius="100dp"
+                    app:rt_backgroundColor="@color/color_brand"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp">
+
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/download_2"
+                        app:tint="@color/button" />
+
+
+                </com.ornach.richtext.RichView>
+
+
+                <com.ornach.richtext.RichView
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/btnDownload"
+                    android:gravity="center"
+                    android:id="@+id/btnSimilar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="40dp"
+                    app:rt_backgroundColor="#26FFFFFF"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:id="@+id/btnFavorite"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_favorite_border_24" />
+
+                    <ImageView
+                        android:id="@+id/btnUnFavorite"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:visibility="gone"
+                        app:tint="@color/color_red" />
+
+
+                </com.ornach.richtext.RichView>
+
+
+                <com.ornach.richtext.RichView
+                    android:layout_marginStart="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/btnDownload"
+                    android:gravity="center"
+                    android:id="@+id/btnView"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    app:rt_backgroundColor="#26FFFFFF"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/preview" />
+
+
+                </com.ornach.richtext.RichView>
+
+
+
+            </RelativeLayout>
+
+
+
+            <com.github.mmin18.widget.RealtimeBlurView
+                android:id="@+id/blurFull2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:realtimeBlurRadius="25dp"
+                app:realtimeOverlayColor="#66101210" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

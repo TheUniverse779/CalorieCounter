@@ -1,0 +1,16 @@
+{
+  "promotion": [
+    {
+      "label": "Auto wallpaper changer",
+      "id": "auto"
+    },
+    {
+      "label": "Live wallpaper",
+      "id": "live"
+    },
+    {
+      "label": "All Categories",
+      "id": "category"
+    }
+  ]
+}

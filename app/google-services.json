@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881096535655",
+    "project_id": "wallive-ed6cd",
+    "storage_bucket": "wallive-ed6cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881096535655:android:2b5637400b247a78f76ec2",
+        "android_client_info": {
+          "package_name": "com.caloriecounter.calorie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881096535655-69cp0vfh9pu2tjavmh07b5eu3c3gb6h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3EAqiYNlYdB7wAptjddyXO8zzQoxDKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881096535655-69cp0vfh9pu2tjavmh07b5eu3c3gb6h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

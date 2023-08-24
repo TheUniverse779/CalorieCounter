@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.ornach.richtext.RichView
+            android:gravity="center_horizontal"
+            app:rt_backgroundColor="#E6101210"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.ornach.richtext.RichView
+                android:layout_marginTop="8dp"
+                app:rt_backgroundColor="#4DFFFFFF"
+                app:rt_radius="100dp"
+                android:layout_width="40dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:id="@+id/layoutThanks"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/checked"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:text="Successful download!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/svn_avo"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:text="Thank you very much."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/svn_avo_bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:text="You want to set this wallpaper?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnMainScreen"
+                android:layout_marginTop="32dp"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp"
+                android:paddingVertical="12dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/setting_1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:text="Set MAIN SCREEN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.ornach.richtext.RichView>
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnLockScreen"
+                android:layout_marginTop="16dp"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp"
+                android:paddingVertical="12dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/setting_2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:text="Set LOCK SCREEN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.ornach.richtext.RichView>
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnBoth"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="16dp"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp"
+                android:paddingVertical="12dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/setting_3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:text="Set BOTH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.ornach.richtext.RichView>
+
+
+
+
+        </com.ornach.richtext.RichView>
+
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/black100"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/black100">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bt_back"
+                android:padding="15dp"
+                android:tint="#fafafa"
+                android:src="@drawable/ic_round_keyboard_backspace_24"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:fontFamily="@font/k2d_bold"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Settings"
+                android:textColor="#fafafa" />
+        </FrameLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_marginTop="?actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:fontFamily="@font/k2d_regular"
+                    android:id="@+id/sw_play_sound"
+                    app:trackTint="@color/color_moderate"
+                    app:switchMinWidth="50dp"
+                    android:checked="false"
+                    app:thumbTint="@color/thumb_tint_color"
+                    android:textSize="16sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#fafafa"
+                    android:text="Play sound with animation"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+
+                <LinearLayout
+                    android:id="@+id/bt_play_duration"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+
+                    <TextView
+                        android:fontFamily="@font/k2d_regular"
+                        android:layout_weight="1"
+                        android:textAppearance="@style/Widget.AppCompat.CompoundButton.Switch"
+                        android:textSize="16sp"
+                        android:textColor="#fafafa"
+                        android:text="Play duration"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tv_play_duration"
+                        android:gravity="center_vertical"
+                        android:text="10secs"
+                        android:textAppearance="@style/Widget.AppCompat.CompoundButton.Switch"
+                        android:textSize="16sp"
+                        android:textColor="#fafafa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:tint="#fafafa"
+                        android:src="@drawable/ic_back"
+                        android:rotation="180"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bt_clothing_method"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+
+                    <TextView
+                        android:fontFamily="@font/k2d_regular"
+                        android:layout_weight="1"
+                        android:textAppearance="@style/Widget.AppCompat.CompoundButton.Switch"
+                        android:textSize="16sp"
+                        android:textColor="#fafafa"
+                        android:text="Closing  method"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tv_closing_method"
+                        android:gravity="center_vertical"
+                        android:text="One click"
+                        android:textAppearance="@style/Widget.AppCompat.CompoundButton.Switch"
+                        android:textSize="16sp"
+                        android:textColor="#fafafa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:tint="#fafafa"
+                        android:src="@drawable/ic_back"
+                        android:rotation="180"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:fontFamily="@font/k2d_regular"
+                    android:id="@+id/sw_show_lock_screen"
+                    app:trackTint="@color/color_moderate"
+                    app:switchMinWidth="50dp"
+                    android:checked="false"
+                    app:thumbTint="@color/thumb_tint_color"
+                    android:textSize="16sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#fafafa"
+                    android:text="Show only on lock screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:fontFamily="@font/k2d_regular"
+                    android:id="@+id/sw_show_battery_level"
+                    app:trackTint="@color/color_moderate"
+                    app:switchMinWidth="50dp"
+                    android:checked="true"
+                    app:thumbTint="@color/thumb_tint_color"
+                    android:textSize="16sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="#fafafa"
+                    android:text="Show battery percentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</layout>

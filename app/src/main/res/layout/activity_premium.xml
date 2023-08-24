@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+        <androidx.core.widget.NestedScrollView
+            tools:background="@color/black"
+            android:clipToPadding="false"
+            android:paddingBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_marginBottom="8dp"
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"
+                    android:id="@+id/view"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/star_premium"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginHorizontal="50dp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textColor="@color/color_brand"
+                    android:text="Wallive Pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                    <com.ornach.richtext.RichView
+                        android:layout_marginHorizontal="30dp"
+                        app:rt_radius="16dp"
+                        app:rt_backgroundColor="#26FFFFFF"
+                        android:paddingVertical="30dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+                        <LinearLayout
+                            android:layout_marginStart="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/check"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+
+                            <TextView
+                                android:layout_marginStart="16dp"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/svn_avo_bold"
+                                android:textColor="@color/white"
+                                android:text="No Ads"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/check"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+
+                            <TextView
+                                android:layout_marginStart="16dp"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/svn_avo_bold"
+                                android:textColor="@color/white"
+                                android:text="All Live Wallpapers."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/check"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+
+                            <TextView
+                                android:layout_marginStart="16dp"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/svn_avo_bold"
+                                android:textColor="@color/white"
+                                android:text="All Exclusive Wallpapers."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/check"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+
+                            <TextView
+                                android:layout_marginStart="16dp"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/svn_avo_bold"
+                                android:textColor="@color/white"
+                                android:text="All Charging Wallpapers."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                    </com.ornach.richtext.RichView>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="32dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="16dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBuy1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingVertical="10dp"
+                                app:rt_backgroundColor="#26FFFFFF"
+                                app:rt_radius="16dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:id="@+id/tvPrice1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/svn_avo_bold"
+                                    android:gravity="center"
+                                    android:text="___"
+                                    android:textColor="@color/color_brand"
+                                    android:textSize="24dp" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:fontFamily="@font/svn_avo"
+                                    android:gravity="center"
+                                    android:text="PER WEEK"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:visibility="invisible"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="12dp"
+                                    android:fontFamily="@font/svn_avo_bold"
+                                    android:gravity="center"
+                                    android:text="0.16$/DAY"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="12dp" />
+
+
+                            </com.ornach.richtext.RichView>
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/layoutBestDeal"
+                                android:layout_marginTop="-3dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    android:src="@drawable/best_deal"
+                                    app:layout_constraintDimensionRatio="1:1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"/>
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBorder1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_alignBottom="@+id/viewBuy1"
+                                android:layout_alignParentTop="true"
+                                android:visibility="gone"
+                                app:rt_borderColor="@color/color_brand"
+                                app:rt_borderWidth="3dp"
+                                app:rt_radius="16dp" />
+
+                            <ProgressBar
+                                android:id="@+id/pg1"
+                                android:layout_centerInParent="true"
+                                android:indeterminate="true"
+                                android:indeterminateTintMode="src_atop"
+                                android:indeterminateTint="@color/color_brand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_weight="1">
+
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBuy2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingVertical="10dp"
+                                app:rt_backgroundColor="#26FFFFFF"
+                                app:rt_radius="16dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:text="Save 80%"
+                                    android:textColor="@color/white"
+                                    android:textSize="16dp"
+                                    android:visibility="invisible" />
+
+                                <TextView
+                                    android:id="@+id/tvPrice2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/svn_avo_bold"
+                                    android:gravity="center"
+                                    android:text="___"
+                                    android:textColor="@color/color_brand"
+                                    android:textSize="24dp" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:fontFamily="@font/svn_avo"
+                                    android:gravity="center"
+                                    android:text="PER MONTH"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="12dp"
+                                    android:fontFamily="@font/svn_avo_bold"
+                                    android:gravity="center"
+                                    android:text="0.16$/DAY"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="12dp"
+                                    android:visibility="invisible" />
+
+
+                            </com.ornach.richtext.RichView>
+
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBorder2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_alignBottom="@+id/viewBuy2"
+                                android:layout_alignParentTop="true"
+                                android:visibility="gone"
+                                app:rt_borderColor="@color/color_brand"
+                                app:rt_borderWidth="3dp"
+                                app:rt_radius="16dp" />
+
+                            <ProgressBar
+                                android:id="@+id/pg2"
+                                android:layout_centerInParent="true"
+                                android:indeterminate="true"
+                                android:indeterminateTintMode="src_atop"
+                                android:indeterminateTint="@color/color_brand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingHorizontal="15dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBuy3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingVertical="10dp"
+                                app:rt_backgroundColor="#CC332942"
+                                app:rt_radius="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:text="Save 90%"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:id="@+id/tvPrice3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_bold"
+                                    android:gravity="center"
+                                    android:text="_"
+                                    android:textColor="@color/color_brand"
+                                    android:textSize="25dp" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:text="Per year"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+
+
+                            </com.ornach.richtext.RichView>
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBorder3"
+                                android:visibility="gone"
+                                android:layout_alignParentTop="true"
+                                app:rt_borderColor="@color/color_brand"
+                                app:rt_borderWidth="3dp"
+                                app:rt_radius="5dp"
+                                android:layout_alignBottom="@+id/viewBuy3"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1">
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBuy4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingVertical="10dp"
+                                app:rt_backgroundColor="#CC332942"
+                                app:rt_radius="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:text="One time payment"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:id="@+id/tvPrice4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_bold"
+                                    android:gravity="center"
+                                    android:text="_"
+                                    android:textColor="@color/color_brand"
+                                    android:textSize="25dp" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/k2d_medium"
+                                    android:gravity="center"
+                                    android:text="lifetime"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+
+
+                            </com.ornach.richtext.RichView>
+
+                            <com.ornach.richtext.RichView
+                                android:id="@+id/viewBorder4"
+                                android:visibility="gone"
+                                android:layout_alignParentTop="true"
+                                app:rt_borderColor="@color/color_brand"
+                                app:rt_borderWidth="3dp"
+                                app:rt_radius="5dp"
+                                android:layout_alignBottom="@+id/viewBuy4"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <com.ornach.richtext.RichText
+                    android:layout_marginTop="51dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:textSize="16dp"
+                    app:rt_radius="100dp"
+                    android:gravity="center"
+                    android:paddingVertical="16dp"
+                    app:rt_backgroundColor="@color/color_brand"
+                    android:textColor="#333333"
+                    android:text="BUY SUBSCRIPTION"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/svn_avo"
+                    android:gravity="center"
+                    android:text="The subscription will be renewed automatically. You can cancel anytime."
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/btnPrivacy"
+                    android:visibility="visible"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo"
+                        android:text="Privacy Policy"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo"
+                        android:text=" | "
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo"
+                        android:text="Term of use"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/cancel_2" />
+
+
+
+
+
+
+    </RelativeLayout>
+</layout>

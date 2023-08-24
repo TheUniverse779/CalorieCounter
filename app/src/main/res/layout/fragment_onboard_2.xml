@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:src="@drawable/ic_premium"
+                android:layout_width="138dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo_bold"
+                android:text="Unlock All Premium Features"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text="Only 3.99$ per week.\nAuto-renewable. Cancel anytime."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+
+            <com.ornach.richtext.RichView
+                android:visibility="invisible"
+                android:id="@+id/btnNext"
+                android:layout_marginBottom="64dp"
+                android:layout_marginTop="32dp"
+                app:rt_radius="100dp"
+                app:rt_backgroundColor="@color/color_brand"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:paddingVertical="18dp"
+                        android:text="CONTINUE"
+                        android:textColor="#333333"
+                        android:textSize="16dp" />
+
+
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.ornach.richtext.RichView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text="Privacy Policy"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text=" | "
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text="Restore"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text=" | "
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo"
+                android:text="Term of use"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_marginEnd="60dp"
+                android:layout_gravity="end"
+                android:id="@+id/bt_delete"
+                android:background="@drawable/bg_bt2"
+                android:padding="15dp"
+                android:tint="#fafafa"
+                android:src="@drawable/ic_bin"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_gravity="end"
+                android:id="@+id/bt_setting"
+                android:background="@drawable/bg_bt2"
+                android:padding="17dp"
+                android:tint="#fafafa"
+                android:src="@drawable/ic_setting"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_above="@+id/bottom"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="#46BABABA"
+                app:cardCornerRadius="15dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                app:cardElevation="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:id="@+id/frame_video"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="14.5dp"
+                    app:cardElevation="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/view_battery_level"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_marginEnd="5dp"
+                    android:id="@+id/img_flash"
+                    android:tint="#FBA143"
+                    android:src="@drawable/ic_time1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:text="00%"
+                    android:fontFamily="@font/k2d_medium"
+                    android:id="@+id/tv_battery_level"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:textColor="#FBA143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/bt_back"
+                    android:background="@drawable/bg_bt2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="25dp"
+                    android:padding="10dp"
+                    android:tint="#fafafa"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5">
+
+                <LinearLayout
+                    android:id="@+id/bt_done"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_add_button3"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_done"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:src="@drawable/video_ad" />
+
+                    <TextView
+                        android:id="@+id/tv_apply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="APPLY"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#fafafa" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/bt_preview"
+                    android:background="@drawable/bg_bt2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="25dp"
+                    android:padding="10dp"
+                    android:tint="#fafafa"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_eyes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

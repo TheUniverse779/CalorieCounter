@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/color_brand"
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+
+            <LinearLayout
+                android:id="@+id/layoutReload"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:tint="#80FFFFFF"
+                    android:src="@drawable/ic_doubt"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+
+                <TextView
+                    android:layout_marginHorizontal="20dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/k2d_medium"
+                    android:textColor="#CCFFFFFF"
+                    android:text="An error occurred during data download or your internet connection is unstable. Please pull down or click this button to reload!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <com.ornach.richtext.RichText
+                    android:id="@+id/btnReload"
+                    android:layout_marginTop="20dp"
+                    app:rt_radius="100dp"
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="30dp"
+                    android:fontFamily="@font/k2d_bold"
+                    android:textColor="@color/white"
+                    app:rt_backgroundColor="@color/color_moderate"
+                    android:text="Click to reload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:clipToPadding="false"
+                android:paddingBottom="150dp"
+                android:id="@+id/rclCategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</layout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_main">
+
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:paddingBottom="10dp"
+            android:background="#73000000"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.ornach.richtext.RichView
+                android:layout_marginStart="10dp"
+                app:rt_radius="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_round_keyboard_backspace_24"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+
+            </com.ornach.richtext.RichView>
+
+
+            <com.ornach.richtext.RichView
+                android:layout_marginEnd="10dp"
+                app:rt_radius="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/btnUnFavorite"
+                    android:layout_marginEnd="10dp"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <ImageView
+                    android:id="@+id/btnShare"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_baseline_share_24"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+
+            </com.ornach.richtext.RichView>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp">
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                app:rt_backgroundColor="@color/white"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_round_download_24"
+                    app:tint="@color/button" />
+
+
+            </com.ornach.richtext.RichView>
+
+
+            <com.ornach.richtext.RichText
+                android:id="@+id/btnSetImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingHorizontal="40dp"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"
+                android:text="Set wallpaper"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:rt_backgroundColor="@color/colorOrange"
+                app:rt_borderWidth="0.5dp"
+                app:rt_radius="100dp" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

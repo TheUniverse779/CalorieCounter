@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/black">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            app:rt_radius="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/svn_avo_bold"
+                android:gravity="center"
+                android:text="DAILY gift!"
+                android:textColor="@color/color_brand"
+                android:textSize="24dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    app:layout_constraintDimensionRatio="274:450"
+                    android:id="@+id/imgCache"
+                    android:src="@color/color_3c3a41"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginHorizontal="43dp"
+                    app:riv_corner_radius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    app:layout_constraintDimensionRatio="274:450"
+                    android:id="@+id/img"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginHorizontal="43dp"
+                    app:riv_corner_radius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+
+                <com.ornach.richtext.RichView
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="@id/img"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/viewCoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="15dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                </com.ornach.richtext.RichView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnGetImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="43dp"
+                android:layout_marginTop="24dp"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                app:rt_backgroundColor="#66131816"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/vector" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:gravity="center"
+                    android:text="Get Now Free"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+            </com.ornach.richtext.RichView>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_alignEnd="@id/rootView"
+            android:layout_alignTop="@id/rootView"
+            android:id="@+id/btnClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/cancel_2" />
+
+
+    </RelativeLayout>
+</layout>

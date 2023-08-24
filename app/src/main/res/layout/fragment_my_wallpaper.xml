@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="26dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@drawable/back_arrow" />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/tvCateName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="Category Name"
+                    android:textColor="@color/text_color"
+                    android:textSize="20dp" />
+
+
+                <com.ornach.richtext.RichView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/viewCoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="15dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                </com.ornach.richtext.RichView>
+
+
+            </LinearLayout>
+
+            <!--        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
+            <!--            android:id="@+id/swipeToRefresh"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent">-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ProgressBar
+                    android:visibility="gone"
+                    android:indeterminate="true"
+                    android:indeterminateTintMode="src_atop"
+                    android:indeterminateTint="@color/color_brand"
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvRefresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progressBar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Pull down to refresh this page"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:id="@+id/layoutTip"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_favorite_border_24"
+                        android:id="@+id/imgAvatar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/svn_avo"
+                        android:id="@+id/tvTitle"
+                        android:layout_margin="20dp"
+                        android:textColor="@color/white"
+                        android:text="@string/you_have_not_favorited_any_photos_yet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_above="@id/loadMoreProgressBar"
+                    android:id="@+id/layoutContent"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rclContent"
+                        android:paddingTop="15dp"
+                        android:paddingHorizontal="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="2" />
+
+                </LinearLayout>
+
+
+
+                <com.ornach.richtext.RichView
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:id="@+id/loadMoreProgressBar"
+                    app:rt_radius="5dp"
+                    android:padding="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:indeterminate="true"
+                        android:indeterminateTintMode="src_atop"
+                        android:indeterminateTint="@color/color_brand" />
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <com.github.mmin18.widget.RealtimeBlurView
+            android:id="@+id/blurFull"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:realtimeBlurRadius="25dp"
+            app:realtimeOverlayColor="#66101210" />
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1">
+
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/color_3a3a3a"
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="2dp" />
+
+                    <com.ornach.richtext.RichView
+                        android:id="@+id/viewCoin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="center_vertical"
+                        android:paddingVertical="2dp"
+                        android:paddingStart="2dp"
+                        android:paddingEnd="2dp"
+                        app:rt_backgroundColor="#333333"
+                        app:rt_radius="100dp">
+
+
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_coin" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/tvCoin1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="-2dp"
+                            android:fontFamily="@font/svn_avo_bold"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="10dp" />
+
+                    </com.ornach.richtext.RichView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1">
+
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/img3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/color_3a3a3a"
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="2dp" />
+
+                    <com.ornach.richtext.RichView
+                        android:id="@+id/viewCoin3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="center_vertical"
+                        android:paddingVertical="2dp"
+                        android:paddingStart="2dp"
+                        android:paddingEnd="2dp"
+                        app:rt_backgroundColor="#333333"
+                        app:rt_radius="100dp">
+
+
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_coin" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/tvCoin3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="-2dp"
+                            android:fontFamily="@font/svn_avo_bold"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="10dp" />
+
+                    </com.ornach.richtext.RichView>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="2"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="216:372"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    app:layout_constraintTop_toTopOf="@id/img2"
+                    app:layout_constraintEnd_toEndOf="@id/img2"
+                    android:id="@+id/viewCoin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tvCoin2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp" />
+
+                </com.ornach.richtext.RichView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toStartOf="@+id/relativeLayout7"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toStartOf="@+id/relativeLayout9"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout8"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout7"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout10"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toStartOf="@+id/relativeLayout12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout11"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/relativeLayout11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:layout_weight="1"
+                app:layout_constraintDimensionRatio="104:182"
+                app:layout_constraintEnd_toStartOf="@+id/relativeLayout10"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_3a3a3a"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="2dp" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/viewCoin9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    app:rt_backgroundColor="#333333"
+                    app:rt_radius="100dp">
+
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoin9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-2dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>show_reward</key>
+        <value>no</value>
+    </entry>
+
+    <entry>
+        <key>new_reward</key>
+        <value>no</value>
+    </entry>
+
+</defaultsMap>

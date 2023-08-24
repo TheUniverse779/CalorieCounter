@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/black">
+
+
+        <com.ornach.richtext.RichView
+            app:rt_backgroundColor="#80000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginVertical="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="25dp"
+            app:rt_radius="16dp">
+
+
+        </com.ornach.richtext.RichView>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imgAvatar"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="16dp"
+            android:layout_alignEnd="@id/rootView"
+            android:layout_alignStart="@id/rootView"
+            android:layout_alignTop="@id/rootView"
+            android:layout_alignBottom="@id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+
+        <com.ornach.richtext.RichView
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginVertical="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="25dp"
+            app:rt_radius="16dp">
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnWatchAd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="9dp"
+                android:visibility="gone"
+                app:rt_backgroundColor="#CC131816"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/play" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:text="Watch a short video"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/svn_avo"
+                            android:text="to save this wallpaper"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </com.ornach.richtext.RichView>
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnWatchAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                app:rt_backgroundColor="#CC131816"
+                app:rt_borderColor="@color/white"
+                app:rt_borderWidth="1dp"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_coin" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:text="Unlock for "
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="-2dp"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/tvCoinneed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/svn_avo_bold"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+
+            </com.ornach.richtext.RichView>
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnGoPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                android:visibility="visible"
+                app:rt_backgroundColor="@color/color_brand"
+                app:rt_radius="100dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_star" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/svn_avo_bold"
+                    android:text="Unlock all Wallpapers"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+
+            </com.ornach.richtext.RichView>
+
+
+        </com.ornach.richtext.RichView>
+
+
+        <ImageView
+            android:layout_alignEnd="@id/rootView"
+            android:layout_alignTop="@id/rootView"
+            android:id="@+id/btnClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/cancel_2" />
+
+
+    </RelativeLayout>
+</layout>

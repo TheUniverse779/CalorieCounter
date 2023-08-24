@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:background="@color/color_main"
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:scaleType="centerCrop"
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/previewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/layoutToolbar"
+            android:paddingBottom="10dp"
+            android:background="#73000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <com.ornach.richtext.RichView
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_round_keyboard_backspace_24" />
+
+
+            </com.ornach.richtext.RichView>
+
+
+
+        </RelativeLayout>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginBottom="40dp"
+                app:layout_constraintBottom_toTopOf="@id/img2"
+                android:layout_marginHorizontal="38dp"
+                app:layout_constraintDimensionRatio="888:132"
+                android:src="@drawable/img_search"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <ImageView
+                android:layout_marginBottom="40dp"
+                android:id="@+id/img2"
+                android:layout_marginHorizontal="38dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="888:144"
+                android:src="@drawable/img_app"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </FrameLayout>
+
+</layout>

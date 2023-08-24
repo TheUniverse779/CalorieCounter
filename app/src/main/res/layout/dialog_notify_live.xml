@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.ornach.richtext.RichView
+            app:rt_backgroundColor="@color/color_3c3a41"
+            app:rt_radius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/please_read_me"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/if_the_process_of_setting_the_live_wallpaper_in_the_application_fails_please_download_the_live_wallpaper_and_set_it_as_your_wallpaper_in_your_gallery_app_the_application_will_save_the_live_wallpaper_at_the_path_storage_download_4kwallpaper_livewallpaper_and_in_the_photos_gallery_when_you_click_download_button_thank_you"
+                android:textColor="@color/white" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="35dp"
+                android:background="#E4E4E4" />
+
+            <TextView
+                android:textAllCaps="true"
+                android:id="@+id/tvLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="@string/ok_got_it"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+        </com.ornach.richtext.RichView>
+    </RelativeLayout>
+</layout>

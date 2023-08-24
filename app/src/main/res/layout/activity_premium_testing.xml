@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:elevation="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rll_yearly"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardBackgroundColor="@color/color_excel"
+            android:outlineAmbientShadowColor="@color/color_excel"
+            android:outlineSpotShadowColor="@color/color_excel"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            app:cardElevation="5dp"
+            android:layout_height="45dp">
+            <FrameLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:visibility="gone"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/lnl_upgrade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_free_trial"
+                            android:textAllCaps="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Go Premium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tv_new_price2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="đ650.000 / year"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                    <ProgressBar
+                        android:layout_centerInParent="true"
+                        android:id="@+id/progress3"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/yellow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"/>
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/rll_lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="40dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/save_50" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Save 50%"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@color/white" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </FrameLayout>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start 3-Day FREE Trial"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/white"
+                android:textSize="13dp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:clipToPadding="false"
+            android:paddingBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:paddingTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/sub_banner" />
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="11dp"
+                    android:src="@drawable/ic_close"
+                    android:tint="#BCBCBC"
+                    tools:ignore="UseAppTint" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_marginStart="-150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <ImageView
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/sub_table"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_round_white"
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Get all Premium benefits"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="All Document Reader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Convert PDF to Word editable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="No Advertisement"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Convert file to PDF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Edit All Document"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/verified_pre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginStart="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:text="Create new all file"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_monthly"
+                        android:layout_marginEnd="20dp"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="#ffffff"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp">
+                        <LinearLayout
+                            android:weightSum="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:background="@drawable/sub_1"
+                                android:layout_weight="2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+
+                                <LinearLayout
+                                    android:id="@+id/lnl_month"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="Monthly"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/tv_month_price"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="đ230.000 / 1 month"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                        android:textColor="#0A830F"
+                                        android:textSize="10dp" />
+                                </LinearLayout>
+
+                                <ProgressBar
+                                    android:id="@+id/progress1"
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:indeterminateTint="@color/yellow" />
+
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:background="@drawable/sub_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="Monthly"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    android:textColor="@color/black"
+                                    android:textSize="18dp" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_yearly"
+                        android:layout_marginStart="10dp"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="#ffffff"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp">
+                        <LinearLayout
+                            android:weightSum="3"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_weight="2"
+                                android:background="@drawable/sub_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <LinearLayout
+                                    android:layout_centerInParent="true"
+                                    android:visibility="gone"
+                                    android:id="@+id/lnl_year"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center">
+                                    <TextView
+                                        android:layout_marginBottom="5dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                        android:text="Yearly"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <TextView
+                                        android:textSize="10dp"
+                                        android:textColor="#0A830F"
+                                        android:id="@+id/tv_year_price"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                        android:text="đ650.000 / 1 year"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+                                <ProgressBar
+                                    android:layout_centerInParent="true"
+                                    android:id="@+id/progress2"
+                                    android:layout_gravity="center"
+                                    android:indeterminateTint="@color/yellow"
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"/>
+                                <ImageView
+                                    android:layout_width="35dp"
+                                    android:layout_height="40dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginEnd="20dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/save_50" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_weight="1"
+                                android:background="@drawable/sub_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="Yearly"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    android:textColor="@color/white"
+                                    android:textSize="18dp" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:textSize="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Subscriptions are charged on a monthly or yearly basis, and you can cancel at any time"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

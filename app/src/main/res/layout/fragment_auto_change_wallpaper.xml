@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black100"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="26dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_round_keyboard_backspace_24" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvCateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/k2d_bold"
+                android:text="@string/auto_wallpaper_changer"
+                android:textColor="@color/text_color"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:id="@+id/btnTip"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="14dp"
+                android:src="@drawable/ic_infor_auto_change"
+                app:tint="@color/second_color" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_3a3a3a" />
+        
+        
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_marginTop="28dp"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:text="Frequency of changing wallpaper: 1 minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <SeekBar
+            android:progress="0"
+            android:max="14"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="10dp"
+            android:thumb="@drawable/ic_thumb"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:id="@+id/simpleSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/time_interval"
+                android:textColor="@color/white" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp">
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignStart="@+id/layoutLabel"
+                    android:layout_alignTop="@+id/layoutLabel"
+                    android:layout_alignEnd="@+id/layoutLabel"
+                    android:layout_alignBottom="@+id/layoutLabel" />
+
+                <com.ornach.richtext.RichView
+                    android:id="@+id/layoutLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:rt_backgroundColor="@color/color_3a3a3a"
+                    app:rt_borderColor="@color/white"
+                    app:rt_borderWidth="1dp"
+                    app:rt_radius="5dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="5dp"
+                        android:text="30 Minutes"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+
+                </com.ornach.richtext.RichView>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:id="@+id/tvStateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/second_color"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+
+
+            <com.ornach.richtext.RichView
+                android:id="@+id/btnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:foreground="@drawable/bg_ripple_effect_click"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                app:rt_backgroundColor="@color/color_brand"
+                app:rt_radius="100dp">
+
+
+                <ImageView
+                    android:id="@+id/imgPlay"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_round_play_circle_24" />
+
+                <ImageView
+                    android:id="@+id/imgStop"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_round_stop_circle_24"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/k2d_medium"
+                    android:text="Start wallpaper"
+                    android:textColor="#272727" />
+
+
+            </com.ornach.richtext.RichView>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layoutTip"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_round_download_24_2"
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+
+                <TextView
+                    android:fontFamily="@font/k2d_regular"
+                    android:gravity="center"
+                    android:id="@+id/tvTitle"
+                    android:layout_margin="20dp"
+                    android:textColor="@color/white"
+                    android:text="@string/you_need_to_download_at_least_2_wallpapers_to_be_able_to_use_this_function_thank_you"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:clipToPadding="false"
+                android:paddingTop="20dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,50 @@
+{
+  "menu": [
+    {
+      "label": "Home",
+      "id": "1000",
+      "isSelected": true,
+      "type": "list",
+      "content_type": [
+        "free",
+        "private"
+      ],
+      "sort": "rating",
+      "isShowPromotion": true
+    },
+    {
+      "label": "Video",
+      "id": "10000",
+      "isSelected": false,
+      "type": "live",
+      "content_type": [
+        "private"
+      ],
+      "sort": "rating",
+      "isShowPromotion": false
+    },
+    {
+      "label": "Exclusive",
+      "id": "5000",
+      "isSelected": false,
+      "type": "special",
+      "content_type": [
+        "private"
+      ],
+      "sort": "rating",
+      "isShowPromotion": false
+    },
+    {
+      "label": "Explore",
+      "id": "1000",
+      "isSelected": false,
+      "type": "category",
+      "content_type": [
+        "free",
+        "private"
+      ],
+      "sort": "rating",
+      "isShowPromotion": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <LinearLayout
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/rootView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/f2_bg_tab_unselected_round_suggestion_location"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="4dp">
+
+
+
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tất cả"
+                android:textColor="#8C8C8C"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#070B16</color>
+    <color name="purple_500">#070B16</color>
+    <color name="purple_700">#070B16</color>
+    <color name="teal_200">#070B16</color>
+    <color name="teal_700">#070B16</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="c303030">#303030</color>
+    <color name="c86869C">#86869C</color>
+    <color name="cE8E9FF">#E8E9FF</color>
+    <color name="c5D61FC">#5D61FC</color>
+
+    <color name="black100">#070B16</color>
+
+    <color name="color_good">#009966</color>
+    <color name="color_fair">#FFDE33</color>
+    <color name="color_moderate">#FF9933</color>
+    <color name="color_poor">#CC0033</color>
+    <color name="color_very_poor">#660099</color>
+    <color name="color_hazardous">#7E0023</color>
+
+
+    <color name="color_gold">#FFD700</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_menu">#222222</color>
+    <color name="color_ripple_effect">#E5652A</color>
+
+
+    <color name="color_main">#1C1C1C</color>
+    <color name="text_color">#E5E7EF</color>
+    <color name="second_color">#FA9F10</color>
+    <color name="color_3a3a3a">#3A3A3A</color>
+    <color name="color_3c3a41">#3C3F41</color>
+
+
+
+    <color name="addFab">#0ea5b6</color>
+    <color name="cancelFab">#0ecfa7</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="name">#4c4c4c</color>
+    <color name="tips">#5d5d5d</color>
+    <color name="internal">#0077cd</color>
+    <color name="deleteButton">#cd2335</color>
+    <color name="applyButton">#238967</color>
+    <color name="current">#777777</color>
+    <color name="color_brand">#FFDE30</color>
+
+
+
+
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#063772</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#B5B5B5</color>
+    <color name="colorRed">#FF1100</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorBackgroundMain">#ffffff</color>
+    <color name="colorBackgroundMain2">#ffffff</color>
+    <color name="colorBlack_1">#383838</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_1DB854">#3093FA</color>
+    <color name="color_C81DB854">#9C1DB854</color>
+    <color name="color_404747">#404747</color>
+    <color name="color_2C3030">#2C3030</color>
+    <color name="color_FB5A07">#FB5A07</color>
+    <color name="color_FD921A">#FD921A</color>
+
+
+    <color name="color_theme1">#1474FF</color>
+    <color name="color_theme1_error">#DC100E</color>
+
+    <color name="color_theme2">#F229DD</color>
+    <color name="color_theme2_error">#DC100E</color>
+
+    <color name="color_theme3">#F229DD</color>
+    <color name="color_theme3_error">#DC100E</color>
+
+    <color name="color_theme4">#A10FFF</color>
+    <color name="color_theme4_error">#DC100E</color>
+
+    <color name="color_theme5">#A10FFF</color>
+    <color name="color_theme5_error">#DC100E</color>
+
+    <color name="color_theme6">#0AFFFF</color>
+    <color name="color_theme6_error">#DC100E</color>
+
+    <color name="color_theme7">#2DDFDD</color>
+    <color name="color_theme7_error">#DC100E</color>
+
+    <color name="color_theme8">#CF3E2D</color>
+    <color name="color_theme8_error">#DC100E</color>
+
+    <color name="color_theme9">#FEF048</color>
+    <color name="color_theme9_error">#DC100E</color>
+
+    <color name="color_theme10">#D86407</color>
+    <color name="color_theme10_error">#DC100E</color>
+
+    <color name="color_theme11">#D86407</color>
+    <color name="color_theme11_error">#DC100E</color>
+
+    <color name="color_theme12">#DE6507</color>
+    <color name="color_theme12_error">#DC100E</color>
+
+    <color name="color_theme13">#5001D1</color>
+    <color name="color_theme13_error">#DC100E</color>
+
+    <color name="color_theme14">#31E8E7</color>
+    <color name="color_theme14_error">#DC100E</color>
+
+    <color name="color_7F00FF">#7F00FF</color>
+    <color name="color_5B86E5">#5B86E5</color>
+
+
+    <color name="color_799F0C">#799F0C</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_ad_green">#006700</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_outline">#E0E0E0</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="colorWhiteAlpha">#80ffffff</color>
+    <color name="colorTextGrayLightAlpha">#80818181</color>
+    <color name="colorTextGrayLight">#818181</color>
+    <color name="colorTextGray">#5F5F5F</color>
+    <color name="colorTextGrayDark">#414141</color>
+    <color name="blue">#303f9f</color>
+    <color name="button">#2C3030</color>
+    <color name="text_black">#000</color>
+    <color name="pinkpressed">#ec407a</color>
+    <color name="colorDialogIndicator">#dddddd</color>
+    <color name="colorDialogTitle">#212121</color>
+    <color name="colorDialogSubTitle">#212121</color>
+    <color name="c1">#37A9DA</color>
+    <color name="c2">#D8C733</color>
+    <color name="c3">#2FD136</color>
+    <color name="c4">#4BD3D3</color>
+    <color name="c5">#A43CB6</color>
+
+    <color name="dark_blue">#1E2133</color>
+    <!--    <color name="dark_blue">#FF383E62</color>-->
+    <color name="light_blue">#FF6D8AF5</color>
+    <color name="yellow">#FFFFCB68</color>
+    <color name="purple">#FF9959A9</color>
+    <color name="grey">#FFA8A8A8</color>
+    <color name="netflix_red">#E50914</color>
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_bg">#FAFBFB</color>
+    <color name="gnt_text_primary">#000001</color>
+    <color name="gnt_text_secondary">#212121</color>
+    <color name="gnt_text_tertiary">#606770</color>
+
+    <color name="color_excel">#00A354</color>
+    <color name="color_excel_dark">#00713A</color>
+</resources>

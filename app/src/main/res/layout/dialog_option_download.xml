@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.ornach.richtext.RichView
+            app:rt_backgroundColor="#3C3F41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:id="@+id/btnVariant1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="1080 x 2340"
+                android:textColor="@color/white" />
+
+            <View
+                android:alpha="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/text_color" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:id="@+id/btnVariant2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="1080 x 2340"
+                android:textColor="@color/white" />
+
+            <View
+                android:alpha="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/text_color" />
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:id="@+id/btnOriginal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="Original"
+                android:textColor="@color/white" />
+
+
+        </com.ornach.richtext.RichView>
+
+
+    </LinearLayout>
+
+</layout>
