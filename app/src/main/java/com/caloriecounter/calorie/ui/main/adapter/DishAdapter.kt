@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.caloriecounter.calorie.databinding.ItemDishBinding
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 
@@ -31,10 +32,9 @@ class DishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     override fun getItemCount(): Int {
         try {
-//            return images!!.size;
-            return 5;
+            return images!!.size;
         } catch (e: Exception) {
-            return 10
+            return 0
         }
     }
 
@@ -56,7 +56,9 @@ class DishAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         fun bindItem(position: Int) {
             this.position = position
-
+            Glide.with(context!!).load(images!![position].imageUrl).into(binding.imgAvatar)
+            binding.tvTitle.text = images!![position].name
+            binding.tvCalo.text = images!![position].nutritionalContents.energy.value.toInt().toString()
         }
 
 

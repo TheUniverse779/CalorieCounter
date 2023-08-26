@@ -5,7 +5,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.caloriecounter.calorie.databinding.ItemCategoryBinding
+import com.caloriecounter.calorie.model.Schedule
 import com.caloriecounter.calorie.ui.main.model.dish.Category
+import com.caloriecounter.calorie.ui.main.model.dish.Dish
+import com.caloriecounter.calorie.ui.main.model.dish.DishData
+import com.caloriecounter.calorie.util.Util
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private val TYPE_ITEM = 0
@@ -57,7 +63,9 @@ class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         fun bindItem(position: Int) {
             this.position = position
-            dishAdapter = DishAdapter(context, null)
+            val schedules = Gson().fromJson<DishData>(
+                Util.loadJSONFromAsset(context, "Breakfast"), DishData::class.java)
+            dishAdapter = DishAdapter(context, schedules.items)
             binding.rclImage.adapter = dishAdapter
         }
 
