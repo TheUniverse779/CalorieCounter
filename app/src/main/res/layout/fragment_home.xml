@@ -571,21 +571,6 @@
 
         </androidx.drawerlayout.widget.DrawerLayout>
 
-
-        <com.github.mmin18.widget.RealtimeBlurView
-            android:layout_alignTop="@id/layoutBottom"
-            app:realtimeBlurRadius="25dp"
-            android:focusable="true"
-            android:clickable="true"
-            android:id="@+id/blurBottom"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_alignParentBottom="true"
-            app:realtimeOverlayColor="#66000000">
-
-
-        </com.github.mmin18.widget.RealtimeBlurView>
-
         <LinearLayout
             android:id="@+id/layoutBottom"
             android:layout_alignParentBottom="true"

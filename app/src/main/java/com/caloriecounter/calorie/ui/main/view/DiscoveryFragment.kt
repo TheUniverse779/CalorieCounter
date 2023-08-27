@@ -6,14 +6,14 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.caloriecounter.calorie.R
-import com.caloriecounter.calorie.WeatherApplication
 import com.caloriecounter.calorie.base.BaseFragment
 import com.caloriecounter.calorie.databinding.FragmentDiscoveryBinding
-import com.caloriecounter.calorie.databinding.FragmentHomeTabBinding
+import com.caloriecounter.calorie.model.Schedule
 import com.caloriecounter.calorie.ui.main.adapter.DiscoverAdapter
-import com.caloriecounter.calorie.ui.main.model.dish.Category
 import com.caloriecounter.calorie.ui.main.viewmodel.WeatherViewModel
-import com.caloriecounter.calorie.util.toGone
+import com.caloriecounter.calorie.util.Util
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +22,7 @@ class DiscoveryFragment : BaseFragment<FragmentDiscoveryBinding?>() {
     private val weatherViewModel: WeatherViewModel by viewModels()
     private var discoverAdapter: DiscoverAdapter? = null
 
-    private var listImage: ArrayList<Category> = ArrayList()
+    private var listImage: ArrayList<String> = ArrayList()
 
 
 
@@ -35,7 +35,12 @@ class DiscoveryFragment : BaseFragment<FragmentDiscoveryBinding?>() {
     }
 
     override fun initData() {
-        discoverAdapter = DiscoverAdapter(mActivity, listImage)
+        val schedules = Gson().fromJson<ArrayList<String>>(
+            Util.loadJSONFromAsset(mActivity, "allCat"),
+            object : TypeToken<List<String?>?>() {}.type
+        )
+
+        discoverAdapter = DiscoverAdapter(mActivity, schedules)
         var layoutManager = LinearLayoutManager(mActivity)
 
         binding?.rclContent?.apply {

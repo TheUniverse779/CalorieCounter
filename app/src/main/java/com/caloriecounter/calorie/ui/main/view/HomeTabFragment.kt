@@ -60,6 +60,7 @@ class HomeTabFragment : BaseFragment<FragmentHomeTabBinding?>() {
     }
 
     override fun initData() {
+
         imageAdapter = ImageHomeAdapter(mActivity, listImage, true, true, true)
         imageAdapter?.setDataPresentImageType(
             Constant.PresentImageType.HOME,

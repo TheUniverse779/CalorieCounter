@@ -16,10 +16,10 @@ import com.google.gson.reflect.TypeToken
 class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private val TYPE_ITEM = 0
     private var context: Context? = null
-    private var images: List<Category>? = null
+    private var images: List<String>? = null
 
 
-    constructor(context: Context?, datas: List<Category>?) : super() {
+    constructor(context: Context?, datas: List<String>?) : super() {
         this.context = context
         this.images = datas
     }
@@ -37,10 +37,9 @@ class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     override fun getItemCount(): Int {
         try {
-//            return images!!.size;
-            return 20;
+            return images!!.size;
         } catch (e: Exception) {
-            return 20
+            return 0
         }
     }
 
@@ -64,7 +63,7 @@ class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
         fun bindItem(position: Int) {
             this.position = position
             val schedules = Gson().fromJson<DishData>(
-                Util.loadJSONFromAsset(context, "Breakfast"), DishData::class.java)
+                Util.loadJSONFromAsset(context, images!![position]), DishData::class.java)
             dishAdapter = DishAdapter(context, schedules.items)
             binding.rclImage.adapter = dishAdapter
         }

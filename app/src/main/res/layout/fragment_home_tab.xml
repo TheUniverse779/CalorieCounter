@@ -126,7 +126,6 @@
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:paddingHorizontal="12dp"
                     android:id="@+id/rclContent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -224,110 +224,13 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
         })
 
 
-        if(isPro != 1) {
-            Handler().postDelayed(Runnable {
-                var currentDay = getDate(System.currentTimeMillis());
-                var lastDay = preferenceUtil.getValue(Constant.SharePrefKey.DAY, "")
-                if (currentDay != lastDay) {
-                    weatherViewModel.getImagesByCatId(null, Constant.SortBy.RATING, arrayOf("private"), null, "200", 0)
-                    preferenceUtil.setValue(Constant.SharePrefKey.DAY, getDate(System.currentTimeMillis()))
-                } else {
-                    if (preferenceUtil.getValue(Constant.SharePrefKey.IMAGE, "").isNotEmpty()) {
-                        showBox(Gson().fromJson(preferenceUtil.getValue(Constant.SharePrefKey.IMAGE, ""), Image::class.java))
-                    } else {
-                        weatherViewModel.getImagesByCatId(null, Constant.SortBy.RATING, arrayOf("private"), null, "200", 0)
-                    }
-                }
 
-            }, 2000)
-        }
-
-    }
-
-
-    private var handler = Handler()
-    private fun showBox(image: Image){
-        binding?.motionLayout?.toVisible()
-        handler.postDelayed(Runnable {
-            binding?.motionLayout?.transitionToEnd()
-
-            binding?.motionLayout?.addTransitionListener(object : MotionLayout.TransitionListener{
-                override fun onTransitionStarted(
-                    motionLayout: MotionLayout?,
-                    startId: Int,
-                    endId: Int
-                ) {
-
-                }
-
-                override fun onTransitionChange(
-                    motionLayout: MotionLayout?,
-                    startId: Int,
-                    endId: Int,
-                    progress: Float
-                ) {
-                }
-
-                override fun onTransitionCompleted(motionLayout: MotionLayout?, currentId: Int) {
-                    Handler().postDelayed(Runnable {
-                        binding?.motionLayout?.transitionToStart()
-                        if (currentId != R.id.start) {
-                            showDailyGift(image)
-                        }
-                    }, 2000)
-                }
-
-                override fun onTransitionTrigger(
-                    motionLayout: MotionLayout?,
-                    triggerId: Int,
-                    positive: Boolean,
-                    progress: Float
-                ) {
-                }
-
-            })
-        }, 7000)
-    }
-
-
-
-    private fun showDailyGift(image: Image){
-        var dailyGiftDialog = DailyGiftDialog2.newInstance {
-            image.cost = "0"
-            var listImage = ArrayList<Image>()
-            listImage.add(image)
-            WalliveDetailImageActivity.startScreen(mActivity, listImage, false, null)
-        }
-        dailyGiftDialog.setImage(image)
-        dailyGiftDialog.setDialogState( object : DialogState{
-            override fun onDialogShow() {
-                binding?.blurFull?.toVisible()
-                binding?.blurFull2?.toVisible()
-            }
-
-            override fun onDialogDismiss() {
-                binding?.blurFull?.toGone()
-                binding?.blurFull2?.toGone()
-            }
-
-        })
-
-        dailyGiftDialog.show(mActivity.supportFragmentManager, null)
-    }
-
-    private fun getDate(time: Long): String? {
-        val cal: Calendar = Calendar.getInstance(Locale.ENGLISH)
-        cal.timeInMillis = time
-        return DateFormat.format("dd-MM-yyyy", cal).toString()
     }
 
 
     override fun setListener() {
 
-        binding?.view?.setOnClickListener {
-            var image = Gson().fromJson(preferenceUtil.getValue(Constant.SharePrefKey.IMAGE, ""), Image::class.java)
-            showDailyGift(image)
-        }
+
 
         binding?.blurFull?.setOnClickListener {
             binding?.blurFull?.toGone()
@@ -628,7 +531,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
         weatherViewModel.dataResponseLiveData.observe(this, Observer {
             var items = it.items.shuffled() as ArrayList
             preferenceUtil.setValue(Constant.SharePrefKey.IMAGE, Gson().toJson(items[0]))
-            showBox(items[0])
         })
 
 //        weatherViewModel.requestFail.observe(this) {
@@ -667,10 +569,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
     override fun onDestroy() {
         super.onDestroy()
         EventBus.getDefault().unregister(this)
-        try {
-            handler.removeCallbacksAndMessages(null);
-        } catch (e: Exception) {
-        }
+
     }
 
 
