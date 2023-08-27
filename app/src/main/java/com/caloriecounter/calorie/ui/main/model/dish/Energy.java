@@ -3,7 +3,9 @@ package com.caloriecounter.calorie.ui.main.model.dish;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Energy {
+import java.io.Serializable;
+
+public class Energy implements Serializable {
     @Expose
     @SerializedName("value")
     private double value;

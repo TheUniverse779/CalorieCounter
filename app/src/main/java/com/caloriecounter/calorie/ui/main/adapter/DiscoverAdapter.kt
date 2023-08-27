@@ -66,6 +66,7 @@ class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 Util.loadJSONFromAsset(context, images!![position]), DishData::class.java)
             dishAdapter = DishAdapter(context, schedules.items)
             binding.rclImage.adapter = dishAdapter
+            binding.tvTitle.text = images!![position]
         }
 
 

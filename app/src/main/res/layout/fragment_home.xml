@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@drawable/bg_background" />
+            android:src="@color/black" />
 
         <androidx.drawerlayout.widget.DrawerLayout
             android:id="@+id/drawerLayout"
@@ -59,7 +59,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
 
-
                                     <ImageView
                                         android:id="@+id/btnMenu"
                                         android:layout_width="50dp"
@@ -78,119 +77,6 @@
                                         android:text="Wallive"
                                         android:textColor="#FFDE30"
                                         android:textSize="20dp" />
-
-
-                                    <ImageView
-                                        android:id="@+id/btnAuto"
-                                        android:layout_width="50dp"
-                                        android:layout_height="50dp"
-                                        android:layout_alignParentEnd="true"
-                                        android:layout_marginEnd="50dp"
-                                        android:padding="12dp"
-                                        android:src="@drawable/ic_baseline_motion_photos_auto_24"
-                                        android:visibility="gone" />
-
-
-                                    <com.ornach.richtext.RichView
-                                        android:id="@+id/btnGotoLive"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_alignParentEnd="true"
-                                        android:layout_centerVertical="true"
-                                        android:layout_marginEnd="100dp"
-                                        android:foreground="@drawable/bg_ripple_effect_click"
-                                        android:gravity="center"
-                                        android:paddingStart="10dp"
-                                        android:paddingTop="3dp"
-                                        android:paddingEnd="10dp"
-                                        android:paddingBottom="3dp"
-                                        android:visibility="gone"
-                                        app:rt_backgroundColor="@color/second_color"
-                                        app:rt_radius="5dp">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@drawable/ic_round_slow_motion_video_24"
-                                            app:tint="@color/black" />
-
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginStart="5dp"
-                                            android:fontFamily="@font/roboto_bold"
-                                            android:text="Live"
-                                            android:textColor="@color/black" />
-
-                                    </com.ornach.richtext.RichView>
-
-
-                                    <ImageView
-                                        android:id="@+id/btnSearch"
-                                        android:layout_width="50dp"
-                                        android:layout_height="50dp"
-                                        android:layout_toStartOf="@+id/layoutViewCoin"
-                                        android:padding="12dp"
-                                        android:src="@drawable/ic_round_search_24" />
-
-
-
-                                    <RelativeLayout
-                                        android:id="@+id/layoutViewCoin"
-                                        android:layout_alignParentEnd="true"
-                                        android:layout_centerVertical="true"
-                                        android:layout_marginEnd="16dp"
-                                        android:gravity="center_vertical"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
-
-                                        <com.ornach.richtext.RichView
-                                            android:id="@+id/viewCoin"
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:paddingVertical="5dp"
-                                            android:paddingStart="5dp"
-                                            android:paddingEnd="15dp"
-                                            app:rt_backgroundColor="#333333"
-                                            app:rt_radius="100dp">
-
-
-                                            <ImageView
-                                                android:layout_width="15dp"
-                                                android:layout_height="15dp"
-                                                android:src="@drawable/ic_coin" />
-
-                                            <TextView
-                                                android:id="@+id/tvCoin"
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginStart="4dp"
-                                                android:layout_marginTop="-2dp"
-                                                android:fontFamily="@font/svn_avo_bold"
-                                                android:gravity="center"
-                                                android:includeFontPadding="false"
-                                                android:text="0"
-                                                android:textColor="@color/white"
-                                                android:textSize="12dp" />
-
-                                        </com.ornach.richtext.RichView>
-
-                                        <com.ornach.richtext.RichView
-                                            android:layout_marginTop="1dp"
-                                            android:layout_marginEnd="1dp"
-                                            app:rt_radius="100dp"
-                                            android:layout_alignEnd="@+id/viewCoin"
-                                            android:layout_alignTop="@+id/viewCoin"
-                                            app:rt_backgroundColor="@color/color_brand"
-                                            android:layout_width="4dp"
-                                            android:layout_height="4dp"/>
-
-                                    </RelativeLayout>
-
-
-
-
-
 
 
                                 </RelativeLayout>
@@ -220,13 +106,8 @@
                 </LinearLayout>
 
 
-                <com.github.mmin18.widget.RealtimeBlurView
-                    app:realtimeBlurRadius="20dp"
-                    app:realtimeOverlayColor="#80000000"
-                    android:visibility="gone"
-                    android:id="@+id/blurFull"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+
+
 
 
 
@@ -578,61 +459,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/layoutProBottom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:gravity="center_vertical"
-                android:paddingVertical="15dp"
-                android:paddingStart="16dp"
-                android:visibility="visible"
-                app:rt_borderColor="#26B1FF"
-                app:rt_borderWidth="2dp"
-                app:rt_radius="100dp">
-
-
-                <com.airbnb.lottie.LottieAnimationView
-                    app:lottie_loop="true"
-                    app:lottie_autoPlay="true"
-                    app:lottie_rawRes="@raw/star_premium"
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"/>
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/svn_avo_bold"
-                    android:paddingHorizontal="16dp"
-                    android:text="Unlock All Features"
-                    android:textColor="@color/color_brand"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:visibility="gone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/gradient_upgrade"
-                    android:fontFamily="@font/svn_avo_bold"
-                    android:paddingHorizontal="16dp"
-                    android:paddingVertical="5dp"
-                    android:text="Upgrade"
-                    android:textColor="@color/white"
-                    android:textSize="14dp" />
-
-
-                <ImageView
-                    android:layout_marginEnd="16dp"
-                    android:id="@+id/btnProBottom"
-                    android:src="@drawable/on"
-                    android:layout_width="44dp"
-                    android:layout_height="24dp"/>
-
-            </LinearLayout>
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
@@ -648,40 +474,6 @@
 
         </LinearLayout>
 
-
-        <com.github.mmin18.widget.RealtimeBlurView
-            app:realtimeBlurRadius="20dp"
-            app:realtimeOverlayColor="#80000000"
-            android:visibility="gone"
-            android:id="@+id/blurFull2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-
-        <androidx.constraintlayout.motion.widget.MotionLayout
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:id="@+id/motionLayout"
-            app:layoutDescription="@xml/di_chuyen_hop_qua"
-            android:layout_height="match_parent">
-
-
-            <com.airbnb.lottie.LottieAnimationView
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginBottom="120dp"
-                app:lottie_loop="true"
-                android:id="@+id/view"
-                app:lottie_autoPlay="true"
-                app:lottie_rawRes="@raw/gift_box"
-                android:layout_marginTop="20dp"
-                android:layout_marginHorizontal="30dp"
-                android:layout_width="60dp"
-                android:layout_height="60dp"/>
-
-
-
-        </androidx.constraintlayout.motion.widget.MotionLayout>
 
 
     </RelativeLayout>

@@ -73,8 +73,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
     private var menuData: MenuData? = null
     private var menus: ArrayList<Menu>? = null
 
-    private var listMenuCategory = ArrayList<Category>()
-    private var categoryMenuAdapter: CategoryMenuAdapter? = null
 
     private var mCategory: Category? = null
 
@@ -202,23 +200,10 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
     override fun initData() {
         val isPro = Prefs(WeatherApplication.get()).premium
 
-        if(isPro == 1){
-            binding?.btnProMenu?.toGone()
-            binding?.layoutProBottom?.toGone()
-        }else{
-            binding?.btnProMenu?.toVisible()
-            binding?.layoutProBottom?.toVisible()
-        }
-
-
-        binding?.tvCoin?.text = preferenceUtil.getValue(Constant.SharePrefKey.COIN, 0).toString()
 
         DailyForecastSchedule.scheduleDailyForecast(mActivity)
 
-        try {
-            weatherViewModel.getCountry()
-        } catch (e: Exception) {
-        }
+
 
         RewardedAds.initRewardAds(mActivity, Callback {
         })
@@ -232,9 +217,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
 
 
 
-        binding?.blurFull?.setOnClickListener {
-            binding?.blurFull?.toGone()
-        }
 
         binding?.drawerLayout?.setScrimColor(
             mActivity.getResources().getColor(android.R.color.transparent)
@@ -244,78 +226,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             WeatherApplication.trackingEvent("Click_Menu_Button")
         }
 
-        binding?.btnSearch?.setOnClickListener {
-            SearchActivity.startScreen(mActivity, null)
-            WeatherApplication.trackingEvent("Click_Search_Button")
-        }
 
-        binding?.viewCoin?.setOnClickListener {
-            if (RewardedAds.isCanShowAds()) {
-                if (preferenceUtil.getValue(Constant.SharePrefKey.COUNT_REWARD, 0) >= 3) {
-                    var askUserGoProDialog = AskUserGoProDialog();
-                    askUserGoProDialog.setDialogState( object : DialogState{
-                        override fun onDialogShow() {
-                            binding?.blurFull?.toVisible()
-                        }
-
-                        override fun onDialogDismiss() {
-                            binding?.blurFull?.toGone()
-                        }
-
-                    })
-                    askUserGoProDialog.setOnClick {
-                        RewardedAds.showAdsBreak(mActivity) {
-                            preferenceUtil.setValue(Constant.SharePrefKey.COUNT_REWARD, 0)
-                            preferenceUtil.setValue(
-                                Constant.SharePrefKey.COIN,
-                                preferenceUtil.getValue(Constant.SharePrefKey.COIN, 0) + 1
-                            )
-                            EventBus.getDefault().post(CoinChange())
-                        }
-                    }
-                    askUserGoProDialog.show(mActivity.supportFragmentManager, null)
-                } else {
-                    var askUserViewAdsDialog2 = AskUserViewAdsDialog2();
-                    askUserViewAdsDialog2.setDialogState( object : DialogState{
-                        override fun onDialogShow() {
-                            binding?.blurFull?.toVisible()
-                        }
-
-                        override fun onDialogDismiss() {
-                            binding?.blurFull?.toGone()
-                        }
-
-                    })
-                    askUserViewAdsDialog2.setOnClick {
-                        RewardedAds.showAdsBreak(mActivity) {
-                            preferenceUtil.setValue(
-                                Constant.SharePrefKey.COUNT_REWARD,
-                                preferenceUtil.getValue(
-                                    Constant.SharePrefKey.COUNT_REWARD,
-                                    0
-                                ) + 1
-                            )
-                            preferenceUtil.setValue(
-                                Constant.SharePrefKey.COIN,
-                                preferenceUtil.getValue(Constant.SharePrefKey.COIN, 0) + 1
-                            )
-                            EventBus.getDefault().post(CoinChange())
-                        }
-                    }
-                    askUserViewAdsDialog2.show(mActivity.supportFragmentManager, null)
-                }
-            } else {
-                Toast.makeText(mActivity, "No ads now, please come back later", Toast.LENGTH_SHORT).show()
-            }
-
-
-
-        }
-
-        binding?.btnProBottom?.setOnClickListener {
-            WeatherApplication.trackingEvent("Click_Premium")
-            startActivity(Intent(mActivity, PremiumActivity::class.java))
-        }
 
 
         binding?.btnProMenu?.setOnClickListener {
@@ -324,79 +235,12 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             Handler().postDelayed({binding?.drawerLayout?.closeDrawer(GravityCompat.START, true) }, 500)
         }
 
-
-        binding?.btnTerm1?.setOnClickListener {
-            val url = "https://docs.google.com/document/d/1prnBnlhwxSPGcXZ7EKvqKOFaxHObRMUS3BtgcMw5wHM/edit?usp=sharing"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            mActivity.startActivity(i)
-            Handler().postDelayed({binding?.drawerLayout?.closeDrawer(GravityCompat.START, true) }, 500)
-        }
-
-        binding?.btnTerm2?.setOnClickListener {
-            val url = "https://docs.google.com/document/d/1prnBnlhwxSPGcXZ7EKvqKOFaxHObRMUS3BtgcMw5wHM/edit?usp=sharing"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            mActivity.startActivity(i)
-            Handler().postDelayed({binding?.drawerLayout?.closeDrawer(GravityCompat.START, true) }, 500)
-        }
-
-        binding?.btnSupport?.setOnClickListener {
-            try {
-                val intent = Intent(Intent.ACTION_SENDTO)
-                intent.data = Uri.parse("mailto:phuongchau2783463@gmail.com") // only email apps should handle this
-                intent.putExtra(Intent.EXTRA_SUBJECT, "App feedback")
-                startActivity(intent)
-            } catch (ex: ActivityNotFoundException) {
-                Toast.makeText(
-                    activity,
-                    "There are no email client installed on your device.", Toast.LENGTH_SHORT
-                ).show()
-            }
-        }
-
-
-//        binding?.btnLiveWallpaperMenu?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            binding?.vpContent?.currentItem = 5
-//            WeatherApplication.trackingEvent("Click_btnLiveWallpaperMenu")
-//
-//        }
-//
-//        binding?.btnExclusive?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            binding?.vpContent?.currentItem = 2
-//            WeatherApplication.trackingEvent("Click_btnExclusiveMenu")
-//
-//        }
-//
-//        binding?.btnCategory?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            binding?.vpContent?.currentItem = 6
-//            WeatherApplication.trackingEvent("Click_btnCategoryMenu")
-//
-//        }
-//
-//        binding?.btnDouble?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            binding?.vpContent?.currentItem = 6
-//            WeatherApplication.trackingEvent("Click_btnDoubleMenu")
-//
-//        }
-//
         binding?.btnHome?.setOnClickListener {
             binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
             binding?.vpContent?.currentItem = 0
             WeatherApplication.trackingEvent("Click_btnHomeMenu")
 
         }
-//
-//        binding?.btnSpecialArt?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            binding?.vpContent?.currentItem = 1
-//            WeatherApplication.trackingEvent("Click_btnSpecialArtMenu")
-//
-//        }
 
         binding?.btnFavorite?.setOnClickListener {
             binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
@@ -406,13 +250,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             WeatherApplication.trackingEvent("Click_Favorite_Menu")
         }
 
-//        binding?.btnRecent?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            Handler().postDelayed(Runnable {
-//                MyWallpaperActivity.startScreen(mActivity, Constant.MyWallpaperType.RECENT)
-//            }, 500)
-//            WeatherApplication.trackingEvent("Click_Recent_Menu")
-//        }
 
         binding?.btnDownload?.setOnClickListener {
             binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
@@ -421,92 +258,8 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             }, 500)
             WeatherApplication.trackingEvent("Click_Download_Menu")
         }
-//        binding?.btnAutoMenu?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            Handler().postDelayed(Runnable {
-//                AutoChangeActivity.startScreen(mActivity)
-//            }, 500)
-//            WeatherApplication.trackingEvent("Click_Auto_change_Menu")
-//        }
-//
-//        binding?.btnDownloadLive?.setOnClickListener {
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//            Handler().postDelayed(Runnable {
-//                InterAds.showAdsBreak(mActivity) {
-//                    startActivity(Intent(mActivity, MainActivity::class.java))
-//                }
-//            }, 500)
-//            WeatherApplication.trackingEvent("Click_Download_live_Menu")
-//
-//        }
-//
-//        binding?.btnRateApp?.setOnClickListener {
-//            val ratingDialog: RatingDialog = RatingDialog.newInstance("", "") {
-//                val goToMarket =
-//                    Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + mActivity.packageName))
-//                goToMarket.addFlags(
-//                    Intent.FLAG_ACTIVITY_NO_HISTORY or
-//                            Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
-//                            Intent.FLAG_ACTIVITY_MULTIPLE_TASK
-//                )
-//                try {
-//                    startActivity(goToMarket)
-//                } catch (anfe: ActivityNotFoundException) {
-//                    startActivity(
-//                        Intent(
-//                            Intent.ACTION_VIEW,
-//                            Uri.parse("https://play.google.com/store/apps/details?id=" + mActivity.packageName)
-//                        )
-//                    )
-//                }
-//            }
-//            ratingDialog.show(mActivity.supportFragmentManager, "")
-//            WeatherApplication.trackingEvent("Click_Rate_Home")
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//        }
 
-//        binding?.btnRate?.setOnClickListener {
-//            val ratingDialog: RatingDialog = RatingDialog.newInstance("", "") {
-//                val goToMarket =
-//                    Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + mActivity.packageName))
-//                goToMarket.addFlags(
-//                    Intent.FLAG_ACTIVITY_NO_HISTORY or
-//                            Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
-//                            Intent.FLAG_ACTIVITY_MULTIPLE_TASK
-//                )
-//                try {
-//                    startActivity(goToMarket)
-//                } catch (anfe: ActivityNotFoundException) {
-//                    startActivity(
-//                        Intent(
-//                            Intent.ACTION_VIEW,
-//                            Uri.parse("https://play.google.com/store/apps/details?id=" + mActivity.packageName)
-//                        )
-//                    )
-//                }
-//            }
-//            ratingDialog.show(mActivity.supportFragmentManager, "")
-//            WeatherApplication.trackingEvent("Click_Rate_Home")
-//            binding?.drawerLayout?.closeDrawer(GravityCompat.START, true)
-//        }
 
-        binding?.drawerLayout?.addDrawerListener(object : DrawerLayout.DrawerListener {
-            override fun onDrawerSlide(drawerView: View, slideOffset: Float) {
-
-            }
-
-            override fun onDrawerOpened(drawerView: View) {
-                binding?.blurFull?.toVisible()
-            }
-
-            override fun onDrawerClosed(drawerView: View) {
-                binding?.blurFull?.toGone()
-            }
-
-            override fun onDrawerStateChanged(newState: Int) {
-            }
-
-        })
     }
 
     private fun clearBackground() {
@@ -532,29 +285,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             var items = it.items.shuffled() as ArrayList
             preferenceUtil.setValue(Constant.SharePrefKey.IMAGE, Gson().toJson(items[0]))
         })
-
-//        weatherViewModel.requestFail.observe(this) {
-//            canLoadMore = true
-//            binding?.progressBar?.toGone()
-//            binding?.tvRefresh?.toGone()
-//
-//            try {
-//                binding?.loadMoreProgressBar?.visibility = View.GONE
-//            } catch (e: Exception) {
-//            }
-//            binding?.swipeToRefresh?.isRefreshing = false
-//
-//            try {
-//                if(listImage.size == 0){
-//                    binding?.layoutReload?.toVisible()
-//                }else{
-//                    binding?.layoutReload?.toGone()
-//                }
-//            } catch (e: Exception) {
-//            }
-//        }
-
-//        getData()
     }
 
     override fun getFrame(): Int {
@@ -587,48 +317,8 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
 
     private fun changeMenu(position: Int) {
         clearBackground()
-//        when(position){
-//            0 -> {
-//                binding?.btnHome?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-//                binding?.tvHome?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-//            }
-//
-//            1 -> {
-//                binding?.btnSpecialArt?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-//                binding?.tvSpecialArt?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-//            }
-//
-//            2 -> {
-//                binding?.btnExclusive?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-//                binding?.tvExclusive?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-//            }
-//
-//            5 -> {
-//                binding?.btnLiveWallpaperMenu?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-//                binding?.tvLiveWallpaperMenu?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-//            }
-//
-//            6 -> {
-//                binding?.btnCategory?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-//                binding?.tvCategory?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-//            }
-//
-////            6 -> {
-////                binding?.btnDouble?.background = AppCompatResources.getDrawable(mActivity,R.drawable.gradient_menu)
-////                binding?.tvDouble?.setTextColor(mActivity.resources.getColor(R.color.color_brand))
-////            }
-//        }
     }
 
 
-    @Subscribe
-    public fun onCoinChange(onCoinChange: CoinChange) {
-        binding?.tvCoin?.text = preferenceUtil.getValue(Constant.SharePrefKey.COIN, 0).toString()
-    }
-
-    @Subscribe
-    public fun onDialogDismiss(onDialogDismiss: OnDialogDismiss){
-        binding?.blurFull?.toGone()
-    }
 
 }
