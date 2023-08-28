@@ -8,7 +8,7 @@ import com.caloriecounter.calorie.ui.dishdetail.model.Information
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 
 class DishDetailFragment : BaseFragment<FragmentDishDetailBinding?>() {
-    private var informationAdapter :InformationAdapter? = null
+    private var informationAdapter : InformationAdapter? = null
     private var listInfor = ArrayList<Information>()
     public var dish : Dish? = null
 

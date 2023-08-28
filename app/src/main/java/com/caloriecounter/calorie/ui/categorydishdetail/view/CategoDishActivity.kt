@@ -1,4 +1,4 @@
-package com.caloriecounter.calorie.ui.dishdetail.view
+package com.caloriecounter.calorie.ui.categorydishdetail.view
 
 import android.content.Context
 import android.content.Intent
@@ -9,16 +9,14 @@ import com.caloriecounter.calorie.R
 import com.caloriecounter.calorie.base.BaseActivityNew
 import com.caloriecounter.calorie.base.BaseFragment
 import com.caloriecounter.calorie.databinding.ActivityMainBinding
-import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity
-import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoryDishlFragment
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
+class CategoDishActivity : BaseActivityNew<ActivityMainBinding>() {
 
-    private var image : Dish? = null
+    private var image : String? = null
 
 
     override fun getLayoutRes(): Int {
@@ -30,7 +28,7 @@ class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
     }
 
     override fun getDataFromIntent() {
-        image = intent.getSerializableExtra(Constant.IntentKey.DATA) as Dish?
+        image = intent.getStringExtra(Constant.IntentKey.DATA)
 
     }
 
@@ -50,8 +48,8 @@ class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
     }
 
     override fun initFragment(): BaseFragment<*>? {
-        var categoryDishlFragment = DishDetailFragment();
-        categoryDishlFragment.dish = image
+        var categoryDishlFragment = CategoryDishlFragment();
+        categoryDishlFragment.setData(image!!)
         return categoryDishlFragment
     }
 
@@ -63,7 +61,7 @@ class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
     }
 
     public companion object {
-        public fun startScreen(context: Context, image: Dish?) {
+        public fun startScreen(context: Context, image: String?) {
             var intent = Intent(context, CategoDishActivity::class.java)
             intent.putExtra(Constant.IntentKey.DATA, image)
             context.startActivity(Intent(intent))

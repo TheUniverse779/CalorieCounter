@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.caloriecounter.calorie.databinding.ItemCategoryBinding
 import com.caloriecounter.calorie.model.Schedule
+import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity
+import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoryDishlFragment
 import com.caloriecounter.calorie.ui.main.model.dish.Category
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 import com.caloriecounter.calorie.ui.main.model.dish.DishData
@@ -67,6 +69,9 @@ class DiscoverAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
             dishAdapter = DishAdapter(context, schedules.items)
             binding.rclImage.adapter = dishAdapter
             binding.tvTitle.text = images!![position]
+            binding.layoutTitle.setOnClickListener {
+                CategoDishActivity.startScreen(context!!, images!![position])
+            }
         }
 
 

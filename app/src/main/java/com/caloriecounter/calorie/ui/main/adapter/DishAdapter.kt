@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.caloriecounter.calorie.databinding.ItemDishBinding
+import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity
 import com.caloriecounter.calorie.ui.dishdetail.view.DishDetailActivity
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 
