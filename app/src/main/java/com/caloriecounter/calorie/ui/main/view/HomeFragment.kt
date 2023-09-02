@@ -102,7 +102,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
                 homeTabFragment.setData(i.contentType)
                 tabAdapter?.addFragment(homeTabFragment, "")
             } else if (i.type == "live") {
-                var liveWallpaperFragment = WalliveLiveTabFragment()
+                var liveWallpaperFragment = AllDishFragment()
                 tabAdapter?.addFragment(liveWallpaperFragment, "")
             } else if (i.type == "ai") {
                 var specialArtTabFragment = SpecialArtTabFragment()
@@ -207,6 +207,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
 
         RewardedAds.initRewardAds(mActivity, Callback {
         })
+
+
+
 
 
 

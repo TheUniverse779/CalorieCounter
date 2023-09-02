@@ -14,6 +14,18 @@ public class Dish implements Serializable {
     private String imageUrl;
 
     @Expose
+    @SerializedName("id")
+    private String id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Expose
     @SerializedName("nutritional_contents")
     private NutritionalContent nutritionalContents;
 
