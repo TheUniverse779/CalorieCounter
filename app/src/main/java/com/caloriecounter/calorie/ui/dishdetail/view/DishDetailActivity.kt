@@ -9,9 +9,8 @@ import com.caloriecounter.calorie.R
 import com.caloriecounter.calorie.base.BaseActivityNew
 import com.caloriecounter.calorie.base.BaseFragment
 import com.caloriecounter.calorie.databinding.ActivityMainBinding
-import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity
-import com.caloriecounter.calorie.ui.categorydishdetail.view.CategoryDishlFragment
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
+import com.caloriecounter.calorie.ui.main.model.image.Image
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -50,9 +49,9 @@ class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
     }
 
     override fun initFragment(): BaseFragment<*>? {
-        var categoryDishlFragment = DishDetailFragment();
-        categoryDishlFragment.dish = image
-        return categoryDishlFragment
+        var dishDetailFragment = DishDetailFragment();
+        dishDetailFragment.dish = image
+        return dishDetailFragment
     }
 
     private fun setFullScreen() {
@@ -64,7 +63,7 @@ class DishDetailActivity : BaseActivityNew<ActivityMainBinding>() {
 
     public companion object {
         public fun startScreen(context: Context, image: Dish?) {
-            var intent = Intent(context, CategoDishActivity::class.java)
+            var intent = Intent(context, DishDetailActivity::class.java)
             intent.putExtra(Constant.IntentKey.DATA, image)
             context.startActivity(Intent(intent))
         }
