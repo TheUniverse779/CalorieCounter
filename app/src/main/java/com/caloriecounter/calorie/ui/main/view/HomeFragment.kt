@@ -166,27 +166,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
             val c = tab.position
             tabAdapter?.setOnSelectView(binding?.tabLayout, c)
             changeMenu(c)
-            when (c) {
-                0 -> {
-                    binding?.tvTitle?.text = "Wallive"
-                    WeatherApplication.trackingEvent("Click_Home_Screen")
-                }
-                1 -> {
-                    binding?.tvTitle?.text = "Video"
-                    WeatherApplication.trackingEvent("Click_Special_art_Screen")
-                }
-                2 -> {
-                    binding?.tvTitle?.text = "Exclusive"
-                    WeatherApplication.trackingEvent("Click_Exclusive_Screen")
-                }
-                3 -> {
-                    binding?.tvTitle?.text = "Explore"
-                    WeatherApplication.trackingEvent("Click_Other_Screen")
-                }
-                4 -> WeatherApplication.trackingEvent("Click_Charging_Screen")
-                5 -> WeatherApplication.trackingEvent("Click_Live_Screen")
-                6 -> WeatherApplication.trackingEvent("Click_Category_Screen")
-            }
         }
 
         override fun onTabUnselected(tab: TabLayout.Tab) {
@@ -219,6 +198,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding?>() {
     override fun setListener() {
 
 
+        binding?.btnSearch?.setOnClickListener {
+            SearchActivity.startScreen(mActivity, "")
+        }
 
 
         binding?.drawerLayout?.setScrimColor(

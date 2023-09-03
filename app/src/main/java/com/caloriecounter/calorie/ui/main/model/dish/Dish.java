@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 public class Dish implements Serializable {
     @Expose
-    @SerializedName("name")
+    @SerializedName(value="name", alternate={"brand_name"})
     private String name;
     @Expose
     @SerializedName("image_url")

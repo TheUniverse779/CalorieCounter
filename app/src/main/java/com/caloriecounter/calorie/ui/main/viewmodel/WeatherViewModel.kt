@@ -18,6 +18,7 @@ import com.caloriecounter.calorie.ui.main.model.category.CategoryResponse
 import com.caloriecounter.calorie.ui.main.model.doubleimage.DoubleImageDataResponse
 import com.caloriecounter.calorie.ui.main.model.image.Image
 import com.caloriecounter.calorie.ui.search.model.PopularTagResponse
+import com.caloriecounter.calorie.ui.search.model.SearchResponse
 import com.caloriecounter.calorie.util.PreferenceUtil
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -30,6 +31,7 @@ class WeatherViewModel @Inject constructor(@NormalAPIService private val apiServ
     var categoryResponseLiveData = MutableLiveData<CategoryResponse>()
 
     var dataResponseLiveData = MutableLiveData<DataResponse>()
+    var dataSearchResponseLiveData = MutableLiveData<SearchResponse>()
     var similarLiveData = MutableLiveData<DataResponse>()
 
     val doubleImageLiveData = MutableLiveData<DoubleImageDataResponse>()
@@ -228,6 +230,34 @@ class WeatherViewModel @Inject constructor(@NormalAPIService private val apiServ
                     }
 
                     WeatherApplication.trackingEvent("Fail_search", "Cause", e.message+ isNetworkAvailable(WeatherApplication.get()))
+                } catch (e: Exception) {
+                    Log.e("", "")
+                }
+            }
+        }
+
+    }
+
+
+    fun searchDish(query: String?) {
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val result = apiService.searchDish(
+                    query
+                )
+                withContext(Dispatchers.Main) {
+                    if (result != null) {
+//                        result.offset = offset
+                        dataSearchResponseLiveData.value = result
+                    }
+                }
+            } catch (e: Exception) {
+                Log.e("search", e.message!!)
+                try {
+                    withContext(Dispatchers.Main) {
+                        requestFail.value = "search"
+                    }
+
                 } catch (e: Exception) {
                     Log.e("", "")
                 }

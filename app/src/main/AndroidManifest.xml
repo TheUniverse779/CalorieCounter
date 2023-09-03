@@ -87,7 +87,8 @@
         <activity android:name="com.caloriecounter.calorie.ui.slideimage.view.WalliveDetailVideoActivity" android:screenOrientation="portrait" />
         <activity android:name="com.caloriecounter.calorie.ui.preview.PreviewVideoActivity" android:screenOrientation="portrait" />
         <activity android:name="com.caloriecounter.calorie.ui.downloaded.view.PreviewDownloadedContentActivity" android:screenOrientation="portrait" />
-        <activity android:name="com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity" />
+        <activity android:name="com.caloriecounter.calorie.ui.categorydishdetail.view.CategoDishActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.caloriecounter.calorie.ui.dishdetail.view.DishDetailActivity" android:screenOrientation="portrait" />
 
         <service
             android:name=".ui.newlivewallpaper.GLWallpaperService"

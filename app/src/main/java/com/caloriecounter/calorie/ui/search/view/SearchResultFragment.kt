@@ -29,6 +29,9 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.jakewharton.rxbinding2.widget.RxTextView
 import com.caloriecounter.calorie.WeatherApplication
+import com.caloriecounter.calorie.ui.main.model.dish.Dish
+import com.caloriecounter.calorie.ui.search.adapter.DishSearchAdapter
+import com.caloriecounter.calorie.ui.search.model.SearchContent
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.android.schedulers.AndroidSchedulers
 import java.util.concurrent.TimeUnit
@@ -40,8 +43,8 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
     private var recentAdapter: RecentAdapter? = null
     private var canLoadMore: Boolean = true
     private var offset: Int = 0;
-    private var imageAdapter: ImageAdapter? = null
-    private var listImage = ArrayList<Image>()
+    private var imageAdapter: DishSearchAdapter? = null
+    private var listImage = ArrayList<SearchContent>()
     private var keyword: String? = null
     private var sort = Constant.SortBy.RATING
     private var isShowKeyboard = false;
@@ -76,15 +79,9 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
             })
         binding?.rcvHistory?.adapter = recentAdapter
 
-        imageAdapter = ImageAdapter(mActivity, listImage, true, false, true)
+        imageAdapter = DishSearchAdapter(mActivity, listImage)
 
-        imageAdapter?.setDataPresentImageType(
-            Constant.PresentImageType.SEARCH,
-            null,
-            Constant.SortBy.DOWNLOAD,
-            null
-        )
-        imageAdapter?.setDataPresentImageType(keyword)
+
         binding?.rcvResult?.adapter = imageAdapter
         handleSearch()
 
@@ -149,7 +146,6 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
     }
 
     private fun addRecentSearchAndReload() {
-        imageAdapter?.setDataPresentImageType(binding?.edtSearch?.text.toString())
         addRecentSearch(binding?.edtSearch?.text.toString())
         recentAdapter?.setData(getRecentSearch())
     }
@@ -249,12 +245,7 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
                 }
             } catch (e: Exception) {
             }
-            weatherViewModel.search(
-                null,
-                sort,
-                null,
-                "30",
-                offset,
+            weatherViewModel.searchDish(
                 binding?.edtSearch?.text.toString()
             )
             canLoadMore = false
@@ -262,16 +253,16 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
     }
 
     override fun setObserver() {
-        weatherViewModel.dataResponseLiveData.observe(this, Observer {
+        weatherViewModel.dataSearchResponseLiveData.observe(this, Observer {
             binding?.progressBar?.toGone()
             try {
                 binding?.loadMoreProgressBar?.visibility = View.GONE
             } catch (e: Exception) {
             }
             canLoadMore = true
-            if (it.offset == 0) {
-                listImage.clear()
-            }
+//            if (it.offset == 0) {
+//                listImage.clear()
+//            }
             listImage.addAll(it.items)
             imageAdapter?.notifyDataSetChanged()
             canLoadMore = true

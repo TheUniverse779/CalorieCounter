@@ -64,8 +64,8 @@
                                         android:padding="12dp"
                                         android:src="@drawable/ic_menu" />
 
-                                    <TextView
-                                        android:id="@+id/tvTitle"
+                                    <com.ornach.richtext.RichText
+                                        android:id="@+id/btnSearch"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_centerInParent="true"
@@ -73,7 +73,9 @@
                                         android:fontFamily="@font/svn_avo_bold"
                                         android:text="Wallive"
                                         android:textColor="@color/black"
-                                        android:textSize="20dp" />
+                                        android:textSize="20dp"
+                                        app:rt_backgroundColor="#ececec"
+                                        app:rt_radius="100dp" />
 
 
                                 </RelativeLayout>
