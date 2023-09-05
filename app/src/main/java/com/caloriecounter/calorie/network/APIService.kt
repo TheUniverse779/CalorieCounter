@@ -56,7 +56,7 @@ interface APIService {
         "mfp-client-id: mfp-mobile-android-google",
         "mfp-user-id: 173325443583277"
         )
-    @GET("https://api.myfitnesspal.com/v2/search/nutrition?scope=all&max_items=1000")
+    @GET("https://api.myfitnesspal.com/v2/search/nutrition?scope=all&max_items=20")
     suspend fun searchDish(
         @Query(encoded = true, value = "q") query: String?
     ): SearchResponse

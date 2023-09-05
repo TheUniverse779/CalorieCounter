@@ -4,6 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 public class Dish implements Serializable {
     @Expose
@@ -16,6 +17,18 @@ public class Dish implements Serializable {
     @Expose
     @SerializedName("id")
     private String id;
+
+    @Expose
+    @SerializedName("tags")
+    private ArrayList<Tag> tags;
+
+    public ArrayList<Tag> getTags() {
+        return tags;
+    }
+
+    public void setTags(ArrayList<Tag> tags) {
+        this.tags = tags;
+    }
 
     public String getId() {
         return id;

@@ -246,7 +246,7 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
             } catch (e: Exception) {
             }
             weatherViewModel.searchDish(
-                binding?.edtSearch?.text.toString()
+                binding?.edtSearch?.text.toString(), offset
             )
             canLoadMore = false
         }
@@ -260,9 +260,9 @@ class SearchResultFragment : BaseFragment<FragmentSearchResultBinding?>() {
             } catch (e: Exception) {
             }
             canLoadMore = true
-//            if (it.offset == 0) {
-//                listImage.clear()
-//            }
+            if (it.offset == 0) {
+                listImage.clear()
+            }
             listImage.addAll(it.items)
             imageAdapter?.notifyDataSetChanged()
             canLoadMore = true

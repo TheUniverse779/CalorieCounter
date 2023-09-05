@@ -4,11 +4,13 @@ import com.caloriecounter.calorie.R
 import com.caloriecounter.calorie.base.BaseFragment
 import com.caloriecounter.calorie.databinding.FragmentDishDetailBinding
 import com.caloriecounter.calorie.ui.dishdetail.adapter.InformationAdapter
+import com.caloriecounter.calorie.ui.dishdetail.adapter.TagAdapter
 import com.caloriecounter.calorie.ui.dishdetail.model.Information
 import com.caloriecounter.calorie.ui.main.model.dish.Dish
 
 class DishDetailFragment : BaseFragment<FragmentDishDetailBinding?>() {
     private var informationAdapter : InformationAdapter? = null
+    private var tagAdapter : TagAdapter? = null
     private var listInfor = ArrayList<Information>()
     public var dish : Dish? = null
 
@@ -36,6 +38,9 @@ class DishDetailFragment : BaseFragment<FragmentDishDetailBinding?>() {
         listInfor.add(Information("Iron", dish!!.nutritionalContents.iron))
         informationAdapter = InformationAdapter(mActivity, listInfor)
         binding?.rvInfor?.adapter = informationAdapter
+
+        tagAdapter = TagAdapter(mActivity, dish?.tags)
+        binding?.rvTag?.adapter = tagAdapter
     }
     override fun setListener() {}
     override fun setObserver() {}

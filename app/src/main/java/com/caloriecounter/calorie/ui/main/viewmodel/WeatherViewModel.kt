@@ -239,7 +239,7 @@ class WeatherViewModel @Inject constructor(@NormalAPIService private val apiServ
     }
 
 
-    fun searchDish(query: String?) {
+    fun searchDish(query: String?, offset: Int) {
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 val result = apiService.searchDish(
@@ -247,7 +247,7 @@ class WeatherViewModel @Inject constructor(@NormalAPIService private val apiServ
                 )
                 withContext(Dispatchers.Main) {
                     if (result != null) {
-//                        result.offset = offset
+                        result.offset = offset
                         dataSearchResponseLiveData.value = result
                     }
                 }

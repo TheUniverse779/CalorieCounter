@@ -1,22 +1,22 @@
-package com.caloriecounter.calorie.ui.search.adapter
+package com.caloriecounter.calorie.ui.dishdetail.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.caloriecounter.calorie.databinding.ItemDishBinding
-import com.caloriecounter.calorie.databinding.ItemDishSearchBinding
-import com.caloriecounter.calorie.ui.dishdetail.view.DishDetailActivity
-import com.caloriecounter.calorie.ui.search.model.SearchContent
-import java.lang.reflect.Array
+import com.caloriecounter.calorie.databinding.ItemInformationBinding
+import com.caloriecounter.calorie.databinding.ItemTagBinding
+import com.caloriecounter.calorie.databinding.ItemTagCategoryBinding
+import com.caloriecounter.calorie.ui.dishdetail.model.Information
+import com.caloriecounter.calorie.ui.main.model.dish.Tag
 
-class DishSearchAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
+class TagAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private val TYPE_ITEM = 0
     private var context: Context? = null
-    private var images: ArrayList<SearchContent>? = null
+    private var images: List<Tag>? = null
 
 
-    constructor(context: Context?, datas: ArrayList<SearchContent>?) : super() {
+    constructor(context: Context?, datas: List<Tag>?) : super() {
         this.context = context
         this.images = datas
     }
@@ -28,7 +28,7 @@ class DishSearchAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val binding: ItemDishSearchBinding = ItemDishSearchBinding.inflate(inflater, parent, false)
+        val binding: ItemTagCategoryBinding = ItemTagCategoryBinding.inflate(inflater, parent, false)
         return ViewHolder(binding)
     }
 
@@ -50,7 +50,7 @@ class DishSearchAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
     }
 
-    inner class ViewHolder (var binding: ItemDishSearchBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class ViewHolder (var binding: ItemTagCategoryBinding) : RecyclerView.ViewHolder(binding.root) {
         private var position: Int? = 0;
 
         init {
@@ -58,13 +58,7 @@ class DishSearchAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         fun bindItem(position: Int) {
             this.position = position
-            binding.tvTitle.text = images!![position].item.name
-            binding.tvDescription.text = images!![position].item.nutritionalContents.energy.value.toInt().toString() + " cal"
-
-            binding.root.setOnClickListener {
-                DishDetailActivity.startScreen(context!!, images!![position].item)
-
-            }
+            binding.tvTitle.text = images!![position].name
         }
 
 
